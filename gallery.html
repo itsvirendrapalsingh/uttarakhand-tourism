@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Uttarakhand Tourism</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>Uttarakhand Tourism</h1>
+                    </a>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="plan-trip.html">Plan Your Trip</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero gallery-hero" style="background-image: url('images/heroes/gallery-hero.jpg');">
+            <div class="hero-content">
+                <h1>Photo Gallery</h1>
+                <p>Witness the breathtaking beauty of Uttarakhand through our collection of stunning images</p>
+            </div>
+        </section>
+
+        <!-- Gallery Overview -->
+        <section class="gallery-overview container">
+            <div class="section-header">
+                <h2>Explore Uttarakhand</h2>
+                <div class="divider"></div>
+                <p>From majestic mountain peaks to serene lakes, from ancient temples to vibrant culture - discover the diverse beauty of Uttarakhand through our curated collection of photographs.</p>
+            </div>
+
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="mountains">Mountains</button>
+                <button class="filter-btn" data-filter="temples">Temples</button>
+                <button class="filter-btn" data-filter="lakes">Lakes</button>
+                <button class="filter-btn" data-filter="wildlife">Wildlife</button>
+                <button class="filter-btn" data-filter="culture">Culture</button>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Mountain Images -->
+                <div class="gallery-item mountains">
+                    <img src="images/gallery/nanda-devi.jpg" alt="Nanda Devi Peak">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Nanda Devi Peak</h3>
+                            <p>Second highest mountain in India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item mountains">
+                    <img src="images/gallery/trishul-peak.jpg" alt="Trishul Peak">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Trishul Peak</h3>
+                            <p>A group of three Himalayan peaks resembling a trident</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item mountains">
+                    <img src="images/gallery/auli-mountains.jpg" alt="Auli Mountains">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Auli Mountains</h3>
+                            <p>Snow-capped peaks near the skiing destination</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item mountains">
+                    <img src="images/gallery/panchachuli.jpg" alt="Panchachuli Peaks">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Panchachuli Peaks</h3>
+                            <p>Five snow-capped peaks resembling cooking hearths</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Temple Images -->
+                <div class="gallery-item temples">
+                    <img src="images/gallery/kedarnath-temple.jpg" alt="Kedarnath Temple">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Kedarnath Temple</h3>
+                            <p>Ancient stone temple dedicated to Lord Shiva</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item temples">
+                    <img src="images/gallery/badrinath-temple.jpg" alt="Badrinath Temple">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Badrinath Temple</h3>
+                            <p>Sacred shrine dedicated to Lord Vishnu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item temples">
+                    <img src="images/gallery/rishikesh-temple.jpg" alt="Temple in Rishikesh">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Rishikesh Temple</h3>
+                            <p>Spiritual sanctuary on the banks of the Ganges</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item temples culture">
+                    <img src="images/gallery/ganga-aarti.jpg" alt="Ganga Aarti in Haridwar">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Ganga Aarti</h3>
+                            <p>Evening ritual at Har Ki Pauri, Haridwar</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lake Images -->
+                <div class="gallery-item lakes">
+                    <img src="images/gallery/naini-lake.jpg" alt="Naini Lake">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Naini Lake</h3>
+                            <p>The emerald gem of Nainital</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item lakes">
+                    <img src="images/gallery/bhimtal.jpg" alt="Bhimtal Lake">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Bhimtal Lake</h3>
+                            <p>Largest lake in Kumaon region</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item lakes">
+                    <img src="images/gallery/sattal.jpg" alt="Sattal Lakes">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Sattal Lakes</h3>
+                            <p>Interconnected group of seven freshwater lakes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item lakes">
+                    <img src="images/gallery/khurpatal.jpg" alt="Khurpatal Lake">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Khurpatal Lake</h3>
+                            <p>Serene lake surrounded by terraced farms</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wildlife Images -->
+                <div class="gallery-item wildlife">
+                    <img src="images/gallery/tiger-corbett.jpg" alt="Tiger at Jim Corbett">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Bengal Tiger</h3>
+                            <p>Magnificent predator at Jim Corbett National Park</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item wildlife">
+                    <img src="images/gallery/elephant-corbett.jpg" alt="Elephant at Jim Corbett">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Wild Elephants</h3>
+                            <p>Gentle giants roaming in Jim Corbett National Park</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item wildlife">
+                    <img src="images/gallery/himalayan-birds.jpg" alt="Himalayan Birds">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Himalayan Birds</h3>
+                            <p>Colorful avian species in the mountains</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item wildlife">
+                    <img src="images/gallery/leopard.jpg" alt="Leopard">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Leopard</h3>
+                            <p>Elusive big cat in the forests of Uttarakhand</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Culture Images -->
+                <div class="gallery-item culture">
+                    <img src="images/gallery/local-festival.jpg" alt="Local Festival">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Traditional Festival</h3>
+                            <p>Vibrant celebration of local culture and traditions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item culture">
+                    <img src="images/gallery/folk-dance.jpg" alt="Folk Dance">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Folk Dance</h3>
+                            <p>Traditional dance performance by local artists</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item culture">
+                    <img src="images/gallery/local-cuisine.jpg" alt="Local Cuisine">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Pahadi Cuisine</h3>
+                            <p>Authentic mountain delicacies of Uttarakhand</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item culture">
+                    <img src="images/gallery/village-life.jpg" alt="Village Life">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Village Life</h3>
+                            <p>Glimpse into the traditional lifestyle of mountain people</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Submit Photo Section -->
+        <section class="submit-photo container">
+            <div class="section-header">
+                <h2>Share Your Experience</h2>
+                <div class="divider"></div>
+                <p>Have you visited Uttarakhand? Share your beautiful photographs with us and get featured in our gallery.</p>
+            </div>
+            <div class="submit-photo-cta">
+                <p>Send your high-resolution images along with details (location, date, brief description) to:</p>
+                <p><strong>photos@uttarakhandtourism.com</strong></p>
+                <a href="contact.html" class="btn btn-primary">Contact Us</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Uttarakhand Tourism</h2>
+                    <p>Discover the Land of Gods</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="plan-trip.html">Plan Your Trip</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Tourist Information Center, Dehradun, Uttarakhand</p>
+                    <p><i class="fas fa-phone"></i> +91 135 2748041</p>
+                    <p><i class="fas fa-envelope"></i> info@uttarakhandtourism.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Uttarakhand Tourism. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 
