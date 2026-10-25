@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Planner and Budget Estimator - Uttarakhand Tourism</title>
+    <meta name="description" content="Plan an Uttarakhand trip: choose month, days and interests to get matching itineraries and an editable cost estimate.">
+    <link rel="canonical" href="https://www.uttarakhandtourismcenter.com/plan/">
+    <meta property="og:title" content="Trip Planner and Budget Estimator - Uttarakhand Tourism">
+    <meta property="og:description" content="Plan an Uttarakhand trip: choose month, days and interests to get matching itineraries and an editable cost estimate.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.uttarakhandtourismcenter.com/plan/">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.uttarakhandtourismcenter.com/index.html"},{"@type":"ListItem","position":2,"name":"Plan","item":"https://www.uttarakhandtourismcenter.com/plan/"}]}</script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="../index.html">
+                        <h1>Uttarakhand Tourism</h1>
+                    </a>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../destinations.html">Destinations</a></li>
+                    <li><a href="../treks/index.html">Treks</a></li>
+                    <li><a href="../itineraries/index.html">Itineraries</a></li>
+                    <li><a href="../char-dham/index.html">Char Dham</a></li>
+                    <li><a href="../best-time/index.html">Best Time</a></li>
+                    <li><a href="../plan/index.html" class="active">Plan</a></li>
+                    <li><a href="../gallery.html">Gallery</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                    <li><a href="../explore/index.html" aria-label="Search"><i class="fas fa-search"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+<section class="guide-hero"><div class="container"><h1>Trip planner</h1><p>Get matching itineraries and a cost range. Runs in your browser; nothing is sent anywhere.</p></div></section>
+        <nav class="breadcrumbs container" aria-label="Breadcrumb"><a href="../index.html">Home</a> / <span aria-current="page">Plan</span></nav>
+        <div class="container guide-single">
+            <form id="planner" class="planner" onsubmit="return false">
+                <fieldset><legend>Your trip</legend>
+                    <label>Starting city <select id="start"><option>Delhi</option><option>Dehradun</option><option>Haridwar</option><option>Rishikesh</option><option>Kathgodam</option><option>Other</option></select></label>
+                    <label>Month <select id="month"><option value="1">January</option><option value="2">February</option><option value="3">March</option><option value="4">April</option><option value="5">May</option><option value="6">June</option><option value="7">July</option><option value="8">August</option><option value="9">September</option><option value="10">October</option><option value="11">November</option><option value="12">December</option></select></label>
+                    <label>Days available <input type="number" id="days" value="4" min="1" max="14"></label>
+                    <label>Adults <input type="number" id="adults" value="2" min="1" max="20"></label>
+                    <label>Children <input type="number" id="children" value="0" min="0" max="20"></label>
+                    <label>Seniors <input type="number" id="seniors" value="0" min="0" max="20"></label>
+                    <label>Budget level <select id="level"><option value="budget">Budget</option><option value="mid" selected>Mid-range</option><option value="comfort">Comfort</option></select></label>
+                    <label>Pace <select id="pace"><option value="relaxed">Relaxed</option><option value="balanced" selected>Balanced</option><option value="fast">Fast</option></select></label>
+                    <label>Getting around <select id="mode"><option value="taxi">Hired taxi</option><option value="bus">Bus and shared</option><option value="own">Own car</option></select></label>
+                </fieldset>
+                <fieldset><legend>Interests</legend><div class="checks"><label><input type="checkbox" name="interest" value="spiritual"> Spiritual</label><label><input type="checkbox" name="interest" value="trek"> Trek</label><label><input type="checkbox" name="interest" value="lake"> Lake</label><label><input type="checkbox" name="interest" value="hill-station"> Hill station</label><label><input type="checkbox" name="interest" value="wildlife"> Wildlife</label><label><input type="checkbox" name="interest" value="peaceful"> Peaceful</label><label><input type="checkbox" name="interest" value="adventure"> Adventure</label><label><input type="checkbox" name="interest" value="snow"> Snow</label><label><input type="checkbox" name="interest" value="family"> Family</label><label><input type="checkbox" name="interest" value="culture"> Culture</label></div></fieldset>
+                <fieldset class="rates"><legend>Cost assumptions (placeholders, edit them)</legend>
+                    <p class="note">These are placeholder planning ranges used only to seed the calculator. They are NOT sourced prices or quotes. Replace them with figures from real quotes (hotel, taxi, activity) before relying on any total.</p>
+                    <label>Room per night (budget)<span class="range"><input type="number" id="stay-lo" value="1000" min="0" aria-label="Room per night (budget) low"> to <input type="number" id="stay-hi" value="2000" min="0" aria-label="Room per night (budget) high"></span></label>
+                    <label>Room per night (mid)<span class="range"><input type="number" id="stay-mid-lo" value="2500" min="0" aria-label="Room per night (mid) low"> to <input type="number" id="stay-mid-hi" value="5000" min="0" aria-label="Room per night (mid) high"></span></label>
+                    <label>Room per night (comfort)<span class="range"><input type="number" id="stay-comfort-lo" value="6000" min="0" aria-label="Room per night (comfort) low"> to <input type="number" id="stay-comfort-hi" value="12000" min="0" aria-label="Room per night (comfort) high"></span></label>
+                    <label>Meals per person per day (mid)<span class="range"><input type="number" id="meals-lo" value="700" min="0" aria-label="Meals per person per day (mid) low"> to <input type="number" id="meals-hi" value="1200" min="0" aria-label="Meals per person per day (mid) high"></span></label>
+                    <label>Taxi per day<span class="range"><input type="number" id="taxi-lo" value="3500" min="0" aria-label="Taxi per day low"> to <input type="number" id="taxi-hi" value="6000" min="0" aria-label="Taxi per day high"></span></label>
+                    <label>Bus per person per day<span class="range"><input type="number" id="bus-lo" value="300" min="0" aria-label="Bus per person per day low"> to <input type="number" id="bus-hi" value="800" min="0" aria-label="Bus per person per day high"></span></label>
+                    <label>Own car per day (fuel and tolls)<span class="range"><input type="number" id="own-lo" value="1500" min="0" aria-label="Own car per day (fuel and tolls) low"> to <input type="number" id="own-hi" value="3000" min="0" aria-label="Own car per day (fuel and tolls) high"></span></label>
+                    <label>Activities per person per day (balanced)<span class="range"><input type="number" id="act-lo" value="400" min="0" aria-label="Activities per person per day (balanced) low"> to <input type="number" id="act-hi" value="1200" min="0" aria-label="Activities per person per day (balanced) high"></span></label>
+                </fieldset>
+                <div class="actions no-print"><button type="button" class="btn btn-small" data-share>Copy plan link</button><button type="button" class="btn btn-small" data-print>Print</button></div>
+            </form>
+            <section class="guide-section" aria-live="polite"><h2>Budget estimate</h2><div id="estimate"></div></section>
+            <section class="guide-section" aria-live="polite"><h2>Suggested itineraries</h2><div id="matches" class="dham-grid"></div></section>
+            <section class="guide-section"><h2>Checklists</h2>
+                <h3>Hill trip</h3>
+                <ul class="checklist" data-checklist="hill"><li><label><input type="checkbox" data-i="0"> Layers and a rain jacket</label></li><li><label><input type="checkbox" data-i="1"> Comfortable walking shoes</label></li><li><label><input type="checkbox" data-i="2"> Sun protection</label></li><li><label><input type="checkbox" data-i="3"> Personal medicines</label></li><li><label><input type="checkbox" data-i="4"> Power bank and offline maps</label></li><li><label><input type="checkbox" data-i="5"> Cash for small towns</label></li><li><label><input type="checkbox" data-i="6"> ID and booking copies</label></li></ul>
+                <h3>Before you leave</h3>
+                <ul class="checklist" data-checklist="prep"><li><label><input type="checkbox" data-i="0"> Check road and weather status</label></li><li><label><input type="checkbox" data-i="1"> Confirm accommodation and last-mile transport</label></li><li><label><input type="checkbox" data-i="2"> Tell someone your route</label></li><li><label><input type="checkbox" data-i="3"> Register or book permits where needed</label></li><li><label><input type="checkbox" data-i="4"> Buy travel insurance if trekking</label></li><li><label><input type="checkbox" data-i="5"> Download offline maps</label></li></ul>
+                <p>For treks, see the <a href="../guide/trek-preparation/index.html">trek packing guide</a>; for Char Dham, the <a href="../char-dham/index.html">Char Dham checklist</a>.</p></section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Uttarakhand Tourism</h2>
+                    <p>Discover the Land of Gods</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../destinations.html">Destinations</a></li>
+                        <li><a href="../treks/index.html">Treks</a></li>
+                        <li><a href="../itineraries/index.html">Itineraries</a></li>
+                        <li><a href="../char-dham/index.html">Char Dham</a></li>
+                        <li><a href="../best-time/index.html">Best Time</a></li>
+                        <li><a href="../plan/index.html">Plan</a></li>
+                        <li><a href="../gallery.html">Gallery</a></li>
+                        <li><a href="../contact.html">Contact</a></li>
+                        <li><a href="../saved/index.html">Saved</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Tourist Information Center, Dehradun, Uttarakhand</p>
+                    <p><i class="fas fa-phone"></i> +91 135 2748041</p>
+                    <p><i class="fas fa-envelope"></i> info@uttarakhandtourism.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Uttarakhand Tourism. All Rights Reserved. Information is a guide only; confirm current conditions with official sources before you travel.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/tools.js" data-root="../"></script>
+    <script src="../data/itineraries.js"></script>
+    <script src="../js/planner.js" data-root="../"></script>
+</body>
+</html>

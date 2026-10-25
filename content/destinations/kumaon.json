@@ -1,0 +1,1002 @@
+[
+  {
+    "slug": "nainital",
+    "name": "Nainital",
+    "type": "hill-station",
+    "region": "kumaon",
+    "district": "Nainital",
+    "altitude": "about 2,000 m",
+    "lat": 29.38,
+    "lng": 79.46,
+    "tags": [
+      "lake",
+      "hill-station",
+      "family",
+      "couples",
+      "sightseeing"
+    ],
+    "tagline": "Lake town around the pear-shaped Naini Lake",
+    "summary": "Nainital is built around Naini Lake and is among the most popular hill stations in Kumaon. It has boating, viewpoints and a busy Mall Road, and it gets very crowded in May-June. It is a good base for the nearby lakes and hill villages.",
+    "quick": {
+      "bestTime": "March to June and September to November; winter is cold, with occasional snow",
+      "duration": "2 nights",
+      "rail": "Kathgodam (about 35 km)",
+      "air": "Pantnagar Airport (about 65-70 km, limited flights)"
+    },
+    "attractions": [
+      {
+        "name": "Naini Lake",
+        "text": "Boating on the lake; the Mall Road runs along its shore."
+      },
+      {
+        "name": "Naina Devi Temple",
+        "text": "Temple at the northern edge of the lake."
+      },
+      {
+        "name": "Snow View Point",
+        "text": "Viewpoint reached by cable car or walk; views depend on the weather."
+      },
+      {
+        "name": "Tiffin Top",
+        "text": "Walk to a viewpoint above the town."
+      },
+      {
+        "name": "Mall Road and Tibetan market",
+        "text": "Shopping and street food."
+      }
+    ],
+    "reach": {
+      "road": "About 300 km from Delhi, 6-7 hours in normal traffic via Haldwani and Kathgodam. Vehicle entry into the core of the town is restricted at peak times.",
+      "rail": "Kathgodam station, about 35 km from Nainital, with trains from Delhi and other cities.",
+      "air": "Pantnagar Airport has limited flights; check current schedules."
+    },
+    "stay": "Hotels around Mall Road and Tallital. For a quieter stay, look at Bhimtal, Sattal or Pangot.",
+    "food": "Cafes on Mall Road, Tibetan food and local sweets.",
+    "season": "Peak crowds in May-June and winter holidays. Monsoon rain causes landslides on approach roads.",
+    "tips": [
+      "Book hotels well ahead for May-June.",
+      "The approach road can have long queues on weekends."
+    ],
+    "nearby": [
+      {
+        "name": "Bhimtal",
+        "slug": "bhimtal"
+      },
+      {
+        "name": "Sattal",
+        "slug": "sattal"
+      },
+      {
+        "name": "Mukteshwar",
+        "slug": "mukteshwar"
+      },
+      {
+        "name": "Pangot",
+        "slug": "pangot"
+      },
+      {
+        "name": "Jim Corbett National Park",
+        "slug": "jim-corbett"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many days do I need in Nainital?",
+        "a": "Two nights covers the main sights; add a day for Bhimtal and Sattal."
+      }
+    ]
+  },
+  {
+    "slug": "bhimtal",
+    "name": "Bhimtal and Naukuchiatal",
+    "type": "lake",
+    "region": "kumaon",
+    "district": "Nainital",
+    "altitude": "about 1,400 m",
+    "lat": 29.35,
+    "lng": 79.55,
+    "tags": [
+      "lake",
+      "peaceful",
+      "family",
+      "paragliding"
+    ],
+    "tagline": "Larger, calmer lakes near Nainital",
+    "summary": "Bhimtal is a large lake with an island aquarium and lakeside cafes. Naukuchiatal, nearby, is a deep nine-cornered lake known for boating and paragliding. Both are calmer than Nainital.",
+    "quick": {
+      "bestTime": "March to June and September to November",
+      "duration": "1 night or a day trip",
+      "rail": "Kathgodam (about 25 km)",
+      "air": "Pantnagar Airport"
+    },
+    "attractions": [
+      {
+        "name": "Bhimtal Lake and island",
+        "text": "Boating and a small aquarium on the island."
+      },
+      {
+        "name": "Naukuchiatal",
+        "text": "Boating and paragliding with licensed operators."
+      },
+      {
+        "name": "Hidimba Parvat and nearby walks",
+        "text": "Short forest walks."
+      }
+    ],
+    "reach": {
+      "road": "Bhimtal is about 22 km from Nainital and 25 km from Kathgodam by road.",
+      "rail": "Kathgodam.",
+      "air": "Pantnagar Airport."
+    },
+    "stay": "Lakeside hotels and homestays.",
+    "food": "Cafes and dhabas by the lake.",
+    "season": "Monsoon rain and fog; cold winters.",
+    "tips": [
+      "Use licensed paragliding operators and ask for safety briefings."
+    ],
+    "nearby": [
+      {
+        "name": "Nainital",
+        "slug": "nainital"
+      },
+      {
+        "name": "Sattal",
+        "slug": "sattal"
+      },
+      {
+        "name": "Mukteshwar",
+        "slug": "mukteshwar"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Bhimtal better than Nainital?",
+        "a": "It is calmer and less crowded but has fewer sights; many people combine both."
+      }
+    ]
+  },
+  {
+    "slug": "sattal",
+    "name": "Sattal",
+    "type": "lake",
+    "region": "kumaon",
+    "district": "Nainital",
+    "altitude": "about 1,300 m",
+    "lat": 29.345,
+    "lng": 79.56,
+    "tags": [
+      "lake",
+      "birding",
+      "peaceful",
+      "nature"
+    ],
+    "tagline": "A cluster of connected lakes in an oak forest, popular with birdwatchers",
+    "summary": "Sattal means seven lakes; the lakes sit in oak forest and are a quiet place for birdwatching and walks. Several lodges and camps offer stays near the water.",
+    "quick": {
+      "bestTime": "October to April for birds; spring and autumn for walks",
+      "duration": "1 night",
+      "rail": "Kathgodam (about 25 km)",
+      "air": "Pantnagar Airport"
+    },
+    "attractions": [
+      {
+        "name": "Lake walks",
+        "text": "Short forest paths linking the lakes."
+      },
+      {
+        "name": "Birdwatching",
+        "text": "Resident and migratory birds; early morning is best."
+      },
+      {
+        "name": "Boating",
+        "text": "Available on some lakes in season."
+      }
+    ],
+    "reach": {
+      "road": "About 23 km from Nainital and roughly 20 km from Bhimtal.",
+      "rail": "Kathgodam.",
+      "air": "Pantnagar Airport."
+    },
+    "stay": "Resorts and camps near the lakes; fewer options than Nainital.",
+    "food": "Resort and camp meals.",
+    "season": "Pleasant for most of the year; monsoon fog.",
+    "tips": [
+      "Carry a hat and binoculars; avoid loud noise near the water."
+    ],
+    "nearby": [
+      {
+        "name": "Bhimtal and Naukuchiatal",
+        "slug": "bhimtal"
+      },
+      {
+        "name": "Nainital",
+        "slug": "nainital"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Sattal quiet?",
+        "a": "It is far quieter than Nainital, though holiday weekends bring visitors."
+      }
+    ]
+  },
+  {
+    "slug": "mukteshwar",
+    "name": "Mukteshwar",
+    "type": "hill-station",
+    "region": "kumaon",
+    "district": "Nainital",
+    "altitude": "about 2,300 m",
+    "lat": 29.47,
+    "lng": 79.65,
+    "tags": [
+      "peaceful",
+      "orchards",
+      "views",
+      "rock-climbing"
+    ],
+    "tagline": "High ridge village with orchards and wide Himalayan views",
+    "summary": "Mukteshwar is a small, quiet ridge town above Nainital, known for its Shiva temple, fruit orchards and views of the Himalayan range. It has rock-climbing options and a research institute.",
+    "quick": {
+      "bestTime": "March to June and September to December",
+      "duration": "1 to 2 nights",
+      "rail": "Kathgodam (about 70 km)",
+      "air": "Pantnagar Airport"
+    },
+    "attractions": [
+      {
+        "name": "Mukteshwar Dham",
+        "text": "Shiva temple on a hilltop with views."
+      },
+      {
+        "name": "Chauli Ki Jali",
+        "text": "Rock formation and viewpoint with a cliff-edge walk."
+      },
+      {
+        "name": "Orchard walks",
+        "text": "Apple and pear orchards around the village."
+      }
+    ],
+    "reach": {
+      "road": "About 50 km from Nainital via Bhowali and Ramgarh; roughly 2 hours.",
+      "rail": "Kathgodam.",
+      "air": "Pantnagar Airport."
+    },
+    "stay": "Resorts and homestays; book ahead in season.",
+    "food": "Resort restaurants; a few dhabas.",
+    "season": "Cold in winter with occasional snow.",
+    "tips": [
+      "Carry warm clothes even in summer evenings."
+    ],
+    "nearby": [
+      {
+        "name": "Nainital",
+        "slug": "nainital"
+      },
+      {
+        "name": "Almora",
+        "slug": "almora"
+      },
+      {
+        "name": "Kausani",
+        "slug": "kausani"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Mukteshwar busy?",
+        "a": "Much less than Nainital, though weekends fill up."
+      }
+    ]
+  },
+  {
+    "slug": "almora",
+    "name": "Almora",
+    "type": "town",
+    "region": "kumaon",
+    "district": "Almora",
+    "altitude": "about 1,650 m",
+    "lat": 29.6,
+    "lng": 79.66,
+    "tags": [
+      "culture",
+      "town",
+      "food",
+      "temple",
+      "heritage"
+    ],
+    "tagline": "Cultural town of Kumaon, known for sweets, temples and Himalayan views",
+    "summary": "Almora is the cultural heart of Kumaon, with an old bazaar, temples and viewpoints. It is a good base for Binsar and Jageshwar and has a well-known local sweet, bal mithai.",
+    "quick": {
+      "bestTime": "March to June and September to November",
+      "duration": "2 nights",
+      "rail": "Kathgodam (about 90 km)",
+      "air": "Pantnagar Airport"
+    },
+    "attractions": [
+      {
+        "name": "Kasar Devi",
+        "text": "Hill with a temple and a quiet cafe village."
+      },
+      {
+        "name": "Chitai Golu Devta Temple",
+        "text": "Temple of the local deity with thousands of bells."
+      },
+      {
+        "name": "Katarmal Sun Temple",
+        "text": "A medieval stone temple about 15-20 km from Almora."
+      },
+      {
+        "name": "Bal mithai and singori",
+        "text": "Local sweets sold in the bazaar."
+      }
+    ],
+    "reach": {
+      "road": "About 90 km from Kathgodam, 3-3.5 hours; about 65-70 km from Nainital.",
+      "rail": "Kathgodam.",
+      "air": "Pantnagar Airport."
+    },
+    "stay": "Hotels in town and homestays on Kasar Devi ridge.",
+    "food": "Local sweets, bhatt ki churkani and kafuli at local eateries.",
+    "season": "Pleasant most of the year; monsoon rain brings landslides.",
+    "tips": [
+      "Stay on Kasar Devi for a quieter evening."
+    ],
+    "nearby": [
+      {
+        "name": "Binsar",
+        "slug": "binsar"
+      },
+      {
+        "name": "Jageshwar",
+        "slug": "jageshwar"
+      },
+      {
+        "name": "Kausani",
+        "slug": "kausani"
+      },
+      {
+        "name": "Mukteshwar",
+        "slug": "mukteshwar"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is Almora famous for?",
+        "a": "Its Himalayan views, temples, and local sweets such as bal mithai and singori."
+      }
+    ]
+  },
+  {
+    "slug": "ranikhet",
+    "name": "Ranikhet",
+    "type": "hill-station",
+    "region": "kumaon",
+    "district": "Almora",
+    "altitude": "about 1,800 m",
+    "lat": 29.64,
+    "lng": 79.43,
+    "tags": [
+      "hill-station",
+      "peaceful",
+      "cantonment",
+      "golf",
+      "family"
+    ],
+    "tagline": "Calm cantonment hill station with pine forests and Himalayan views",
+    "summary": "Ranikhet is a quiet cantonment town, base of the Kumaon Regiment, with pine forests and views of the snow peaks. It is calmer than Nainital. Note: there is no heritage toy train to Ranikhet, so plan on road travel from Kathgodam.",
+    "quick": {
+      "bestTime": "March to June and September to November",
+      "duration": "2 nights",
+      "rail": "Kathgodam (about 80 km)",
+      "air": "Pantnagar Airport"
+    },
+    "attractions": [
+      {
+        "name": "Chaubatia Gardens",
+        "text": "Orchards and a garden area outside the town."
+      },
+      {
+        "name": "Jhula Devi Temple",
+        "text": "Temple with a large number of bells."
+      },
+      {
+        "name": "Kumaon Regiment museum",
+        "text": "Museum of the regiment's history."
+      },
+      {
+        "name": "Golf course",
+        "text": "A well-known hilltop course."
+      }
+    ],
+    "reach": {
+      "road": "About 80 km from Kathgodam, 3 hours or more; Nainital is about 60 km.",
+      "rail": "Kathgodam.",
+      "air": "Pantnagar Airport."
+    },
+    "stay": "Hotels, resorts and KMVN accommodation.",
+    "food": "Local dhabas and hotel restaurants.",
+    "season": "Winters are cold; summers pleasant.",
+    "tips": [
+      "Parts of the area are military-controlled; follow signage."
+    ],
+    "nearby": [
+      {
+        "name": "Kausani",
+        "slug": "kausani"
+      },
+      {
+        "name": "Almora",
+        "slug": "almora"
+      },
+      {
+        "name": "Nainital",
+        "slug": "nainital"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is there a train to Ranikhet?",
+        "a": "No. The nearest railhead is Kathgodam, and you continue by road."
+      }
+    ]
+  },
+  {
+    "slug": "kausani",
+    "name": "Kausani",
+    "type": "hill-station",
+    "region": "kumaon",
+    "district": "Bageshwar",
+    "altitude": "about 1,900 m",
+    "lat": 29.84,
+    "lng": 79.6,
+    "tags": [
+      "views",
+      "peaceful",
+      "tea",
+      "family",
+      "gandhi"
+    ],
+    "tagline": "Ridge village with wide views of the Himalayan peaks",
+    "summary": "Kausani is a small village on a ridge with a wide view of the Himalayan range, including Trishul and Nanda Devi on clear days. It has Gandhi's Anasakti Ashram and a tea estate. It suits a relaxed stay of one or two nights.",
+    "quick": {
+      "bestTime": "March to June and September to November",
+      "duration": "2 nights",
+      "rail": "Kathgodam (about 120 km)",
+      "air": "Pantnagar Airport"
+    },
+    "attractions": [
+      {
+        "name": "Himalayan sunrise views",
+        "text": "Best in clear weather, especially in autumn and winter."
+      },
+      {
+        "name": "Anasakti Ashram",
+        "text": "Where Mahatma Gandhi stayed and wrote on the Gita."
+      },
+      {
+        "name": "Uttarakhand Tea Estate",
+        "text": "Tea garden with tasting."
+      },
+      {
+        "name": "Baijnath",
+        "text": "Group of old temples about 20 km away."
+      }
+    ],
+    "reach": {
+      "road": "About 120 km from Kathgodam, 4-5 hours; roughly 55 km from Almora.",
+      "rail": "Kathgodam.",
+      "air": "Pantnagar Airport."
+    },
+    "stay": "Resorts and hotels along the ridge; book ahead for peak season.",
+    "food": "Hotel restaurants and local eateries.",
+    "season": "Clear views most likely October to February; monsoon clouds.",
+    "tips": [
+      "Wake early for views; haze often builds by mid-morning."
+    ],
+    "nearby": [
+      {
+        "name": "Almora",
+        "slug": "almora"
+      },
+      {
+        "name": "Ranikhet",
+        "slug": "ranikhet"
+      },
+      {
+        "name": "Binsar",
+        "slug": "binsar"
+      }
+    ],
+    "faq": [
+      {
+        "q": "When are the views clearest?",
+        "a": "Usually October to February, in the early morning."
+      }
+    ]
+  },
+  {
+    "slug": "binsar",
+    "name": "Binsar",
+    "type": "wildlife",
+    "region": "kumaon",
+    "district": "Almora",
+    "altitude": "about 2,400 m",
+    "lat": 29.7,
+    "lng": 79.76,
+    "tags": [
+      "peaceful",
+      "wildlife",
+      "forest",
+      "birding",
+      "views"
+    ],
+    "tagline": "Wildlife sanctuary and ridge with oak and rhododendron forest",
+    "summary": "Binsar is a forest sanctuary with oak and rhododendron forest, a hill viewpoint, and a handful of resorts. Entry to the sanctuary has an official fee and timings.",
+    "quick": {
+      "bestTime": "March to June and September to November",
+      "duration": "2 nights",
+      "rail": "Kathgodam (about 120 km)",
+      "air": "Pantnagar Airport"
+    },
+    "attractions": [
+      {
+        "name": "Zero Point viewpoint",
+        "text": "Viewpoint inside the sanctuary with wide views."
+      },
+      {
+        "name": "Forest walks and birding",
+        "text": "Walks through oak and rhododendron forest."
+      },
+      {
+        "name": "Binsar Mahadev",
+        "text": "Old temple deeper in the forest."
+      }
+    ],
+    "reach": {
+      "road": "About 30 km from Almora; the last section is a narrow forest road.",
+      "rail": "Kathgodam.",
+      "air": "Pantnagar Airport."
+    },
+    "stay": "Resorts around the sanctuary and some homestays.",
+    "food": "Resort restaurants.",
+    "season": "Cold winters with occasional snow.",
+    "safety": [
+      "Follow sanctuary rules; do not leave marked trails.",
+      "Wild animals including leopards live in the area; do not walk alone at night."
+    ],
+    "tips": [
+      "Carry cash for entry fees; check timings with the forest office."
+    ],
+    "nearby": [
+      {
+        "name": "Jageshwar",
+        "slug": "jageshwar"
+      },
+      {
+        "name": "Almora",
+        "slug": "almora"
+      },
+      {
+        "name": "Kausani",
+        "slug": "kausani"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is there an entry fee?",
+        "a": "Yes, the sanctuary charges an entry fee. Confirm the current amount and timings at the gate."
+      }
+    ]
+  },
+  {
+    "slug": "jageshwar",
+    "name": "Jageshwar",
+    "type": "temple",
+    "region": "kumaon",
+    "district": "Almora",
+    "altitude": "about 1,870 m",
+    "lat": 29.64,
+    "lng": 79.85,
+    "tags": [
+      "temple",
+      "heritage",
+      "peaceful",
+      "forest"
+    ],
+    "tagline": "A forest valley with a group of old stone temples",
+    "summary": "Jageshwar is a valley of deodar forest with a large cluster of old stone temples, many dedicated to Shiva. It is a short drive from Almora and is calm, especially outside festival days.",
+    "quick": {
+      "bestTime": "March to November",
+      "duration": "Half day",
+      "rail": "Kathgodam (about 120 km)",
+      "air": "Pantnagar Airport"
+    },
+    "attractions": [
+      {
+        "name": "Jageshwar temple complex",
+        "text": "Group of ancient stone temples in a deodar grove."
+      },
+      {
+        "name": "Vriddha Jageshwar",
+        "text": "A hilltop temple above the valley, reached by a short drive and a walk."
+      },
+      {
+        "name": "Dandeshwar Temple",
+        "text": "A larger temple nearby on the same road."
+      }
+    ],
+    "reach": {
+      "road": "About 35 km from Almora by road, roughly 1 hour.",
+      "rail": "Kathgodam.",
+      "air": "Pantnagar Airport."
+    },
+    "stay": "A few lodges at Jageshwar; most visitors stay in Almora or Binsar.",
+    "food": "Simple dhabas.",
+    "season": "Cold winters; busy during Shravan and Maha Shivratri.",
+    "tips": [
+      "Wear modest clothing and remove shoes at temples."
+    ],
+    "nearby": [
+      {
+        "name": "Almora",
+        "slug": "almora"
+      },
+      {
+        "name": "Binsar",
+        "slug": "binsar"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How much time do I need?",
+        "a": "A couple of hours to see the temples; half a day with Vriddha Jageshwar."
+      }
+    ]
+  },
+  {
+    "slug": "pithoragarh",
+    "name": "Pithoragarh",
+    "type": "town",
+    "region": "kumaon",
+    "district": "Pithoragarh",
+    "altitude": "about 1,650 m",
+    "lat": 29.58,
+    "lng": 80.21,
+    "tags": [
+      "culture",
+      "gateway",
+      "trek-base",
+      "valley"
+    ],
+    "tagline": "Eastern Kumaon town in a wide valley, gateway to Munsiyari and the Kailash Mansarovar route",
+    "summary": "Pithoragarh sits in the Soar valley and is the main town of eastern Kumaon. It is the usual halt on the way to Munsiyari and Dharchula, and an administrative centre for the Kailash Mansarovar Yatra on the Lipulekh route.",
+    "quick": {
+      "bestTime": "March to June and September to November",
+      "duration": "1 night",
+      "rail": "Tanakpur (about 150 km) or Kathgodam",
+      "air": "Naini Saini airstrip (limited or irregular service; check)"
+    },
+    "attractions": [
+      {
+        "name": "Pithoragarh Fort",
+        "text": "Old fort with views of the valley."
+      },
+      {
+        "name": "Chandak",
+        "text": "Hill viewpoint above the town."
+      },
+      {
+        "name": "Local markets",
+        "text": "Handicrafts and woollens."
+      }
+    ],
+    "reach": {
+      "road": "About 200 km from Kathgodam via Almora, a long day of driving.",
+      "rail": "Tanakpur or Kathgodam, then road.",
+      "air": "Naini Saini airstrip service is limited; confirm current flights."
+    },
+    "stay": "Hotels in town; limited elsewhere.",
+    "food": "Local eateries.",
+    "season": "Winter is cold; monsoon landslides on connecting roads.",
+    "tips": [
+      "Plan a full day for the drive from Kathgodam."
+    ],
+    "nearby": [
+      {
+        "name": "Munsiyari",
+        "slug": "munsiyari"
+      },
+      {
+        "name": "Chaukori",
+        "slug": "chaukori"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How far is Pithoragarh from Munsiyari?",
+        "a": "Around 130 km by road, roughly 5-6 hours depending on conditions."
+      }
+    ]
+  },
+  {
+    "slug": "munsiyari",
+    "name": "Munsiyari",
+    "type": "village",
+    "region": "kumaon",
+    "district": "Pithoragarh",
+    "altitude": "about 2,200 m",
+    "lat": 30.07,
+    "lng": 80.24,
+    "tags": [
+      "peaceful",
+      "trekking",
+      "views",
+      "offbeat",
+      "remote"
+    ],
+    "tagline": "Remote hill town facing the Panchachuli peaks, base for Johar valley treks",
+    "summary": "Munsiyari is a remote hill town in the Johar valley, with a front-row view of the Panchachuli peaks. It is a base for treks to Milam, Ralam and Khaliya Top. The journey is long, which keeps crowds relatively low.",
+    "quick": {
+      "bestTime": "March to June and September to November",
+      "duration": "2 to 3 nights, longer if trekking",
+      "rail": "Kathgodam (long road drive) or Tanakpur",
+      "air": "Pantnagar Airport (long road drive)"
+    },
+    "attractions": [
+      {
+        "name": "Panchachuli views",
+        "text": "Viewpoints in the town and at Khaliya Top."
+      },
+      {
+        "name": "Khaliya Top",
+        "text": "Meadow trek above Munsiyari."
+      },
+      {
+        "name": "Birthi Falls",
+        "text": "Waterfall on the road to Munsiyari."
+      },
+      {
+        "name": "Tribal Heritage Museum",
+        "text": "Collection on the Johar valley's Bhotiya heritage."
+      }
+    ],
+    "reach": {
+      "road": "About 130 km from Pithoragarh, and roughly 290-300 km from Kathgodam; plan on a long day of driving (typically 10 hours or more).",
+      "rail": "Kathgodam or Tanakpur.",
+      "air": "Pantnagar Airport."
+    },
+    "stay": "KMVN rest house, hotels and homestays; limited rooms in season.",
+    "food": "Local meals including mountain rajma; few restaurants.",
+    "season": "Cold winters; monsoon landslides on the approach road.",
+    "tips": [
+      "Break the journey at Almora or Pithoragarh.",
+      "Network and ATMs are limited; carry cash."
+    ],
+    "nearby": [
+      {
+        "name": "Pithoragarh",
+        "slug": "pithoragarh"
+      },
+      {
+        "name": "Chaukori",
+        "slug": "chaukori"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do I need a permit for Munsiyari?",
+        "a": "Not for the town itself. For the Milam trek, reports conflict: one report says the ITBP stopped requiring an Inner Line Permit, while operators still list it. Check with the Munsiyari SDM office."
+      }
+    ],
+    "verification": "Inner Line Permit status for Milam is reported inconsistently and was not confirmed by an official source. Travel times are approximate."
+  },
+  {
+    "slug": "chaukori",
+    "name": "Chaukori",
+    "type": "village",
+    "region": "kumaon",
+    "district": "Pithoragarh",
+    "altitude": "about 2,000 m",
+    "lat": 29.93,
+    "lng": 80.0,
+    "tags": [
+      "peaceful",
+      "views",
+      "tea",
+      "offbeat"
+    ],
+    "tagline": "Quiet village with Himalayan views on the way to Munsiyari",
+    "summary": "Chaukori is a small village with wide Himalayan views and a tea estate. It is a quiet stop between Almora and Munsiyari and has a few homestays and resorts.",
+    "quick": {
+      "bestTime": "March to June and September to November",
+      "duration": "1 to 2 nights",
+      "rail": "Kathgodam",
+      "air": "Pantnagar Airport"
+    },
+    "attractions": [
+      {
+        "name": "Himalayan viewpoints",
+        "text": "Views of the Panchachuli and Nanda Devi range on clear days."
+      },
+      {
+        "name": "Tea estate",
+        "text": "Small tea garden with walks."
+      },
+      {
+        "name": "Berinag",
+        "text": "Small town nearby, known for its tea gardens."
+      }
+    ],
+    "reach": {
+      "road": "A long drive: roughly 8 hours or more from Kathgodam via Almora and Berinag, depending on road conditions.",
+      "rail": "Kathgodam.",
+      "air": "Pantnagar Airport."
+    },
+    "stay": "KMVN rest house and small resorts.",
+    "food": "Resort meals.",
+    "season": "Cold winters; monsoon rain and fog.",
+    "tips": [
+      "Plan around clear weather for views."
+    ],
+    "nearby": [
+      {
+        "name": "Munsiyari",
+        "slug": "munsiyari"
+      },
+      {
+        "name": "Pithoragarh",
+        "slug": "pithoragarh"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Chaukori worth a stop?",
+        "a": "Yes, as a quiet stop on the way to Munsiyari."
+      }
+    ]
+  },
+  {
+    "slug": "pangot",
+    "name": "Pangot and Kilbury",
+    "type": "village",
+    "region": "kumaon",
+    "district": "Nainital",
+    "altitude": "about 1,950 m",
+    "lat": 29.45,
+    "lng": 79.42,
+    "tags": [
+      "birding",
+      "peaceful",
+      "nature",
+      "offbeat"
+    ],
+    "tagline": "Birdwatching village a short drive from Nainital",
+    "summary": "Pangot is a small village about 15 km from Nainital, known for forest birdwatching. Kilbury, nearby, has oak and pine forest and a few quiet lodges. It is a quiet alternative to Nainital.",
+    "quick": {
+      "bestTime": "October to April for birds; March to June for walks",
+      "duration": "1 to 2 nights",
+      "rail": "Kathgodam",
+      "air": "Pantnagar Airport"
+    },
+    "attractions": [
+      {
+        "name": "Birdwatching",
+        "text": "Early morning walks with local guides."
+      },
+      {
+        "name": "Forest walks",
+        "text": "Walks through oak and pine forest."
+      }
+    ],
+    "reach": {
+      "road": "About 15 km from Nainital; roughly 40 minutes by road.",
+      "rail": "Kathgodam.",
+      "air": "Pantnagar Airport."
+    },
+    "stay": "Resorts and homestays.",
+    "food": "Resort meals.",
+    "season": "Cold in winter.",
+    "tips": [
+      "Hire a local birding guide for a better experience."
+    ],
+    "nearby": [
+      {
+        "name": "Nainital",
+        "slug": "nainital"
+      },
+      {
+        "name": "Sattal",
+        "slug": "sattal"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Pangot worth visiting?",
+        "a": "Yes, if you enjoy birds and quiet. It is not a sightseeing destination."
+      }
+    ]
+  },
+  {
+    "slug": "jim-corbett",
+    "name": "Jim Corbett National Park",
+    "type": "park",
+    "region": "kumaon",
+    "district": "Nainital and Pauri",
+    "altitude": "about 400-1,200 m",
+    "lat": 29.53,
+    "lng": 78.77,
+    "tags": [
+      "wildlife",
+      "national-park",
+      "safari",
+      "tiger",
+      "family"
+    ],
+    "tagline": "India's oldest national park, famous for tigers and elephants",
+    "summary": "Jim Corbett National Park, set up in 1936, is one of India's oldest national parks. It is a tiger reserve with several safari zones and forest rest houses. Tiger sightings are never guaranteed. Per the reserve's official site, Jhirna, Dhela and Garjia zones are open throughout the year, Bijrani from 15 October to 30 June, and Dhikala, Durgadevi, Sonanadi and Pakhro from 15 November to 15 June.",
+    "quick": {
+      "bestTime": "November to June; most zones close during the monsoon",
+      "duration": "2 nights",
+      "rail": "Ramnagar (railhead at the gate)",
+      "air": "Pantnagar Airport (about 70 km)"
+    },
+    "attractions": [
+      {
+        "name": "Jeep safari",
+        "text": "Run in zones such as Bijrani, Jhirna, Dhikala and others. Zone availability and timings change by season."
+      },
+      {
+        "name": "Dhikala",
+        "text": "Forest zone with overnight stay in the park; reservation is needed."
+      },
+      {
+        "name": "Corbett Falls",
+        "text": "Waterfall near the park."
+      }
+    ],
+    "reach": {
+      "road": "About 240-260 km from Delhi, 5-6 hours via Moradabad to Ramnagar.",
+      "rail": "Ramnagar station has trains from Delhi.",
+      "air": "Pantnagar Airport, then road."
+    },
+    "stay": "Resorts in Ramnagar, Dhikala and Garjia; government forest rest houses inside the park.",
+    "food": "Resort and rest house meals.",
+    "season": "Zone windows from the official site: Jhirna, Dhela and Garjia all year; Bijrani 15 October to 30 June; Dhikala, Durgadevi, Sonanadi and Pakhro 15 November to 15 June. Confirm exact dates before planning.",
+    "safety": [
+      "Do not leave the vehicle inside the park unless instructed.",
+      "Wild elephants and tigers; follow the guide."
+    ],
+    "tips": [
+      "Book only on the official site: jeep safaris at booking.corbettgov.org and night stays at stays.corbettgov.org. The reserve warns of scam booking sites. A valid ID uploaded at booking must match at the gate, and mobile phones are not permitted inside tourism zones.",
+      "Do not promise yourself a tiger sighting; many safaris see none."
+    ],
+    "nearby": [
+      {
+        "name": "Nainital",
+        "slug": "nainital"
+      },
+      {
+        "name": "Ranikhet",
+        "slug": "ranikhet"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I book a Corbett safari at the gate?",
+        "a": "The official site says the last online booking time is 6:30 am for the morning session and 4 pm for the afternoon session on the visit date. Book in advance and use only the official portal."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Corbett Tiger Reserve (official site and booking)",
+        "url": "https://corbettgov.org/"
+      },
+      {
+        "label": "Uttarakhand Tourism Development Board",
+        "url": "https://uttarakhandtourism.gov.in/"
+      }
+    ],
+    "verification": "Zone opening windows, booking sites, ID and phone rules were checked against the reserve's official site on 2026-10-25. Travel times are approximate."
+  }
+]

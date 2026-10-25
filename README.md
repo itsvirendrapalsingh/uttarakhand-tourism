@@ -32,10 +32,15 @@ This website is designed to promote tourism in Uttarakhand, known as the "Land o
 
 ## Getting Started
 
-To view the website locally:
+Pages are generated from JSON in `content/` by a dependency-free Node script (Node 16+):
 
-1. Clone this repository or download the source code
-2. Open `index.html` in a web browser
+```
+node build.js                      # regenerate all pages, data/, sitemap.xml
+python3 tools/optimize_images.py   # resize photos into images/opt/ (needs Pillow)
+python3 -m http.server             # preview at http://localhost:8000
+```
+
+To add a destination, append an entry to a file in `content/destinations/` (copy an existing one), run `node build.js`, and commit the generated files. Treks, itineraries and guides work the same way (`content/treks.json`, `itineraries.json`, `guides.json`). Set `reviewed` and `sources` when you verify time-sensitive facts against an official page. Social links: fill `SOCIAL` in `build.js`.
 
 ## Browser Compatibility
 

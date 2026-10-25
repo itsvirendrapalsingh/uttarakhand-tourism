@@ -1,0 +1,387 @@
+[
+  {
+    "slug": "yamunotri",
+    "name": "Yamunotri",
+    "type": "dham",
+    "region": "garhwal",
+    "district": "Uttarkashi",
+    "altitude": "about 3,293 m",
+    "tagline": "Source shrine of the River Yamuna, first stop of the traditional Char Dham yatra",
+    "summary": "Yamunotri is the temple of Goddess Yamuna near the Yamunotri glacier, in Uttarkashi district. It is the westernmost of the four dhams and, by tradition, the first one visited. The road ends at Janki Chatti and the final stretch to the temple is on foot.",
+    "quick": {
+      "bestTime": "Temple season only (roughly Apr/May to Oct/Nov); May-June and Sep-Oct are the commonest windows",
+      "duration": "1 night at Barkot or Janki Chatti, 1 full day for the visit",
+      "rail": "Dehradun (nearest practical railhead for most travellers)",
+      "air": "Jolly Grant Airport, Dehradun",
+      "roadHead": "Janki Chatti (via Barkot and Hanuman Chatti)"
+    },
+    "attractions": [
+      {
+        "name": "Yamunotri Temple",
+        "text": "Shrine of Goddess Yamuna. Expect queues in May-June."
+      },
+      {
+        "name": "Surya Kund",
+        "text": "Hot spring near the temple where pilgrims traditionally boil rice and potatoes tied in cloth as prasad."
+      },
+      {
+        "name": "Divya Shila",
+        "text": "Rock pillar worshipped before entering the main shrine."
+      },
+      {
+        "name": "Kharsali",
+        "text": "Village near Janki Chatti, winter seat of the deity when the temple is closed."
+      }
+    ],
+    "reach": {
+      "road": "Dehradun - Mussoorie - Barkot - Hanuman Chatti - Janki Chatti. Barkot is the usual overnight halt. Allow a full day of driving from Dehradun or Rishikesh.",
+      "rail": "No railway in the hills. Dehradun and Rishikesh (Yog Nagari) are the usual railheads.",
+      "air": "Jolly Grant Airport (Dehradun), then road."
+    },
+    "lastMile": "The motor road ends at Janki Chatti. From there the temple is a walk of roughly 5-6 km uphill on a paved path. Ponies, palkis (carried chairs) and porters (kandi) operate on the route; rates are regulated locally, so confirm them at the official counters rather than agreeing a price on the road.",
+    "stay": "Barkot has the widest choice of hotels. Janki Chatti and Hanuman Chatti have simpler lodges and guesthouses. Rooms near the road head fill quickly in May-June; book ahead in peak season.",
+    "food": "Simple vegetarian meals at dhabas along the route and in Janki Chatti. Carry water and snacks for the walk.",
+    "budget": "No reliable published price list was verified for this page. Costs depend mainly on vehicle hire, the number of nights and whether you use a pony or palki. Check current rates with the district administration counters and your hotel before budgeting.",
+    "season": "Open only in the yatra season. In 2026 the temple opened on 19 April (Akshaya Tritiya); closing is customarily around Bhai Dooj/Diwali (reported as 11 November 2026, not confirmed by an official source). Monsoon (July-August) brings landslide and road-closure risk on this route.",
+    "safety": [
+      "Check road and weather status before leaving Barkot; landslides are common in monsoon.",
+      "The walk is steep. Start early, go slowly, and turn back if you feel unwell.",
+      "Pilgrims with heart, lung or blood-pressure conditions should consult a doctor before travelling."
+    ],
+    "tips": [
+      "Register before you travel (see the Char Dham overview) and carry the registration and an ID.",
+      "Start the walk in the morning; weather in the valley usually turns in the afternoon.",
+      "Keep rain protection and a warm layer even in May."
+    ],
+    "nearby": [
+      {
+        "name": "Gangotri",
+        "slug": "gangotri"
+      },
+      {
+        "name": "Barkot"
+      },
+      {
+        "name": "Kharsali"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How far is the walk to Yamunotri?",
+        "a": "Roughly 5-6 km from Janki Chatti, uphill. Most people take a few hours each way depending on pace and queues."
+      },
+      {
+        "q": "Can I visit Yamunotri in winter?",
+        "a": "No. The temple closes after the season and the deity is worshipped at Kharsali."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Uttarakhand Tourism Development Board",
+        "url": "https://uttarakhandtourism.gov.in/"
+      },
+      {
+        "label": "Char Dham registration and tourist care portal",
+        "url": "https://registrationandtouristcare.uk.gov.in/"
+      }
+    ],
+    "reviewed": "2026-10-25",
+    "verification": "Registration and helicopter-booking rules were checked against the official registration portal on 2026-10-25. Distances, altitudes and times come from secondary sources and are approximate. Confirm current status with the official sources below."
+  },
+  {
+    "slug": "gangotri",
+    "name": "Gangotri",
+    "type": "dham",
+    "region": "garhwal",
+    "district": "Uttarkashi",
+    "altitude": "about 3,100 m",
+    "tagline": "Temple of Goddess Ganga and gateway to the Gaumukh glacier",
+    "summary": "Gangotri, in Uttarkashi district, is the shrine of Goddess Ganga. Unlike Yamunotri and Kedarnath, the road reaches the temple area, so the visit is short on foot. It is also the trailhead for the trek to Gaumukh, the glacier snout associated with the source of the Bhagirathi.",
+    "quick": {
+      "bestTime": "Temple season only; May-June and Sep-Oct are the commonest windows",
+      "duration": "1 night at Uttarkashi or Harsil side, 1 day for the temple",
+      "rail": "Rishikesh (Yog Nagari) or Dehradun",
+      "air": "Jolly Grant Airport, Dehradun",
+      "roadHead": "Gangotri town (road reaches the temple area)"
+    },
+    "attractions": [
+      {
+        "name": "Gangotri Temple",
+        "text": "Shrine of Goddess Ganga on the Bhagirathi."
+      },
+      {
+        "name": "Bhagirath Shila and Surya Kund",
+        "text": "Sacred sites close to the temple, and a cascade on the river nearby."
+      },
+      {
+        "name": "Harsil",
+        "text": "Quiet village on the way, in the Bhagirathi valley. Popular for apple orchards and views."
+      },
+      {
+        "name": "Gaumukh trek",
+        "text": "About 18 km one way from Gangotri on foot. Secondary 2026 guides report a daily cap of 150 people, permits from the Uttarkashi forest office, the Gangotri forest office or the Pathik portal, and (since September 2024) a mandatory guide, insurance and medical certificate; the national park is reported open 1 April to 30 November. Fees are reported inconsistently, so confirm with the forest department before planning."
+      }
+    ],
+    "reach": {
+      "road": "Rishikesh/Dehradun - Chamba - Tehri - Uttarkashi - Harsil - Gangotri. Uttarkashi is the standard overnight halt, roughly 100 km short of Gangotri.",
+      "rail": "Rishikesh (Yog Nagari) or Dehradun are the usual railheads.",
+      "air": "Jolly Grant Airport (Dehradun), then road."
+    },
+    "lastMile": "Vehicles reach the Gangotri temple area, so the walk is short. For the Gaumukh trek the trail starts from Gangotri and is a multi-day commitment for most people, with camping or basic lodges and guide arrangements.",
+    "stay": "Uttarkashi has the most hotels. Gangotri and Harsil have smaller lodges, ashrams and dharamshalas. Book ahead during May-June.",
+    "food": "Vegetarian meals at dhabas and ashrams. Limited choice at the higher end of the route.",
+    "budget": "No reliable published price list was verified for this page. Vehicle hire for the Uttarkashi-Gangotri leg and the number of nights drive most of the cost. Confirm current rates locally.",
+    "season": "Open only in the yatra season. In 2026 Gangotri opened on 19 April (Akshaya Tritiya); closing is customarily around Govardhan Puja/Diwali (reported as 10 November 2026, not officially confirmed). Road closures from landslides can occur on the Uttarkashi-Gangotri stretch in monsoon.",
+    "safety": [
+      "Do not trek towards Gaumukh without the required permit and, ideally, an authorised guide.",
+      "Weather turns quickly at this altitude. Carry rain gear and warm layers.",
+      "Mobile coverage is patchy past Harsil."
+    ],
+    "tips": [
+      "Combine Gangotri with Yamunotri via Barkot - Uttarkashi if doing the traditional sequence.",
+      "Fill fuel and withdraw cash in Uttarkashi; options thin out beyond."
+    ],
+    "nearby": [
+      {
+        "name": "Yamunotri",
+        "slug": "yamunotri"
+      },
+      {
+        "name": "Kedarnath",
+        "slug": "kedarnath"
+      },
+      {
+        "name": "Harsil"
+      },
+      {
+        "name": "Uttarkashi"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does the road go all the way to Gangotri?",
+        "a": "Yes. Vehicles reach the temple area, which makes it the easiest of the four dhams on foot."
+      },
+      {
+        "q": "Can I walk to Gaumukh without a permit?",
+        "a": "No. A permit from the forest department is required, with limits on daily numbers. Check the current process before you go."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Uttarakhand Tourism Development Board",
+        "url": "https://uttarakhandtourism.gov.in/"
+      },
+      {
+        "label": "Char Dham registration and tourist care portal",
+        "url": "https://registrationandtouristcare.uk.gov.in/"
+      }
+    ],
+    "reviewed": "2026-10-25",
+    "verification": "Registration rules were checked against the official registration portal on 2026-10-25. Gaumukh permit details come from secondary 2026 guides (daily cap and fees conflict between sources), so confirm with the Uttarkashi forest office. Distances are approximate."
+  },
+  {
+    "slug": "kedarnath",
+    "name": "Kedarnath",
+    "type": "dham",
+    "region": "garhwal",
+    "district": "Rudraprayag",
+    "altitude": "about 3,583 m (sources vary by a few metres)",
+    "tagline": "Shiva shrine in the Mandakini valley, reached by a long uphill walk or by helicopter",
+    "summary": "Kedarnath, in Rudraprayag district, is one of the twelve Jyotirlingas and the most demanding of the four dhams. The road ends at Sonprayag, a short shuttle ride takes you to Gaurikund, and the temple is about 16 km on foot from there. Helicopter services also run from the Phata, Sersi and Guptkashi side.",
+    "quick": {
+      "bestTime": "Temple season only; May-June and Sep-Oct are the commonest windows",
+      "duration": "2 nights minimum, plus buffer days for weather",
+      "rail": "Rishikesh (Yog Nagari) or Haridwar",
+      "air": "Jolly Grant Airport, Dehradun",
+      "roadHead": "Sonprayag, then a short shuttle to Gaurikund"
+    },
+    "attractions": [
+      {
+        "name": "Kedarnath Temple",
+        "text": "Ancient stone temple with the snow peaks of the Kedarnath range behind it."
+      },
+      {
+        "name": "Bhairavnath Temple",
+        "text": "Small temple on a hillock above the main shrine."
+      },
+      {
+        "name": "Chorabari (Gandhi Sarovar)",
+        "text": "Lake close to the temple area. Check access before you go."
+      },
+      {
+        "name": "Ukhimath",
+        "text": "Winter seat of Kedarnath when the temple is closed."
+      },
+      {
+        "name": "Triyuginarayan",
+        "text": "Temple reached from Sonprayag side, associated with the wedding of Shiva and Parvati."
+      }
+    ],
+    "reach": {
+      "road": "Rishikesh - Devprayag - Srinagar - Rudraprayag - Guptkashi - Sonprayag. Guptkashi or Phata are the common overnight bases. Allow a long full day of driving from Rishikesh or Haridwar.",
+      "rail": "Rishikesh (Yog Nagari) and Haridwar are the practical railheads.",
+      "air": "Jolly Grant Airport (Dehradun), then road. Helicopter flights to the temple area operate from Phata, Sersi and Guptkashi."
+    },
+    "lastMile": "From Sonprayag you take a short shuttle to Gaurikund, the start of the trek. The walk to the temple is about 16 km and often takes the better part of a day. Ponies, palkis and porters (kandi) are available on the route; fares are regulated locally. The official registration portal states that helicopter services can be booked only through IRCTC (Heliyatra); be wary of other sellers.",
+    "stay": "Guptkashi, Phata, Sonprayag and Sitapur are the common bases before the walk. Basic rooms, GMVN accommodation and tents operate near the temple in season. Book early for May-June.",
+    "food": "Vegetarian meals along the route and near the temple. Carry water and light snacks for the walk.",
+    "budget": "No reliable current price list was verified for this page, and helicopter fares change. Check the Heliyatra portal for fares and local counters for pony and palki rates before budgeting.",
+    "season": "Open only in the yatra season. In 2026 the temple opened on 22 April; closing is customarily around Bhai Dooj (reported as 11 November 2026, not confirmed by an official source). The Mandakini valley is prone to landslides and flash floods, especially in July-August.",
+    "safety": [
+      "Register before travelling. Registration is mandatory for the yatra.",
+      "At about 3,500 m, altitude sickness is possible. Ascend steadily and rest; descend if symptoms worsen.",
+      "Pilgrims with heart, lung or blood-pressure conditions should consult a doctor first.",
+      "Do not attempt the walk at night or in bad weather. Always check road and trek status on the day."
+    ],
+    "tips": [
+      "Start the walk before dawn if you plan to return the same day.",
+      "Keep a rain jacket, a warm layer and a torch; even summer nights are cold.",
+      "Book helicopters only on the official portal and keep a bad-weather buffer day."
+    ],
+    "nearby": [
+      {
+        "name": "Badrinath",
+        "slug": "badrinath"
+      },
+      {
+        "name": "Chopta-Tungnath"
+      },
+      {
+        "name": "Guptkashi"
+      },
+      {
+        "name": "Ukhimath"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How long is the walk to Kedarnath?",
+        "a": "About 16 km one way from Gaurikund. Many people take 6-8 hours uphill; times vary with fitness and crowds."
+      },
+      {
+        "q": "Is a helicopter guaranteed?",
+        "a": "No. Flights depend on weather and seats are limited. Plan buffer days and book through the official portal only."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Badrinath-Kedarnath Temple Committee (official; helpline 0135-2741600 per its site)",
+        "url": "https://badrinath-kedarnath.gov.in/"
+      },
+      {
+        "label": "IRCTC Heliyatra (official helicopter booking)",
+        "url": "https://heliyatra.irctc.co.in/"
+      },
+      {
+        "label": "Char Dham registration and tourist care portal",
+        "url": "https://registrationandtouristcare.uk.gov.in/"
+      },
+      {
+        "label": "Uttarakhand Tourism Development Board",
+        "url": "https://uttarakhandtourism.gov.in/"
+      }
+    ],
+    "reviewed": "2026-10-25",
+    "verification": "Registration and the rule that helicopters are booked only through IRCTC were checked against the official registration portal on 2026-10-25. Trek distance and altitude are consistent across secondary sources but not from an official page. No fares or timings are quoted."
+  },
+  {
+    "slug": "badrinath",
+    "name": "Badrinath",
+    "type": "dham",
+    "region": "garhwal",
+    "district": "Chamoli",
+    "altitude": "about 3,100 m",
+    "tagline": "Vishnu shrine on the Alaknanda, reachable by road",
+    "summary": "Badrinath, in Chamoli district, is the shrine of Lord Vishnu on the banks of the Alaknanda, below the Neelkanth massif. It is the only one of the four dhams reachable entirely by road, which makes it the most accessible. Mana village, the last village before the Tibet border region, is a short drive away.",
+    "quick": {
+      "bestTime": "Temple season only; May-June and Sep-Oct are the commonest windows",
+      "duration": "1-2 nights, usually combined with Joshimath or Auli",
+      "rail": "Rishikesh (Yog Nagari) or Haridwar",
+      "air": "Jolly Grant Airport, Dehradun",
+      "roadHead": "Badrinath town (road reaches the temple)"
+    },
+    "attractions": [
+      {
+        "name": "Badrinath Temple",
+        "text": "Colourful temple on the Alaknanda; Tapt Kund hot spring is by the river below it."
+      },
+      {
+        "name": "Mana village",
+        "text": "A short drive from Badrinath. Often called India's last village in the region."
+      },
+      {
+        "name": "Vasudhara Falls",
+        "text": "Waterfall reached on foot from Mana. Check trail conditions before you go."
+      },
+      {
+        "name": "Joshimath",
+        "text": "Winter seat of Badrinath and the usual halt on the way up."
+      },
+      {
+        "name": "Auli",
+        "text": "Ski and viewpoint destination close to Joshimath."
+      }
+    ],
+    "reach": {
+      "road": "Rishikesh - Devprayag - Srinagar - Rudraprayag - Karnaprayag - Chamoli - Joshimath - Badrinath. Allow one full day to Joshimath or Pipalkoti and a short drive the next morning.",
+      "rail": "Rishikesh (Yog Nagari) and Haridwar are the practical railheads.",
+      "air": "Jolly Grant Airport (Dehradun), then road."
+    },
+    "lastMile": "The motor road reaches Badrinath. The NH route is subject to landslide closures, particularly on the stretch around Joshimath and in monsoon. Vehicle movement beyond Joshimath is sometimes held in convoy windows; check current traffic advisories.",
+    "stay": "Badrinath has hotels, dharamshalas and GMVN lodges, but demand is high in May-June. Joshimath and Pipalkoti offer more choice a short drive down.",
+    "food": "Vegetarian meals in dhabas and hotel restaurants. Prasad is available at the temple.",
+    "budget": "No reliable current price list was verified for this page. Costs mostly depend on vehicle hire and the number of nights. Check rates locally.",
+    "season": "Open only in the yatra season. In 2026 the opening was scheduled for 23 April. The closing date is announced by the temple committee around Vijayadashami; secondary sources report 13 November 2026 (others differ), so confirm. The highway can close after rain or snowfall.",
+    "safety": [
+      "Check road status before leaving Joshimath; landslide closures are common.",
+      "Altitude is about 3,100 m; take it easy on the first day if coming up from the plains.",
+      "Respect local restrictions around Mana and the border areas."
+    ],
+    "tips": [
+      "Pair Badrinath with Auli and the Valley of Flowers region in a single trip.",
+      "Carry warm layers; evenings are cold even in summer."
+    ],
+    "nearby": [
+      {
+        "name": "Kedarnath",
+        "slug": "kedarnath"
+      },
+      {
+        "name": "Auli"
+      },
+      {
+        "name": "Joshimath"
+      },
+      {
+        "name": "Mana village"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can you drive all the way to Badrinath?",
+        "a": "Yes. Of the four dhams it is the only one reached entirely by road."
+      },
+      {
+        "q": "Which is the nearest town with plenty of hotels?",
+        "a": "Joshimath and Pipalkoti, though availability depends on current road and safety conditions."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Badrinath-Kedarnath Temple Committee (official; helpline 0135-2741600 per its site)",
+        "url": "https://badrinath-kedarnath.gov.in/"
+      },
+      {
+        "label": "Uttarakhand Tourism Development Board",
+        "url": "https://uttarakhandtourism.gov.in/"
+      },
+      {
+        "label": "Char Dham registration and tourist care portal",
+        "url": "https://registrationandtouristcare.uk.gov.in/"
+      }
+    ],
+    "reviewed": "2026-10-25",
+    "verification": "Registration rules were checked against the official registration portal on 2026-10-25. Distances are approximate and from secondary sources. Confirm road, convoy and lodging status before travel."
+  }
+]

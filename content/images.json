@@ -1,0 +1,344 @@
+{
+ "overview": {
+  "alt": "Snow-capped Himalayan peak above forested valleys under a blue sky",
+  "theme": "mountains",
+  "credit": "",
+  "src": "images/uttarakhand-overview.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 428,
+    "path": "images/opt/overview-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 1069,
+    "path": "images/opt/overview-1600.jpg"
+   }
+  ]
+ },
+ "camp-snow": {
+  "alt": "Colourful tents pitched on a snowy Himalayan ridge below a snow peak",
+  "theme": "trekking",
+  "credit": "",
+  "src": "images/destinations/accommodations.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 427,
+    "path": "images/opt/camp-snow-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "path": "images/opt/camp-snow-1600.jpg"
+   }
+  ]
+ },
+ "pines-peaks": {
+  "alt": "Snow-covered peaks seen through pine trees under a blue sky",
+  "theme": "mountains",
+  "credit": "",
+  "src": "images/destinations/adventure.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 427,
+    "path": "images/opt/pines-peaks-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "path": "images/opt/pines-peaks-1600.jpg"
+   }
+  ]
+ },
+ "snow-ridge": {
+  "alt": "Snowy ridge in the foreground with a Himalayan range fading into haze",
+  "theme": "mountains",
+  "credit": "",
+  "src": "images/destinations/auli.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 427,
+    "path": "images/opt/snow-ridge-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "path": "images/opt/snow-ridge-1600.jpg"
+   }
+  ]
+ },
+ "dog-peaks": {
+  "alt": "A golden dog resting on a hillside with snow peaks behind",
+  "theme": "landscape",
+  "credit": "",
+  "src": "images/destinations/jim-corbett.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 392,
+    "path": "images/opt/dog-peaks-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 979,
+    "path": "images/opt/dog-peaks-1600.jpg"
+   }
+  ]
+ },
+ "rishikesh-dance": {
+  "alt": "A woman in a turquoise sari dancing on a riverbank in front of a temple complex in Rishikesh",
+  "theme": "culture",
+  "credit": "",
+  "src": "images/destinations/food.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 427,
+    "path": "images/opt/rishikesh-dance-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "path": "images/opt/rishikesh-dance-1600.jpg"
+   }
+  ]
+ },
+ "rishikesh-yoga": {
+  "alt": "Yoga practice on the Ganga bank with the Rishikesh temple complex behind",
+  "theme": "culture",
+  "credit": "Yoga Course India / Pexels",
+  "src": "images/destinations/pexels-yoga-course-india-932671557-20035531.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 427,
+    "path": "images/opt/rishikesh-yoga-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "path": "images/opt/rishikesh-yoga-1600.jpg"
+   }
+  ]
+ },
+ "ridge-haze": {
+  "alt": "Snowy ridgeline and valley in blue haze",
+  "theme": "mountains",
+  "credit": "K S Aravinda Kashyap / Pexels",
+  "src": "images/destinations/pexels-k-s-aravinda-kashyap-86628820-31580155.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 960,
+    "path": "images/opt/ridge-haze-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "path": "images/opt/ridge-haze-1600.jpg"
+   }
+  ]
+ },
+ "snow-pines": {
+  "alt": "Snow-dusted pine forest slope under a bright sky",
+  "theme": "trekking",
+  "credit": "K S Aravinda Kashyap / Pexels",
+  "src": "images/destinations/pexels-k-s-aravinda-kashyap-86628820-31580156.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 960,
+    "path": "images/opt/snow-pines-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 2400,
+    "path": "images/opt/snow-pines-1600.jpg"
+   }
+  ]
+ },
+ "snow-bowl": {
+  "alt": "Snow-covered peaks and a wide snow bowl",
+  "theme": "mountains",
+  "credit": "K S Aravinda Kashyap / Pexels",
+  "src": "images/destinations/pexels-k-s-aravinda-kashyap-86628820-31580158.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 427,
+    "path": "images/opt/snow-bowl-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "path": "images/opt/snow-bowl-1600.jpg"
+   }
+  ]
+ },
+ "tents-blue": {
+  "alt": "Orange and red tents at a trek campsite under a deep blue sky",
+  "theme": "trekking",
+  "credit": "K S Aravinda Kashyap / Pexels",
+  "src": "images/destinations/pexels-k-s-aravinda-kashyap-86628820-31580160.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 841,
+    "path": "images/opt/tents-blue-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 2103,
+    "path": "images/opt/tents-blue-1600.jpg"
+   }
+  ]
+ },
+ "snow-slope": {
+  "alt": "A wide, unbroken snow slope on a high Himalayan ridge",
+  "theme": "mountains",
+  "credit": "K S Aravinda Kashyap / Pexels",
+  "src": "images/destinations/pexels-k-s-aravinda-kashyap-86628820-31580163.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 427,
+    "path": "images/opt/snow-slope-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "path": "images/opt/snow-slope-1600.jpg"
+   }
+  ]
+ },
+ "forest-range": {
+  "alt": "Pine forest ridge with a long Himalayan snow range behind",
+  "theme": "mountains",
+  "credit": "K S Aravinda Kashyap / Pexels",
+  "src": "images/destinations/pexels-k-s-aravinda-kashyap-86628820-31580169.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 427,
+    "path": "images/opt/forest-range-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "path": "images/opt/forest-range-1600.jpg"
+   }
+  ]
+ },
+ "yoga-studio": {
+  "alt": "A group practising yoga postures in a studio",
+  "theme": "culture",
+  "credit": "Kundalini Yoga Ashram / Pexels",
+  "src": "images/destinations/pexels-kundalini-yoga-ashram-324305954-14989453.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 427,
+    "path": "images/opt/yoga-studio-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "path": "images/opt/yoga-studio-1600.jpg"
+   }
+  ]
+ },
+ "green-hills": {
+  "alt": "Green forested hills and a hazy valley at sunset",
+  "theme": "landscape",
+  "credit": "Shaurya Malik / Pexels",
+  "src": "images/destinations/pexels-shaurya-malik-322465-954646.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 360,
+    "path": "images/opt/green-hills-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 900,
+    "path": "images/opt/green-hills-1600.jpg"
+   }
+  ]
+ },
+ "sadhu": {
+  "alt": "A sadhu in an ornate patterned turban",
+  "theme": "culture",
+  "credit": "Soubhagya23 / Pexels",
+  "src": "images/destinations/pexels-soubhagya23-18915949.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 454,
+    "path": "images/opt/sadhu-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 1135,
+    "path": "images/opt/sadhu-1600.jpg"
+   }
+  ]
+ },
+ "peaks-clouds": {
+  "alt": "Rugged snow peaks under dramatic clouds",
+  "theme": "mountains",
+  "credit": "Saiteja Varma / Unsplash",
+  "src": "images/destinations/saiteja-varma-cK7k1s96zzQ-unsplash.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 427,
+    "path": "images/opt/peaks-clouds-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "path": "images/opt/peaks-clouds-1600.jpg"
+   }
+  ]
+ },
+ "trekker-ridge": {
+  "alt": "A trekker with a blue backpack on a grassy ridge facing a snow range",
+  "theme": "trekking",
+  "credit": "Saiteja Varma / Unsplash",
+  "src": "images/destinations/saiteja-varma-zliKrsociwo-unsplash.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 427,
+    "path": "images/opt/trekker-ridge-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "path": "images/opt/trekker-ridge-1600.jpg"
+   }
+  ]
+ },
+ "village-terraces": {
+  "alt": "Hill village and green terraced fields under low cloud",
+  "theme": "landscape",
+  "credit": "Vivek / Unsplash",
+  "src": "images/destinations/vivek-lnXFFBFuISo-unsplash.jpg",
+  "v": [
+   {
+    "w": 640,
+    "h": 427,
+    "path": "images/opt/village-terraces-640.jpg"
+   },
+   {
+    "w": 1600,
+    "h": 1067,
+    "path": "images/opt/village-terraces-1600.jpg"
+   }
+  ]
+ }
+}

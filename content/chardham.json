@@ -1,0 +1,62 @@
+{
+  "title": "Char Dham Yatra: Complete Guide",
+  "intro": "The Char Dham yatra of Uttarakhand covers four Himalayan shrines: Yamunotri, Gangotri, Kedarnath and Badrinath. This guide covers the sequence, the registration step, how to reach each shrine, and what to check before you go.",
+  "significance": "In Uttarakhand the Char Dham refers to four shrines in the Garhwal Himalaya, each dedicated to a deity linked with a major river or form of the divine: Yamunotri (Goddess Yamuna), Gangotri (Goddess Ganga), Kedarnath (Lord Shiva) and Badrinath (Lord Vishnu). They are often called the Chota (small) Char Dham to distinguish them from the pan-Indian Char Dham of Badrinath, Dwarka, Puri and Rameswaram.",
+  "sequence": "The traditional order is west to east: Yamunotri, Gangotri, Kedarnath, Badrinath. Many pilgrims follow it by road from Haridwar or Rishikesh; others change the order to match transport and weather.",
+  "duration": "Plan on roughly 10-12 days by road from Haridwar or Rishikesh, including buffer days for weather and landslides. A shorter trip is possible using helicopter legs for Kedarnath, but flights depend on weather.",
+  "startingPoints": "Haridwar, Rishikesh and Dehradun are the usual starting points. Jolly Grant Airport near Dehradun is the nearest airport for all four dhams.",
+  "seasonYear": 2026,
+  "seasonNote": "Opening dates for Yamunotri, Gangotri and Kedarnath are confirmed by news reports of the actual openings (All India Radio and IANS); Badrinath was scheduled for 23 April. Closing dates are not on the official temple-committee or registration pages as of 2026-10-25; the dates below come from a news report (The Statesman) and sources differ, so confirm with the temple committee (helpline 0135-2741600 per its site). We had not seen 2027 dates.",
+  "dates": [
+    { "dham": "Yamunotri", "open": "19 April 2026", "close": "reported 11 November 2026 (Bhai Dooj)" },
+    { "dham": "Gangotri", "open": "19 April 2026", "close": "reported 10 November 2026" },
+    { "dham": "Kedarnath", "open": "22 April 2026", "close": "reported 11 November 2026 (Bhai Dooj)" },
+    { "dham": "Badrinath", "open": "23 April 2026", "close": "reported 13 November 2026; other sources differ. Announced around Vijayadashami" }
+  ],
+  "registration": [
+    "Registration is mandatory and free, per the official registration portal. Keep the registration certificate ready at the verification points and carry a valid personal ID.",
+    "The official portal is registrationandtouristcare.uk.gov.in; the portal also lists Android and iOS apps. Create a tour with dates, number of tourists and dhams, enter pilgrim details, then download the Yatra Registration Letter.",
+    "News reports for 2025 described Aadhaar-based eKYC for the app; the official portal page we checked does not mention Aadhaar or biometrics, so confirm the current requirement when you register.",
+    "Helicopter services can be booked only through IRCTC (heliyatra.irctc.co.in), per the official registration portal."
+  ],
+  "transport": [
+    "Road: the main way to travel between dhams. Mountain roads are slow; plan on 6-9 hours of driving per day at most.",
+    "Helicopter: operates to Kedarnath from Phata, Sersi and Guptkashi (per secondary sources). The official portal says helicopter services can be booked only through IRCTC. Flights depend on weather.",
+    "On foot or by animal: Yamunotri (about 5-6 km) and Kedarnath (about 16 km) need a walk from the road head. Ponies, palkis and porters are available on both routes."
+  ],
+  "health": [
+    "The shrines lie between roughly 3,100 m and 3,600 m. Altitude sickness is possible even for fit travellers.",
+    "Ascend gradually, drink water, and rest. If headache, nausea or breathlessness worsens, go down.",
+    "Pilgrims with heart, lung or blood-pressure conditions, pregnant women and elderly travellers should consult a doctor before booking.",
+    "Carry your regular medicines and a basic first-aid kit."
+  ],
+  "packing": [
+    "Government photo ID and printed yatra registration",
+    "Rain jacket or poncho",
+    "Warm layers, a woollen cap and gloves",
+    "Comfortable, grippy walking shoes and spare socks",
+    "Torch or headlamp with spare batteries",
+    "Water bottle and light snacks",
+    "Sunscreen, sunglasses and a hat",
+    "Personal medicines and a small first-aid kit",
+    "Power bank and some cash (ATMs and network can be unreliable)",
+    "Plastic bags for wet items and waste. Carry your rubbish down."
+  ],
+  "budget": "No verified current price list is published on this page. The main cost drivers are vehicle hire for 10-12 days, accommodation, helicopter fares if used, and pony or palki charges. Get written quotes from licensed operators and check fares on the official portals.",
+  "faq": [
+    { "q": "Is registration really required?", "a": "Yes. The Uttarakhand government requires registration for the Char Dham yatra. Check the official portal for the current process." },
+    { "q": "In what order should I visit the dhams?", "a": "The traditional order is Yamunotri, Gangotri, Kedarnath, Badrinath. Many pilgrims adjust it to fit the road and weather." },
+    { "q": "Which dham is easiest?", "a": "Badrinath and Gangotri are reached by road. Yamunotri and Kedarnath require a walk from the road head." },
+    { "q": "Which months are best?", "a": "The temples are open from about April/May to October/November. May-June is busiest; September-October is often quieter after the monsoon. July-August has the highest landslide risk." }
+  ],
+  "sources": [
+    { "label": "Char Dham registration and tourist care portal (official)", "url": "https://registrationandtouristcare.uk.gov.in/" },
+    { "label": "Badrinath-Kedarnath Temple Committee (official)", "url": "https://badrinath-kedarnath.gov.in/" },
+    { "label": "Uttarakhand Tourism Development Board (official)", "url": "https://uttarakhandtourism.gov.in/" },
+    { "label": "IRCTC Heliyatra (official helicopter booking)", "url": "https://heliyatra.irctc.co.in/" },
+    { "label": "The Statesman: Char Dham Yatra 2026 dates and rules (news, secondary; closing dates)", "url": "https://www.thestatesman.com/india/char-dham-yatra-2026-dates-routes-registration-guide-1503584319.html" },
+    { "label": "Asian Age, 15 Feb 2026: Kedarnath and Badrinath opening dates (news, secondary)", "url": "https://www.asianage.com/amp/nation/kedarnath-shrine-opens-from-april-22-1937499" },
+    { "label": "All India Radio: Gangotri and Yamunotri portals opened, 19 April 2026 (news)", "url": "https://newsonair.gov.in/char-dham-yatra-begins-in-uttarakhand-with-opening-of-portals-of-gangotri-and-yamunotri-shrines/" }
+  ],
+  "reviewed": "2026-10-25"
+}

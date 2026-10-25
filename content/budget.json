@@ -1,0 +1,10 @@
+{
+  "currency": "INR",
+  "note": "These are placeholder planning ranges used only to seed the calculator. They are NOT sourced prices or quotes. Replace them with figures from real quotes (hotel, taxi, activity) before relying on any total.",
+  "asOf": "placeholder",
+  "stay": { "budget": [1000, 2000], "mid": [2500, 5000], "comfort": [6000, 12000] },
+  "mealsPerPersonDay": { "budget": [400, 700], "mid": [700, 1200], "comfort": [1200, 2500] },
+  "transport": { "taxiPerDay": [3500, 6000], "busPerPersonDay": [300, 800], "ownCarPerDay": [1500, 3000] },
+  "activitiesPerPersonDay": { "relaxed": [200, 600], "balanced": [400, 1200], "fast": [800, 2000] },
+  "roomCapacity": 3
+}

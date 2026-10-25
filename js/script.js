@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Close menu when clicking outside
     document.addEventListener('click', function(event) {
-        if (!event.target.closest('.nav-menu') && !event.target.closest('.menu-toggle')) {
+        if (navMenu && menuToggle && !event.target.closest('.nav-menu') && !event.target.closest('.menu-toggle')) {
             if (navMenu.classList.contains('active')) {
                 navMenu.classList.remove('active');
                 menuToggle.classList.remove('active');
@@ -31,9 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const targetElement = document.querySelector(targetId);
             if (targetElement) {
                 // Close mobile menu if it's open
-                if (navMenu.classList.contains('active')) {
+                if (navMenu && navMenu.classList.contains('active')) {
                     navMenu.classList.remove('active');
-                    menuToggle.classList.remove('active');
+                    if (menuToggle) menuToggle.classList.remove('active');
                 }
                 
                 window.scrollTo({
@@ -77,6 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (faqItems.length > 0) {
         faqItems.forEach(item => {
             const question = item.querySelector('.faq-question');
+            if (!question) return;
             
             question.addEventListener('click', () => {
                 // Toggle active class on clicked item

@@ -1,0 +1,105 @@
+[
+  {
+    "slug": "transport", "title": "Getting to and around Uttarakhand", "sub": "Airports, trains, buses, taxis and mountain-road planning",
+    "intro": "Most trips start at one of four hubs: Delhi (the usual origin), Dehradun and Haridwar for Garhwal, and Kathgodam for Kumaon. Times below are typical and vary with traffic, weather and road work; they are not live information.",
+    "sections": [
+      { "h": "Airports", "list": ["Jolly Grant Airport (Dehradun) is the main airport for Garhwal, Rishikesh, Haridwar and the Char Dham.", "Pantnagar Airport serves Kumaon (Nainital, Corbett) with a limited schedule.", "Some small airstrips (such as Naini Saini near Pithoragarh) have irregular service. Confirm before planning around them."] },
+      { "h": "Railheads", "list": ["Haridwar and Dehradun are the main railheads for Garhwal; Yog Nagari Rishikesh has limited services.", "Kathgodam is the main railhead for Nainital, Almora, Ranikhet and Kausani.", "Kotdwar serves Lansdowne; Ramnagar serves Corbett; Tanakpur serves the far east.", "There is no railway in the high hills. Connections to the mountains are by road only."] },
+      { "h": "Typical road times from Delhi", "list": ["Delhi to Haridwar: about 4-5 hours.", "Delhi to Dehradun: about 5-6 hours.", "Delhi to Rishikesh: about 5-6 hours.", "Delhi to Kathgodam or Nainital: about 6-7 hours.", "Delhi to Corbett (Ramnagar): about 5-6 hours."] },
+      { "h": "Buses and shared vehicles", "list": ["State buses (UTC) and private operators connect main towns; booking in advance helps in peak season.", "Shared jeeps and taxis run on many hill routes and often leave when full.", "In remote areas, services can be one a day or less. Ask locally the day before."] },
+      { "h": "Private taxis and self-drive", "list": ["A taxi with a driver used to mountain roads is the usual choice for multi-day trips.", "Self-drive suits experienced drivers; mountain roads are narrow with blind bends.", "Motorcycle trips are popular but take extra care on wet and loose roads."] },
+      { "h": "Mountain-road precautions", "list": ["Avoid driving at night.", "In monsoon (July-September), landslides can close roads for hours or days.", "In winter, snow and ice can close roads above about 2,000 m.", "Check road status with local police, district administration or the state disaster management channels before long journeys.", "Keep a buffer day in your plan."] },
+      { "h": "Last-mile transport", "p": "Many places end at a road head: Kedarnath at Sonprayag/Gaurikund, Yamunotri at Janki Chatti, Valley of Flowers at Govindghat. From there you walk or take a pony, palki or porter. Fares are usually regulated locally. Ask at official counters rather than agreeing a price on the road." },
+      { "h": "Accessibility", "p": "Most hill sites involve stairs, steep roads and uneven paths. Elderly travellers and people with mobility needs should favour road-accessible destinations such as Mussoorie, Nainital, Haridwar, Badrinath and Gangotri, and check accessibility before booking." }
+    ],
+    "faq": [{ "q": "What is the best way to get around?", "a": "A hired car with an experienced driver gives the most flexibility. Public transport works for main routes but is slow and infrequent on side roads." }]
+  },
+  {
+    "slug": "first-time-visitors", "title": "First-time visitor's guide to Uttarakhand", "sub": "Planning, budget, packing, health and common mistakes",
+    "intro": "Uttarakhand is a mountain state: distances look short on a map but take long on the road. This guide helps you plan realistically.",
+    "sections": [
+      { "h": "How to plan from scratch", "list": ["Pick a month first: it decides which places are open and safe (see the best-time guide).", "Choose one region (Garhwal or Kumaon) for a short trip; do not try to cover both in a week.", "Limit driving to about 5-6 hours on mountain days.", "Add one buffer day to any trip of five days or more.", "Book accommodation first in peak months (May-June, October-November)."] },
+      { "h": "Choosing a destination by days", "list": ["1 day: Rishikesh, Haridwar, Mussoorie or Nainital.", "2-3 days: Mussoorie and Dhanaulti, Nainital and lakes, Rishikesh and Haridwar.", "4-6 days: Kumaon circuit, Auli, Chopta.", "7+ days: Garhwal or Kumaon loops, Char Dham, a trek."] },
+      { "h": "Budget planning", "p": "Use the budget estimator on the Plan page with your own quoted prices. The main costs are vehicle hire, accommodation, meals and activities. Prices vary widely by season and place; get quotes and check them on official or booking sites." },
+      { "h": "Packing checklist", "list": ["Layers: base, mid and a windproof outer layer", "Rain jacket or poncho", "Comfortable walking shoes with grip", "Warm cap and gloves if above 2,000 m", "Sun protection", "Personal medication and a small first-aid kit", "Power bank and offline maps", "ID and copies of bookings"] },
+      { "h": "Altitude awareness", "p": "Altitude sickness can affect anyone above about 2,500 m. Ascend gradually, drink water, and rest. Descend if symptoms worsen. Consult a doctor first if you have heart, lung or blood-pressure conditions." },
+      { "h": "Money, network and emergencies", "list": ["ATMs are common in towns but scarce in remote areas; carry cash.", "Mobile coverage is patchy in valleys and above villages; download offline maps.", "Emergency numbers: 112 (national emergency), 108 (ambulance). Confirm the current local helplines on official sites.", "Consider travel insurance, especially for treks and monsoon travel."] },
+      { "h": "Travelling with children and elders", "list": ["Choose road-accessible destinations.", "Shorter driving days and slower itineraries.", "Check medical facilities along the route."] },
+      { "h": "Common mistakes", "list": ["Packing too many stops into too few days.", "Driving at night.", "Ignoring weather and landslide alerts.", "Assuming ATMs, fuel and network are available everywhere.", "Not booking in peak season."] },
+      { "h": "Useful official resources", "list": ["Uttarakhand Tourism Development Board", "India Meteorological Department (weather and rainfall alerts)", "District administration pages for road and permit information"] }
+    ],
+    "faq": [{ "q": "How many days do I need for Uttarakhand?", "a": "For one region, 5-7 days is comfortable. A single city or town can be done in 1-2." }]
+  },
+  {
+    "slug": "trek-preparation", "title": "Trek preparation and packing guide", "sub": "What to carry for day hikes, supported treks and self-supported trips",
+    "intro": "Preparation matters more than fitness alone. Use this list as a starting point and follow your operator's advice. Do not trek high altitude alone or unsupported if you are not experienced.",
+    "sections": [
+      { "h": "Day hike (up to about 3,000 m)", "list": ["Small daypack with rain cover", "Sturdy shoes with grip and good socks", "Water bottle (1-2 L) and snacks", "Rain jacket and a warm layer", "Sunscreen, sunglasses and a hat", "Basic first-aid kit and personal medication", "ID, phone, power bank and offline maps"] },
+      { "h": "Multi-day supported trek", "list": ["Backpack (40-60 L) with rain cover", "Trekking shoes broken-in before the trip, plus spare socks", "Layered clothing: base, fleece, insulated jacket, thermal wear if cold", "Waterproof jacket and pants", "Water bottles (2-3 L), and purification tablets or filter", "Energy snacks", "Headlamp with spare batteries", "Trekking poles (helps knees on descents)", "Sleeping bag and tent are usually supplied by operators; confirm", "First-aid kit and personal medicines", "ID, permits, emergency contacts"] },
+      { "h": "Self-supported or remote expeditions", "p": "Do not attempt unsupported high-altitude routes unless you have experience, proper permits, communication and rescue arrangements. For routes like Auden's Col, use a registered expedition operator." },
+      { "h": "Acclimatisation and health", "list": ["Ascend slowly; limit gain in sleeping altitude per day.", "Drink water, eat well, avoid alcohol.", "Headache, nausea or breathlessness that worsens means descend.", "Tell your guide about any medical condition."] },
+      { "h": "Responsible trekking", "list": ["Carry out all litter.", "Do not camp outside designated sites.", "Respect local people, sacred sites and wildlife.", "Use biodegradable soap away from water sources."] }
+    ],
+    "faq": [{ "q": "Do I need a guide?", "a": "For snow, high passes and remote routes, yes. For short easy day hikes in summer a guide is optional." }]
+  },
+  {
+    "slug": "stays", "title": "Where to stay in Uttarakhand", "sub": "Hotels, homestays, camps, ashrams and government accommodation",
+    "intro": "This guide explains the types of stay. It does not list specific properties, prices or ratings. For current availability use the official or reputable booking sites linked below.",
+    "sections": [
+      { "h": "Hotels and resorts", "p": "Available in nearly every tourist town. Look for properties with parking and clear road access, and read recent reviews on a reputable booking site." },
+      { "h": "Homestays and guesthouses", "p": "Good for villages and treks. They offer home-cooked food and local advice. Confirm last-mile road access, heating and Wi-Fi with the host." },
+      { "h": "Camps and treks", "p": "Use camps run by licensed operators with clear safety standards. Avoid sleeping in unofficial sites or near riverbeds." },
+      { "h": "Ashrams and dharamshalas", "p": "Common in Haridwar, Rishikesh and along pilgrim routes. They are simple, often have rules about timings, and may require advance booking." },
+      { "h": "Government accommodation", "p": "GMVN (Garhwal Mandal Vikas Nigam) and KMVN (Kumaon Mandal Vikas Nigam) run rest houses in many places. Forest rest houses are available for eligible visitors through the forest department." },
+      { "h": "Choosing an area", "list": ["Mussoorie: near Library or Landour for quiet.", "Nainital: Tallital or Mallital depending on walking.", "Rishikesh: Tapovan for cafes, further out for quiet.", "Char Dham: choose the base town for the road head, not the temple itself in peak season."] }
+    ],
+    "links": [
+      { "label": "GMVN (Garhwal Mandal Vikas Nigam; address as listed in its rest-house details)", "url": "https://gmvnonline.com/" },
+      { "label": "KMVN (Kumaon Mandal Vikas Nigam)", "url": "https://www.kmvn.in/" },
+      { "label": "Uttarakhand Tourism Development Board", "url": "https://uttarakhandtourism.gov.in/" }
+    ],
+    "faq": [{ "q": "When should I book?", "a": "For May-June, Char Dham and festival dates, book well ahead. Off-season is easier." }]
+  },
+  {
+    "slug": "culture-food-festivals", "title": "Culture, food and festivals", "sub": "Garhwali and Kumaoni traditions, local dishes and fairs",
+    "intro": "Uttarakhand's two regions, Garhwal and Kumaon, share many traditions but have their own dialects, dishes and festivals.",
+    "sections": [
+      { "h": "Garhwal and Kumaon", "p": "Garhwal is in the west (Dehradun, Rishikesh, Char Dham). Kumaon is in the east (Nainital, Almora). Each has its own folk songs, dances and festival calendar." },
+      { "h": "Traditional dishes", "list": ["Aloo ke Gutke: spiced potatoes", "Kafuli: spinach and fenugreek gravy", "Bhatt ki Churkani: black soybean curry", "Mandua ki Roti: finger millet flatbread", "Garhwali Kadhi and Phaanu: lentil and yogurt dishes", "Jhangora ki Kheer: barnyard millet pudding", "Singori and Bal Mithai (Kumaon): sweets from Almora", "Arsa: sweet rice-flour fried cookies"] },
+      { "h": "Festivals and fairs (typical periods)", "list": ["Makar Sankranti / Uttarayani (January): fairs such as at Bageshwar.", "Holi (March): Kumaoni Baithaki Holi is a local tradition.", "Harela (July): a Kumaon festival marking sowing.", "Nanda Devi fairs (September): in Almora, Nainital and other places.", "Dussehra and Diwali (October-November).", "Kumbh Mela at Haridwar every 12 years; the Ardh Kumbh is reported to run from 14 January to 20 April 2027, so expect heavy crowds."] },
+      { "h": "Music, dance and crafts", "list": ["Choliya (a sword dance), Jhora and Chancheri are well-known folk dances.", "Aipan is a floor art form in Kumaon.", "Woollens and handwoven shawls are sold in places like Munsiyari and Pithoragarh."] },
+      { "h": "Visitor etiquette", "list": ["Remove shoes at temples; dress modestly.", "Ask before photographing people or rituals.", "Do not litter, and carry a bag for rubbish.", "Many shrines restrict leather and non-vegetarian food."] }
+    ],
+    "faq": [{ "q": "What local dish should I try first?", "a": "Bhatt ki churkani or mandua roti with local ghee, and bal mithai for dessert." }]
+  },
+  {
+    "slug": "wildlife-parks", "title": "Wildlife and national parks", "sub": "Corbett, Rajaji, Nanda Devi, Valley of Flowers and sanctuaries",
+    "intro": "Uttarakhand has national parks, tiger reserves and sanctuaries. Rules on permits and safaris change often; use official sources.",
+    "sections": [
+      { "h": "Jim Corbett National Park", "p": "Tiger reserve in the Kumaon foothills. Per the official site (corbettgov.org): Jhirna, Dhela and Garjia are open all year; Bijrani is open 15 October to 30 June; Dhikala, Durgadevi, Sonanadi and Pakhro 15 November to 15 June. Book only on the official site (booking.corbettgov.org); it warns about scam booking sites. Valid ID must match the ID uploaded at booking, and mobile phones are not permitted in tourism zones." },
+      { "h": "Rajaji National Park", "p": "Forest reserve near Haridwar and Rishikesh, known for elephants. Safaris run from a few gates." },
+      { "h": "Nanda Devi and Valley of Flowers National Parks", "p": "A UNESCO World Heritage Site. The Valley of Flowers opened on 1 June 2026 and was reported open to 31 October; the core of Nanda Devi National Park is restricted." },
+      { "h": "Gangotri National Park", "p": "High-altitude park; permits are needed for treks inside, including Gaumukh. Secondary 2026 guides report a daily cap of 150 and a mandatory guide, insurance and medical certificate; confirm with the Uttarkashi forest office." },
+      { "h": "Govind Pashu Vihar and Binsar", "p": "Govind Pashu Vihar covers the Har Ki Dun and Kedarkantha area. Binsar Wildlife Sanctuary near Almora offers forest walks with an entry fee." },
+      { "h": "Responsible viewing", "list": ["Keep a safe distance; never feed animals.", "Stay in the vehicle on safari.", "Do not expect a sighting; tigers are rarely seen.", "Use only licensed guides and official booking channels."] }
+    ],
+    "faq": [{ "q": "Can I book a Corbett safari on arrival?", "a": "Usually not. Book online in advance through the official channel." }]
+  },
+  {
+    "slug": "peaceful-places", "title": "Peaceful, less-crowded places", "sub": "Quieter villages and hill stations. Relatively quiet, never guaranteed empty",
+    "intro": "These places are generally quieter than Mussoorie or Nainital, especially on weekdays and in the off-season. Crowds vary by weekend, holiday and year, and we cannot guarantee any place will be quiet.",
+    "sections": [
+      { "h": "Khirsu (Pauri)", "list": ["Why quiet: small village with orchards and few hotels.", "Best months: March-June and September-November.", "Stay: homestays and small resorts.", "Reach: about 15 km from Pauri; Pauri is 4-5 hours from Rishikesh.", "Network: patchy; confirm with host.", "Suits: couples, families, remote workers with a backup connection."] },
+      { "h": "Kanatal and Dhanaulti", "list": ["Why quiet: small villages in forest, away from main towns.", "Best months: March-June, September-November; snow chance in winter.", "Stay: resorts, camps and homestays.", "Reach: 75-80 km from Dehradun to Kanatal.", "Suits: families and couples."] },
+      { "h": "Chakrata", "list": ["Why quiet: cantonment area with limited hotels.", "Best months: March-June, September-November.", "Reach: 90-100 km from Dehradun.", "Note: some areas are restricted; carry ID."] },
+      { "h": "Peora", "list": ["Why quiet: small village near Nainital with orchards and walks.", "Reach: about 40-50 km from Nainital by road.", "Stay: homestays; limited options.", "Network: patchy in places."] },
+      { "h": "Pangot and Sitla", "list": ["Why quiet: birdwatching villages close to Nainital.", "Best months: October-April for birds.", "Reach: Pangot is about 15 km from Nainital."] },
+      { "h": "Chaukori and Munsiyari", "list": ["Why quiet: far from main routes with long road journeys.", "Best months: March-June, September-November.", "Reach: very long drive from Kathgodam; plan overnight stops.", "Network and ATMs: limited."] },
+      { "h": "Binsar", "list": ["Why quiet: forest sanctuary, few hotels.", "Entry fee and rules apply."] },
+      { "h": "Sari and Deoria Tal", "list": ["Why quiet: small village near Chopta, base for Deoria Tal.", "Best months: March-June, September-November.", "Stay: homestays with local food."] },
+      { "h": "Mana and Harsil", "list": ["Mana: border village near Badrinath, a short visit with local culture.", "Harsil: Bhagirathi valley village with orchards. Dharali and Harsil were hit by a flash flood on 5 August 2025; check lodging and road status."] },
+      { "h": "Responsible tourism", "list": ["Stay in locally owned homestays.", "Respect local customs and sacred sites.", "Carry out your rubbish; many villages have no waste collection.", "Use water and electricity sparingly in remote places."] }
+    ],
+    "faq": [{ "q": "Is it really quiet?", "a": "Quieter than the big hill stations, but not guaranteed. Visit on weekdays to avoid crowds." }]
+  }
+]

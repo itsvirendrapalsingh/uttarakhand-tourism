@@ -1,0 +1,1401 @@
+[
+  {
+    "slug": "dehradun",
+    "name": "Dehradun",
+    "type": "city",
+    "region": "garhwal",
+    "district": "Dehradun",
+    "altitude": "about 640 m",
+    "lat": 30.32,
+    "lng": 78.03,
+    "tags": [
+      "city",
+      "gateway",
+      "family",
+      "sightseeing",
+      "food"
+    ],
+    "tagline": "State capital and the main gateway to Mussoorie and the Garhwal hills",
+    "summary": "Dehradun is the capital of Uttarakhand and the hub for most Garhwal trips. It has the closest major airport (Jolly Grant), a railway station, and frequent buses to the hills. It suits a one-day stop or a night before heading up.",
+    "quick": {
+      "bestTime": "October to April for pleasant weather; summers are hot, monsoon is wet",
+      "duration": "1 day, or a night on the way",
+      "rail": "Dehradun Junction",
+      "air": "Jolly Grant Airport (outside the city, on the Rishikesh side)"
+    },
+    "attractions": [
+      {
+        "name": "Robber's Cave (Guchhupani)",
+        "text": "A river that flows through a narrow limestone gorge; cool and popular in summer."
+      },
+      {
+        "name": "Sahastradhara",
+        "text": "Sulphur springs and a waterfall on the way to Mussoorie."
+      },
+      {
+        "name": "Forest Research Institute",
+        "text": "Colonial-era campus and museums; open to visitors, check timings."
+      },
+      {
+        "name": "Mindrolling Monastery",
+        "text": "Large Tibetan Buddhist monastery with a tall stupa."
+      },
+      {
+        "name": "Paltan Bazaar",
+        "text": "Old market for local snacks, dry fruits and basmati rice."
+      }
+    ],
+    "reach": {
+      "road": "About 5-6 hours by road from Delhi in normal traffic via the Delhi-Dehradun expressway or NH-334; allow more on weekends and holidays.",
+      "rail": "Dehradun Junction connects to Delhi and several other cities.",
+      "air": "Jolly Grant Airport has scheduled flights from major Indian cities. It lies roughly 25 km from the city, towards Rishikesh."
+    },
+    "stay": "Wide range of hotels near the Clock Tower, Rajpur Road and the railway station side. Most visitors use Dehradun only as a base for a night.",
+    "food": "Wide range of restaurants on Rajpur Road. Try momos and Tibetan food around Mindrolling and local sweets in Paltan Bazaar.",
+    "season": "Hot in May-June; humid in monsoon; pleasant from October to March.",
+    "tips": [
+      "If flying in to go straight to Rishikesh, you do not need to enter the city.",
+      "Combine with Mussoorie (about 35 km, roughly 1.5-2 hours)."
+    ],
+    "nearby": [
+      {
+        "name": "Mussoorie",
+        "slug": "mussoorie"
+      },
+      {
+        "name": "Rishikesh",
+        "slug": "rishikesh"
+      },
+      {
+        "name": "Dhanaulti",
+        "slug": "dhanaulti"
+      },
+      {
+        "name": "Chakrata",
+        "slug": "chakrata"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Dehradun worth a full trip?",
+        "a": "It works best as a one-day stop with a day trip to Mussoorie. Most travellers spend longer in the hills."
+      }
+    ]
+  },
+  {
+    "slug": "mussoorie",
+    "name": "Mussoorie",
+    "type": "hill-station",
+    "region": "garhwal",
+    "district": "Dehradun",
+    "altitude": "about 2,000 m",
+    "lat": 30.46,
+    "lng": 78.07,
+    "tags": [
+      "hill-station",
+      "family",
+      "sightseeing",
+      "couples",
+      "colonial"
+    ],
+    "tagline": "Queen of the Hills, a colonial-era hill station above the Doon valley",
+    "summary": "Mussoorie sits on a ridge about 35 km from Dehradun with views of the Doon valley and, on clear days, snow peaks. It is the most visited hill station in Garhwal and gets very crowded on weekends and holidays. Quieter stays are in Landour and nearby Dhanaulti.",
+    "quick": {
+      "bestTime": "March to June and September to November; December-January for cold weather and occasional snow",
+      "duration": "2 nights",
+      "rail": "Dehradun Junction (about 35 km)",
+      "air": "Jolly Grant Airport (roughly 60 km)"
+    },
+    "attractions": [
+      {
+        "name": "Mall Road",
+        "text": "Main promenade with shops, cafes and views. Busiest in the evening."
+      },
+      {
+        "name": "Gun Hill",
+        "text": "Viewpoint reached by a short ropeway or walk."
+      },
+      {
+        "name": "Kempty Falls",
+        "text": "Popular waterfall about 15 km out; very crowded in summer."
+      },
+      {
+        "name": "Camel's Back Road",
+        "text": "Easy 3 km walk, good in the morning."
+      },
+      {
+        "name": "Landour",
+        "text": "Quiet, old cantonment area with cafes and short walks. Good for a slower stay."
+      }
+    ],
+    "reach": {
+      "road": "Dehradun to Mussoorie is about 35 km, usually 1.5-2 hours. Weekend queues on the access road can add a lot.",
+      "rail": "Dehradun is the railhead; taxis and shared cabs run to Mussoorie.",
+      "air": "Jolly Grant Airport, then road via Dehradun."
+    },
+    "stay": "Hotels cluster near Mall Road and the Library area. For quiet, look at Landour or properties outside the main town.",
+    "food": "Cafes in Landour and Mall Road. Trying fresh bun-omelettes and chai at roadside stalls is a local habit.",
+    "season": "Pleasant summers; heavy rain and fog in July-August; cold winters with occasional snow.",
+    "tips": [
+      "Avoid weekend arrivals in May-June if you can; traffic is heavy.",
+      "Vehicle entry to Mall Road is restricted, so plan to walk."
+    ],
+    "nearby": [
+      {
+        "name": "Dhanaulti",
+        "slug": "dhanaulti"
+      },
+      {
+        "name": "Dehradun",
+        "slug": "dehradun"
+      },
+      {
+        "name": "Kanatal",
+        "slug": "kanatal"
+      },
+      {
+        "name": "Chakrata",
+        "slug": "chakrata"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Mussoorie good for snow?",
+        "a": "It sometimes gets light snow in winter but it is not reliable. Dhanaulti and Chakrata are likelier to see snow."
+      }
+    ]
+  },
+  {
+    "slug": "rishikesh",
+    "name": "Rishikesh",
+    "type": "town",
+    "region": "garhwal",
+    "district": "Dehradun and Tehri Garhwal",
+    "altitude": "about 350 m",
+    "lat": 30.09,
+    "lng": 78.27,
+    "image": "rishikesh-yoga",
+    "tags": [
+      "spiritual",
+      "adventure",
+      "yoga",
+      "rafting",
+      "family"
+    ],
+    "tagline": "Yoga capital on the Ganga and gateway to the Char Dham routes",
+    "summary": "Rishikesh is a river town where the Ganga leaves the hills. It is known for ashrams, yoga, the Ganga aarti and white-water rafting, and it is the main road start for Char Dham journeys. Parts of the town are quiet; the Laxman Jhula and Ram Jhula areas are crowded.",
+    "quick": {
+      "bestTime": "September to November and February to May; rafting is suspended in the monsoon, with dates set each year by the local administration",
+      "duration": "2 to 3 days",
+      "rail": "Yog Nagari Rishikesh (limited trains); Haridwar is the main railhead (about 25 km)",
+      "air": "Jolly Grant Airport (about 20 km)"
+    },
+    "attractions": [
+      {
+        "name": "Ganga aarti at Triveni Ghat",
+        "text": "Evening ritual on the riverbank."
+      },
+      {
+        "name": "Ram Jhula and Laxman Jhula",
+        "text": "Footbridges over the Ganga linking ashram and cafe areas."
+      },
+      {
+        "name": "Beatles Ashram (Chaurasi Kutia)",
+        "text": "Abandoned ashram in the forest, now an art-covered site. Check entry rules."
+      },
+      {
+        "name": "River rafting",
+        "text": "Seasonal. Reports disagree on exact season dates and rafting is stopped whenever the river is high (it was halted in late June 2025), so confirm with the local tourism office. Use licensed operators who provide life jackets and helmets."
+      },
+      {
+        "name": "Neelkanth Mahadev temple",
+        "text": "Hill temple reached by road or a long walk."
+      }
+    ],
+    "reach": {
+      "road": "About 230-250 km from Delhi, 5-6 hours in normal traffic; Haridwar to Rishikesh is about 25 km.",
+      "rail": "Yog Nagari Rishikesh station has limited services; most travellers arrive at Haridwar.",
+      "air": "Jolly Grant Airport is about 20 km away."
+    },
+    "stay": "Ashrams, hostels and hotels around Tapovan, Laxman Jhula and the Ganga bank. Ashrams usually have rules about timings and some require advance booking.",
+    "food": "Largely vegetarian town. Cafes in Tapovan and Laxman Jhula serve many cuisines; the core area has restrictions on alcohol and non-vegetarian food.",
+    "season": "Hot in May-June. Monsoon brings high river flows and suspended rafting. Winters are mild but cold at night.",
+    "safety": [
+      "Use only licensed rafting and bungee operators with safety gear.",
+      "Do not swim in the Ganga in high flow.",
+      "Watch for monkeys around the bridges."
+    ],
+    "tips": [
+      "Stay near Tapovan or Laxman Jhula for cafes; stay further out for quiet.",
+      "Respect ashram and temple dress rules."
+    ],
+    "nearby": [
+      {
+        "name": "Haridwar",
+        "slug": "haridwar"
+      },
+      {
+        "name": "Devprayag",
+        "slug": "devprayag"
+      },
+      {
+        "name": "New Tehri",
+        "slug": "new-tehri"
+      },
+      {
+        "name": "Rajaji National Park",
+        "slug": "rajaji-national-park"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I raft in the monsoon?",
+        "a": "Rafting is generally suspended during the monsoon because of high water. Check with licensed operators for the current season."
+      },
+      {
+        "q": "Is Rishikesh safe for solo women?",
+        "a": "It is a popular solo destination. Use normal precautions: stay in reviewed places, avoid isolated areas at night, and keep contacts informed."
+      }
+    ],
+    "verification": "Rafting season dates conflict between sources and were not confirmed by an official notice. Other details are approximate and from general knowledge and secondary sources."
+  },
+  {
+    "slug": "haridwar",
+    "name": "Haridwar",
+    "type": "city",
+    "region": "garhwal",
+    "district": "Haridwar",
+    "altitude": "about 300 m",
+    "lat": 29.95,
+    "lng": 78.16,
+    "tags": [
+      "spiritual",
+      "pilgrimage",
+      "family",
+      "gateway",
+      "aarti"
+    ],
+    "tagline": "One of Hinduism's seven holiest cities, where the Ganga enters the plains",
+    "summary": "Haridwar is a major pilgrimage city on the Ganga and the main railhead for Rishikesh and the Char Dham routes. The evening aarti at Har Ki Pauri is the signature experience. It is very crowded on festival days.",
+    "quick": {
+      "bestTime": "October to March; summers are hot",
+      "duration": "1 day, or a night before a hill journey",
+      "rail": "Haridwar Junction (major railhead)",
+      "air": "Jolly Grant Airport (roughly 35-40 km)"
+    },
+    "attractions": [
+      {
+        "name": "Har Ki Pauri aarti",
+        "text": "Evening Ganga aarti at dusk. Arrive early; the ghat fills up."
+      },
+      {
+        "name": "Mansa Devi Temple",
+        "text": "Hill temple reached by ropeway or on foot."
+      },
+      {
+        "name": "Chandi Devi Temple",
+        "text": "Hilltop temple across the river, reached by ropeway or trek."
+      },
+      {
+        "name": "Maya Devi Temple",
+        "text": "One of the older temples in the city."
+      }
+    ],
+    "reach": {
+      "road": "About 200 km from Delhi, typically 4-5 hours; Rishikesh is about 25 km north.",
+      "rail": "Haridwar Junction has frequent trains from Delhi and other major cities.",
+      "air": "Jolly Grant Airport, then road."
+    },
+    "stay": "Hotels and dharamshalas around Har Ki Pauri, Bhupatwala and the railway station area. Book ahead for festival dates.",
+    "food": "Largely vegetarian local food; sweets such as kachori-sabzi and lassi are common breakfasts.",
+    "season": "Festivals bring large crowds. The Ardh Kumbh at Haridwar is reported (PTI, April 2026) to run from 14 January to 20 April 2027, with bathing days including 14 January, 6 February, 20 February, 6 March, 8 March, 14 April and 20 April. Expect very heavy crowds and traffic controls; confirm the schedule with the mela administration. The Kanwar Yatra in the month of Shravan (July-August) also brings heavy crowds and traffic restrictions.",
+    "safety": [
+      "Hold on to bags and phones in crowded ghats.",
+      "Do not swim at the ghats during high flow."
+    ],
+    "tips": [
+      "Book hotels near Har Ki Pauri early for festival dates.",
+      "Check road diversions during the Kanwar Yatra."
+    ],
+    "nearby": [
+      {
+        "name": "Rishikesh",
+        "slug": "rishikesh"
+      },
+      {
+        "name": "Rajaji National Park",
+        "slug": "rajaji-national-park"
+      },
+      {
+        "name": "Dehradun",
+        "slug": "dehradun"
+      }
+    ],
+    "faq": [
+      {
+        "q": "When is the Kumbh Mela at Haridwar?",
+        "a": "It is held every 12 years, with an Ardh Kumbh at the midpoint. The 2027 Ardh Kumbh is reported to run from 14 January to 20 April 2027; confirm exact bathing dates with the mela administration."
+      }
+    ],
+    "verification": "The 2027 Ardh Kumbh dates come from news reports (PTI) and were not checked against the mela administration. Distances are approximate. Other details are approximate and from general knowledge and secondary sources."
+  },
+  {
+    "slug": "new-tehri",
+    "name": "New Tehri and Tehri Lake",
+    "type": "lake",
+    "region": "garhwal",
+    "district": "Tehri Garhwal",
+    "altitude": "about 1,750 m",
+    "lat": 30.38,
+    "lng": 78.43,
+    "tags": [
+      "lake",
+      "water-sports",
+      "family",
+      "road-trip"
+    ],
+    "tagline": "A planned town above the Tehri reservoir, one of India's tallest dams",
+    "summary": "New Tehri was built to replace old Tehri, which was submerged by the dam. The huge reservoir supports water sports and lakeside stays. It is about 75-80 km from Rishikesh by road and works as a day trip or a night stop.",
+    "quick": {
+      "bestTime": "September to June; water-sport availability varies",
+      "duration": "1 day or 1 night",
+      "rail": "Rishikesh",
+      "air": "Jolly Grant Airport"
+    },
+    "attractions": [
+      {
+        "name": "Tehri Dam and reservoir",
+        "text": "Viewpoints near the dam. Photography and entry rules apply; check on site."
+      },
+      {
+        "name": "Water sports and boating",
+        "text": "Run by licensed operators on the reservoir. Season and availability vary."
+      },
+      {
+        "name": "Surkanda Devi (nearby)",
+        "text": "Hilltop temple on the Dhanaulti side, reached by a short climb."
+      }
+    ],
+    "reach": {
+      "road": "About 75-80 km from Rishikesh via Narendra Nagar and Chamba, about 2.5-3 hours; allow extra for mountain roads.",
+      "rail": "Rishikesh or Dehradun are the railheads.",
+      "air": "Jolly Grant Airport, then road."
+    },
+    "stay": "Lakeside resorts and hotels in New Tehri and Koti Colony; camps on the shore in season.",
+    "food": "Hotel restaurants and dhabas; limited choice outside the town.",
+    "season": "Winters are cold; monsoon rains cause landslides on connecting roads.",
+    "tips": [
+      "Confirm water-sport operations before you travel; reservoir levels vary through the year.",
+      "Combine with Kanatal or Dhanaulti for a hill-station add-on."
+    ],
+    "nearby": [
+      {
+        "name": "Kanatal",
+        "slug": "kanatal"
+      },
+      {
+        "name": "Dhanaulti",
+        "slug": "dhanaulti"
+      },
+      {
+        "name": "Rishikesh",
+        "slug": "rishikesh"
+      },
+      {
+        "name": "Devprayag",
+        "slug": "devprayag"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I visit Tehri Lake as a day trip from Rishikesh?",
+        "a": "Yes, but the drive is long (2.5-3 hours each way), so an overnight stay is more relaxed."
+      }
+    ]
+  },
+  {
+    "slug": "kanatal",
+    "name": "Kanatal",
+    "type": "hill-station",
+    "region": "garhwal",
+    "district": "Tehri Garhwal",
+    "altitude": "about 2,500 m",
+    "lat": 30.41,
+    "lng": 78.32,
+    "tags": [
+      "peaceful",
+      "camping",
+      "couples",
+      "family",
+      "nature"
+    ],
+    "tagline": "Quiet village with orchards, camps and views on the Mussoorie-Chamba road",
+    "summary": "Kanatal is a small hill village between Mussoorie and Chamba. It has camps, resorts and forest walks and is much quieter than Mussoorie, though weekends in peak season fill up. A good first stop for people who want mountain air without a busy town.",
+    "quick": {
+      "bestTime": "March to June, September to November; winter can be cold with occasional snow",
+      "duration": "1 to 2 nights",
+      "rail": "Dehradun or Rishikesh",
+      "air": "Jolly Grant Airport"
+    },
+    "attractions": [
+      {
+        "name": "Surkanda Devi Temple",
+        "text": "Hilltop temple a short climb from the road; views on clear days."
+      },
+      {
+        "name": "Forest and ridge walks",
+        "text": "Easy walks through pine and oak forest."
+      },
+      {
+        "name": "Camping and adventure activities",
+        "text": "Run by camps and resorts; check operators for safety standards."
+      }
+    ],
+    "reach": {
+      "road": "About 75-80 km from Dehradun (about 2.5-3 hours); about 85 km from Rishikesh.",
+      "rail": "Dehradun or Rishikesh, then taxi.",
+      "air": "Jolly Grant Airport, then road."
+    },
+    "stay": "Resorts, camps and homestays around the village. Book ahead for weekends.",
+    "food": "Resort meals; limited eateries in the village.",
+    "season": "Warm days, cool nights in summer; cold winters; monsoon fog and landslides.",
+    "tips": [
+      "Carry cash and a charged phone; services are patchy in places.",
+      "Weekdays are far quieter than weekends."
+    ],
+    "nearby": [
+      {
+        "name": "Dhanaulti",
+        "slug": "dhanaulti"
+      },
+      {
+        "name": "Mussoorie",
+        "slug": "mussoorie"
+      },
+      {
+        "name": "New Tehri and Tehri Lake",
+        "slug": "new-tehri"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Kanatal quiet?",
+        "a": "Relatively quiet on weekdays and off-season. Weekends and holidays are busier."
+      }
+    ]
+  },
+  {
+    "slug": "dhanaulti",
+    "name": "Dhanaulti",
+    "type": "hill-station",
+    "region": "garhwal",
+    "district": "Tehri Garhwal",
+    "altitude": "about 2,200-2,300 m",
+    "lat": 30.42,
+    "lng": 78.25,
+    "tags": [
+      "peaceful",
+      "deodar",
+      "family",
+      "couples",
+      "snow"
+    ],
+    "tagline": "Deodar and pine forests above Mussoorie, quieter and cooler",
+    "summary": "Dhanaulti is a small hill village about 25-30 km from Mussoorie, set in deodar and rhododendron forest. It offers walks and eco parks and sees more snow than Mussoorie in winter.",
+    "quick": {
+      "bestTime": "March to June and October to February (snow likely Dec-Feb)",
+      "duration": "1 to 2 nights",
+      "rail": "Dehradun",
+      "air": "Jolly Grant Airport"
+    },
+    "attractions": [
+      {
+        "name": "Eco Parks",
+        "text": "Forest department parks with walkways; check entry fees and timings."
+      },
+      {
+        "name": "Surkanda Devi Temple",
+        "text": "A short climb from the road at Kaddukhal."
+      },
+      {
+        "name": "Forest walks",
+        "text": "Walks through deodar forest near the village."
+      }
+    ],
+    "reach": {
+      "road": "About 25-30 km from Mussoorie by road; the drive from Dehradun is 2-3 hours depending on the route.",
+      "rail": "Dehradun is the railhead.",
+      "air": "Jolly Grant Airport, then road."
+    },
+    "stay": "Resorts and homestays along the Mussoorie-Chamba road; fewer options than Mussoorie.",
+    "food": "Resort restaurants and small dhabas.",
+    "season": "Snow is possible between December and February. Roads can become slippery; check conditions.",
+    "tips": [
+      "In snow, hire a driver used to mountain roads.",
+      "Carry cash for small shops."
+    ],
+    "nearby": [
+      {
+        "name": "Kanatal",
+        "slug": "kanatal"
+      },
+      {
+        "name": "Mussoorie",
+        "slug": "mussoorie"
+      },
+      {
+        "name": "Chakrata",
+        "slug": "chakrata"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does Dhanaulti get snow?",
+        "a": "Often in winter, but amounts vary year to year. Check recent conditions before you travel."
+      }
+    ]
+  },
+  {
+    "slug": "chakrata",
+    "name": "Chakrata",
+    "type": "hill-station",
+    "region": "garhwal",
+    "district": "Dehradun",
+    "altitude": "about 2,100 m",
+    "lat": 30.7,
+    "lng": 77.87,
+    "tags": [
+      "peaceful",
+      "offbeat",
+      "waterfall",
+      "forest",
+      "cantonment"
+    ],
+    "tagline": "Cantonment hill town with forest, waterfalls and relatively few visitors",
+    "summary": "Chakrata is a quiet town in the Jaunsar-Bawar area. It is a military cantonment, so some areas are restricted. Visitors come for Tiger Falls, forest walks and the Deoban deodar forest.",
+    "quick": {
+      "bestTime": "March to June and September to November; snow possible in winter",
+      "duration": "2 nights",
+      "rail": "Dehradun",
+      "air": "Jolly Grant Airport"
+    },
+    "attractions": [
+      {
+        "name": "Tiger Falls",
+        "text": "A tall waterfall reached by a drive and a walk; best after the monsoon but check conditions."
+      },
+      {
+        "name": "Deoban",
+        "text": "Deodar forest with views; roads can be rough."
+      },
+      {
+        "name": "Chilmiri Neck",
+        "text": "Sunset viewpoint near the town."
+      },
+      {
+        "name": "Lakhamandal",
+        "text": "Ancient temple site on the Yamuna, a long drive from Chakrata."
+      }
+    ],
+    "reach": {
+      "road": "About 90-100 km from Dehradun via Vikasnagar, typically 3-4 hours. Roads are narrow in places.",
+      "rail": "Dehradun is the railhead.",
+      "air": "Jolly Grant Airport, then road."
+    },
+    "stay": "Small hotels, homestays and a GMVN-style rest house; limited choice, so book in advance.",
+    "food": "Simple eateries and hotel meals.",
+    "season": "Cold winters with snow possible; monsoon brings landslides.",
+    "safety": [
+      "Parts of the area are controlled by the military and ID is checked at barriers. Carry ID and obey signage.",
+      "Foreign nationals are reported to be barred from entering, or to need permission from security authorities (sources name different offices). Check with the Dehradun district administration before planning."
+    ],
+    "tips": [
+      "Fill fuel and withdraw cash in Vikasnagar before climbing.",
+      "Do not photograph military installations."
+    ],
+    "nearby": [
+      {
+        "name": "Dhanaulti",
+        "slug": "dhanaulti"
+      },
+      {
+        "name": "Mussoorie",
+        "slug": "mussoorie"
+      },
+      {
+        "name": "Dehradun",
+        "slug": "dehradun"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Are there entry rules for Chakrata?",
+        "a": "Some areas are restricted because of the cantonment, and ID is checked on the road. Foreign nationals are reported to be barred or to need a permit; confirm with the district administration."
+      }
+    ],
+    "verification": "Access rules for foreign nationals come from news and travel guides, not an official notice; confirm with the district administration. Other details are approximate and from general knowledge and secondary sources."
+  },
+  {
+    "slug": "uttarkashi",
+    "name": "Uttarkashi",
+    "type": "town",
+    "region": "garhwal",
+    "district": "Uttarkashi",
+    "altitude": "about 1,150 m",
+    "lat": 30.73,
+    "lng": 78.45,
+    "tags": [
+      "pilgrimage",
+      "adventure",
+      "trek-base",
+      "mountaineering"
+    ],
+    "tagline": "Bhagirathi valley town, gateway to Gangotri and several treks",
+    "summary": "Uttarkashi is the main town on the Gangotri road. It has the Kashi Vishwanath temple and the Nehru Institute of Mountaineering. It is the practical halt before Gangotri and a base for Dayara Bugyal, Dodital and other treks.",
+    "quick": {
+      "bestTime": "April to June and September to November",
+      "duration": "1 night",
+      "rail": "Rishikesh or Dehradun",
+      "air": "Jolly Grant Airport"
+    },
+    "attractions": [
+      {
+        "name": "Vishwanath Temple",
+        "text": "Old temple in the town centre."
+      },
+      {
+        "name": "Nehru Institute of Mountaineering",
+        "text": "Mountaineering institute; check access rules for visitors."
+      },
+      {
+        "name": "Treks nearby",
+        "text": "Dayara Bugyal (via Barsu), Dodital and the Gangotri road treks."
+      }
+    ],
+    "reach": {
+      "road": "About 170 km from Rishikesh via Chamba, usually 6-8 hours depending on road conditions.",
+      "rail": "Rishikesh or Dehradun are the railheads.",
+      "air": "Jolly Grant Airport, then road."
+    },
+    "stay": "Several hotels and guesthouses; the best choice on the route to Gangotri.",
+    "food": "Hotel and dhaba meals.",
+    "season": "The road can be disrupted by monsoon landslides.",
+    "tips": [
+      "Fill fuel and withdraw cash here before going on to Gangotri.",
+      "Book permits for Gaumukh through the forest department in advance."
+    ],
+    "nearby": [
+      {
+        "name": "Gangotri",
+        "slug": "gangotri"
+      },
+      {
+        "name": "Harsil",
+        "slug": "harsil"
+      },
+      {
+        "name": "Yamunotri",
+        "slug": "yamunotri"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Uttarkashi a good overnight stop?",
+        "a": "Yes. It is the largest town on the route to Gangotri and has the most hotels."
+      }
+    ]
+  },
+  {
+    "slug": "harsil",
+    "name": "Harsil and Dharali",
+    "type": "village",
+    "region": "garhwal",
+    "district": "Uttarkashi",
+    "altitude": "about 2,600 m",
+    "lat": 31.04,
+    "lng": 78.74,
+    "tags": [
+      "peaceful",
+      "orchards",
+      "river",
+      "offbeat"
+    ],
+    "tagline": "High Bhagirathi valley villages with apple orchards and Himalayan views",
+    "summary": "Harsil is a small village on the road to Gangotri, with deodar forest, the Bhagirathi river and a military presence. Dharali, nearby, is a village on the road. A major flash flood and debris flow hit Dharali and Harsil on 5 August 2025; the Uttarkashi-Harsil road was restored by late August 2025 but the Gangotri road near Harsil was damaged. We could not confirm 2026 status, so check current road and lodging conditions.",
+    "quick": {
+      "bestTime": "April to June and September to November",
+      "duration": "1 night",
+      "rail": "Rishikesh",
+      "air": "Jolly Grant Airport"
+    },
+    "attractions": [
+      {
+        "name": "Bhagirathi riverside walks",
+        "text": "Easy walks near the village."
+      },
+      {
+        "name": "Mukhba",
+        "text": "Village where the Gangotri deity stays in winter."
+      },
+      {
+        "name": "Orchards",
+        "text": "Apple orchards around the village."
+      }
+    ],
+    "reach": {
+      "road": "About 70-75 km from Uttarkashi on the Gangotri road; Gangotri is roughly 25 km further.",
+      "rail": "Rishikesh is the railhead.",
+      "air": "Jolly Grant Airport, then road."
+    },
+    "stay": "Homestays and small guesthouses; limited rooms and basic facilities.",
+    "food": "Simple meals at guesthouses.",
+    "season": "Closed in parts by snow in winter; monsoon landslides.",
+    "safety": [
+      "Check road and lodging status before you go. Dharali and Harsil were hit by a flash flood on 5 August 2025."
+    ],
+    "tips": [
+      "Carry cash and a power bank; services are limited."
+    ],
+    "nearby": [
+      {
+        "name": "Gangotri",
+        "slug": "gangotri"
+      },
+      {
+        "name": "Uttarkashi",
+        "slug": "uttarkashi"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Harsil open all year?",
+        "a": "The village is inhabited year-round but winter snow can block the road and close many lodges."
+      }
+    ],
+    "verification": "The 5 August 2025 flash flood is confirmed by multiple news reports; 2026 road and lodging status could not be confirmed. Other details are approximate and from general knowledge and secondary sources."
+  },
+  {
+    "slug": "joshimath",
+    "name": "Joshimath",
+    "type": "town",
+    "region": "garhwal",
+    "district": "Chamoli",
+    "altitude": "about 1,900 m",
+    "lat": 30.555,
+    "lng": 79.565,
+    "tags": [
+      "pilgrimage",
+      "gateway",
+      "trek-base"
+    ],
+    "tagline": "Winter seat of Badrinath and the base for Auli and the Valley of Flowers",
+    "summary": "Joshimath is the main halt on the road to Badrinath and the base for Auli and the Valley of Flowers trek via Govindghat. The town has been affected by land subsidence since early 2023. Check official advisories, lodging availability and ropeway status before planning.",
+    "quick": {
+      "bestTime": "April to November for most travel; winter for Auli",
+      "duration": "1 night",
+      "rail": "Rishikesh (about 250 km)",
+      "air": "Jolly Grant Airport"
+    },
+    "attractions": [
+      {
+        "name": "Narsingh Temple",
+        "text": "Temple where the Badrinath deity is worshipped in winter."
+      },
+      {
+        "name": "Auli ropeway",
+        "text": "Cable car to Auli. A PTI report from April 2025 said it had been suspended for safety reasons; we found no official 2026 notice, so confirm before planning around it."
+      },
+      {
+        "name": "Base for Valley of Flowers and Hemkund",
+        "text": "Govindghat is about an hour's drive from Joshimath."
+      }
+    ],
+    "reach": {
+      "road": "About 250 km from Rishikesh via Devprayag, Srinagar, Karnaprayag and Chamoli. Plan a full day; landslides can delay.",
+      "rail": "Rishikesh is the railhead.",
+      "air": "Jolly Grant Airport, then road."
+    },
+    "stay": "Hotels and guesthouses, but availability has been affected by subsidence. Pipalkoti and Auli are alternatives.",
+    "food": "Dhabas and hotel meals.",
+    "season": "Winters bring snow at Auli; monsoon landslides on the highway.",
+    "safety": [
+      "Check current subsidence and road advisories.",
+      "Do not assume any specific building or ropeway is open without checking."
+    ],
+    "tips": [
+      "Consider staying in Pipalkoti or Auli if Joshimath lodging is limited."
+    ],
+    "nearby": [
+      {
+        "name": "Auli",
+        "slug": "auli"
+      },
+      {
+        "name": "Badrinath",
+        "slug": "badrinath"
+      },
+      {
+        "name": "Valley of Flowers and Hemkund Sahib",
+        "slug": "valley-of-flowers"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is it safe to stay in Joshimath?",
+        "a": "Parts of the town have been affected by subsidence. Follow official advisories and choose accommodation certified as safe by authorities."
+      }
+    ],
+    "verification": "Ropeway status comes from a PTI report (April 2025); no official 2026 notice was found. Other details are approximate and from general knowledge and secondary sources."
+  },
+  {
+    "slug": "auli",
+    "name": "Auli",
+    "type": "hill-station",
+    "region": "garhwal",
+    "district": "Chamoli",
+    "altitude": "about 2,500-3,000 m",
+    "lat": 30.527,
+    "lng": 79.571,
+    "tags": [
+      "skiing",
+      "snow",
+      "views",
+      "winter",
+      "family"
+    ],
+    "tagline": "Himalayan ski slope with views of Nanda Devi and neighbouring peaks",
+    "summary": "Auli is a meadow-and-ski area above Joshimath, with long slopes and views of the Nanda Devi group on clear days. Skiing depends on snowfall, usually between January and March. In summer it is a green meadow and a base for treks such as Gorson Bugyal.",
+    "quick": {
+      "bestTime": "January to March for snow; April to June and September to November for views and treks",
+      "duration": "1 to 2 nights",
+      "rail": "Rishikesh (about 260 km)",
+      "air": "Jolly Grant Airport"
+    },
+    "attractions": [
+      {
+        "name": "Ski slopes",
+        "text": "Skiing season depends on snowfall; lessons and gear are available through local operators."
+      },
+      {
+        "name": "Gorson Bugyal",
+        "text": "Meadow trek from Auli."
+      },
+      {
+        "name": "Artificial lake",
+        "text": "A snow-making reservoir; closed or empty in some months."
+      },
+      {
+        "name": "Cable car",
+        "text": "Joshimath-Auli ropeway; reported suspended as of April 2025 (PTI). Confirm current status."
+      }
+    ],
+    "reach": {
+      "road": "About 15 km from Joshimath by a mountain road, or by the ropeway if it is running. Snow can block the Joshimath-Auli road in winter.",
+      "rail": "Rishikesh, then a long road journey via Joshimath.",
+      "air": "Jolly Grant Airport, then road."
+    },
+    "stay": "GMVN and private hotels; book early for ski season.",
+    "food": "Hotel meals; limited eateries.",
+    "season": "Heavy snow can close the road; carry chains if driving.",
+    "tips": [
+      "Confirm that snow is on the slopes before booking a ski trip.",
+      "Check Joshimath advisories before travelling."
+    ],
+    "nearby": [
+      {
+        "name": "Joshimath",
+        "slug": "joshimath"
+      },
+      {
+        "name": "Badrinath",
+        "slug": "badrinath"
+      },
+      {
+        "name": "Valley of Flowers and Hemkund Sahib",
+        "slug": "valley-of-flowers"
+      }
+    ],
+    "faq": [
+      {
+        "q": "When is the skiing season?",
+        "a": "Usually January to March, but it depends on snowfall in a given year."
+      }
+    ],
+    "verification": "Ropeway status comes from a PTI report (April 2025); no official 2026 notice was found. Other details are approximate and from general knowledge and secondary sources."
+  },
+  {
+    "slug": "chopta-tungnath",
+    "name": "Chopta and Tungnath",
+    "type": "meadow",
+    "region": "garhwal",
+    "district": "Rudraprayag",
+    "altitude": "Chopta about 2,700 m; Tungnath about 3,680 m",
+    "lat": 30.49,
+    "lng": 79.2,
+    "tags": [
+      "trek",
+      "meadow",
+      "temple",
+      "peaceful",
+      "snow",
+      "camping"
+    ],
+    "tagline": "Forest meadows and the highest Shiva temple, with an easy short trek",
+    "summary": "Chopta is a small settlement in rhododendron and oak forest. From here an easy trek leads to Tungnath, among the highest Shiva temples, and onward to Chandrashila. The temple closes in winter. Many call Chopta the 'mini Switzerland' of Uttarakhand.",
+    "quick": {
+      "bestTime": "March to June and September to November; December-March for snow",
+      "duration": "2 nights",
+      "rail": "Rishikesh",
+      "air": "Jolly Grant Airport"
+    },
+    "attractions": [
+      {
+        "name": "Tungnath Temple",
+        "text": "About 3.5-4 km walk from Chopta on a paved path."
+      },
+      {
+        "name": "Chandrashila summit",
+        "text": "Short climb beyond Tungnath for wide views, around 4,000 m."
+      },
+      {
+        "name": "Deoria Tal",
+        "text": "Small lake reached from Sari village, with a reflection of the Chaukhamba peaks on clear days."
+      }
+    ],
+    "reach": {
+      "road": "Rishikesh to Chopta is about 220 km via Rudraprayag and Ukhimath, usually 8-9 hours; allow time for mountain roads.",
+      "rail": "Rishikesh or Haridwar are the railheads.",
+      "air": "Jolly Grant Airport, then road."
+    },
+    "stay": "Small hotels, camps and a GMVN lodge at Chopta; more choice at Ukhimath, Sari and Duggalbitta.",
+    "food": "Basic dhabas and camp meals.",
+    "season": "Snow in winter; the Tungnath temple is closed in winter.",
+    "safety": [
+      "Snow can hide the trail; hire a local guide in winter.",
+      "Altitude symptoms are possible at 3,500 m and above."
+    ],
+    "tips": [
+      "Start the Tungnath walk early; clouds roll in by midday.",
+      "Carry rain gear even in summer."
+    ],
+    "nearby": [
+      {
+        "name": "Kedarnath",
+        "slug": "kedarnath"
+      },
+      {
+        "name": "Rudraprayag"
+      },
+      {
+        "name": "Ukhimath"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How hard is the Tungnath walk?",
+        "a": "It is a short, steady climb on a paved trail, suitable for most fit beginners. Allow longer if you go on to Chandrashila."
+      }
+    ]
+  },
+  {
+    "slug": "devprayag",
+    "name": "Devprayag",
+    "type": "confluence",
+    "region": "garhwal",
+    "district": "Tehri Garhwal",
+    "altitude": "about 475 m",
+    "lat": 30.146,
+    "lng": 78.598,
+    "tags": [
+      "pilgrimage",
+      "confluence",
+      "road-trip"
+    ],
+    "tagline": "The confluence where the Alaknanda and Bhagirathi form the Ganga",
+    "summary": "Devprayag is the sacred confluence where the Alaknanda and Bhagirathi join to become the Ganga. It is on the Rishikesh-Badrinath road and is a natural stop for a break.",
+    "quick": {
+      "bestTime": "October to March; summers are hot",
+      "duration": "A short stop (1 to 2 hours)",
+      "rail": "Rishikesh",
+      "air": "Jolly Grant Airport"
+    },
+    "attractions": [
+      {
+        "name": "Sangam viewpoint",
+        "text": "Viewing area where the two rivers meet."
+      },
+      {
+        "name": "Raghunath Temple",
+        "text": "Old temple above the confluence."
+      }
+    ],
+    "reach": {
+      "road": "About 70 km from Rishikesh on the NH-7, usually 2-2.5 hours.",
+      "rail": "Rishikesh, then road.",
+      "air": "Jolly Grant Airport, then road."
+    },
+    "stay": "Few options; most visitors do not stay overnight.",
+    "food": "Roadside dhabas.",
+    "season": "Rivers are strong and muddy in monsoon; take care near the edge.",
+    "tips": [
+      "Plan a tea or lunch halt here on Char Dham or Kedarnath routes."
+    ],
+    "nearby": [
+      {
+        "name": "Rishikesh",
+        "slug": "rishikesh"
+      },
+      {
+        "name": "Srinagar"
+      },
+      {
+        "name": "New Tehri and Tehri Lake",
+        "slug": "new-tehri"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How long should I stay at Devprayag?",
+        "a": "Most visitors stop for an hour or two on the road."
+      }
+    ]
+  },
+  {
+    "slug": "khirsu",
+    "name": "Khirsu and Pauri",
+    "type": "village",
+    "region": "garhwal",
+    "district": "Pauri Garhwal",
+    "altitude": "about 1,700 m",
+    "lat": 30.16,
+    "lng": 78.86,
+    "tags": [
+      "peaceful",
+      "offbeat",
+      "orchards",
+      "birding",
+      "workation"
+    ],
+    "tagline": "Quiet village above Pauri with orchards, forest and Himalayan views",
+    "summary": "Khirsu is a small village about 15 km from Pauri town, with apple orchards and deodar forest. It is relatively quiet with a handful of homestays and a few hotels. Pauri offers a town base with views of the snow peaks on clear days.",
+    "quick": {
+      "bestTime": "March to June and September to November",
+      "duration": "2 nights",
+      "rail": "Rishikesh (about 130 km) or Kotdwar",
+      "air": "Jolly Grant Airport"
+    },
+    "attractions": [
+      {
+        "name": "Orchards and village walks",
+        "text": "Easy walks through orchards and forest."
+      },
+      {
+        "name": "Kyunkaleshwar Temple (Pauri)",
+        "text": "Hill temple above Pauri."
+      },
+      {
+        "name": "Himalayan viewpoints",
+        "text": "Views of snow peaks on clear days."
+      }
+    ],
+    "reach": {
+      "road": "Khirsu is about 15 km from Pauri; Pauri is about 110-130 km from Rishikesh by road via Srinagar or Devprayag, around 4-5 hours.",
+      "rail": "Rishikesh or Kotdwar, then taxi.",
+      "air": "Jolly Grant Airport, then road."
+    },
+    "stay": "Homestays and small resorts; book ahead in season.",
+    "food": "Home-cooked meals at homestays.",
+    "season": "Cold winters; monsoon fog.",
+    "tips": [
+      "Mobile signal can be patchy; download maps offline.",
+      "Check last-mile road conditions with your host."
+    ],
+    "nearby": [
+      {
+        "name": "Lansdowne",
+        "slug": "lansdowne"
+      },
+      {
+        "name": "Devprayag",
+        "slug": "devprayag"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Khirsu good for remote work?",
+        "a": "Network can be unreliable. Confirm Wi-Fi with your host before you plan remote work."
+      }
+    ]
+  },
+  {
+    "slug": "lansdowne",
+    "name": "Lansdowne",
+    "type": "hill-station",
+    "region": "garhwal",
+    "district": "Pauri Garhwal",
+    "altitude": "about 1,700 m",
+    "lat": 29.84,
+    "lng": 78.68,
+    "tags": [
+      "peaceful",
+      "cantonment",
+      "family",
+      "colonial"
+    ],
+    "tagline": "Quiet cantonment hill station with a colonial feel",
+    "summary": "Lansdowne is a small cantonment town built by the British, now home to the Garhwal Rifles. It is clean, quiet and has a few short sights. Kotdwar is the nearest railhead.",
+    "quick": {
+      "bestTime": "March to June and September to November",
+      "duration": "1 night",
+      "rail": "Kotdwar (about 40 km)",
+      "air": "Jolly Grant Airport (long road trip)"
+    },
+    "attractions": [
+      {
+        "name": "Garhwal Rifles Regimental Museum",
+        "text": "Museum of the regiment's history."
+      },
+      {
+        "name": "Bhulla Tal",
+        "text": "Small lake maintained by the army."
+      },
+      {
+        "name": "St. Mary's Church",
+        "text": "Old church in the cantonment."
+      }
+    ],
+    "reach": {
+      "road": "About 40 km from Kotdwar; Delhi to Kotdwar is roughly 5 hours by road.",
+      "rail": "Kotdwar railway station.",
+      "air": "Jolly Grant Airport is far; most visitors drive from Delhi or Haridwar."
+    },
+    "stay": "Small hotels and GMVN lodge.",
+    "food": "Local eateries and hotel restaurants.",
+    "season": "Pleasant for most of the year; cold winters.",
+    "tips": [
+      "Carry ID; parts are military-controlled."
+    ],
+    "nearby": [
+      {
+        "name": "Khirsu and Pauri",
+        "slug": "khirsu"
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many days do I need?",
+        "a": "One night is enough for the main sights."
+      }
+    ]
+  },
+  {
+    "slug": "valley-of-flowers",
+    "name": "Valley of Flowers and Hemkund Sahib",
+    "type": "park",
+    "region": "garhwal",
+    "district": "Chamoli",
+    "altitude": "Valley about 3,600 m; Hemkund Sahib about 4,300 m",
+    "lat": 30.73,
+    "lng": 79.605,
+    "tags": [
+      "trek",
+      "flowers",
+      "national-park",
+      "pilgrimage",
+      "monsoon"
+    ],
+    "tagline": "UNESCO World Heritage alpine valley, and the Sikh shrine of Hemkund Sahib",
+    "summary": "The Valley of Flowers National Park is an alpine valley that bursts into bloom in the monsoon months. It is part of the Nanda Devi and Valley of Flowers National Parks World Heritage Site. The base is Ghangaria, reached by a trek from Govindghat. Hemkund Sahib lies on a separate steep trail from Ghangaria.",
+    "quick": {
+      "bestTime": "Valley: roughly July to September for bloom; open season is usually June to October; check dates",
+      "duration": "4 to 5 days from Joshimath",
+      "rail": "Rishikesh",
+      "air": "Jolly Grant Airport"
+    },
+    "attractions": [
+      {
+        "name": "Valley of Flowers",
+        "text": "A few kilometres of walking trail beyond Ghangaria. The park has entry rules and daily timings."
+      },
+      {
+        "name": "Hemkund Sahib",
+        "text": "Sikh gurdwara beside a glacial lake, about 4,300 m above sea level, reached by a steep walk from Ghangaria."
+      },
+      {
+        "name": "Ghangaria",
+        "text": "Small village with lodges and a gurdwara, used as the base."
+      }
+    ],
+    "reach": {
+      "road": "Joshimath to Govindghat is about 20-25 km by road (around an hour). From Govindghat the walk to Ghangaria is about 13 km; ponies and porters are available. Helicopter shuttles run in season.",
+      "rail": "Rishikesh, then a long road drive.",
+      "air": "Jolly Grant Airport, then road to Joshimath."
+    },
+    "lastMile": "From Govindghat you walk or ride a pony to Ghangaria (helicopter shuttles also run in season). The Valley is a further walk from there; the park may close the trail in bad weather.",
+    "stay": "Lodges and the gurdwara at Ghangaria; Govindghat has basic hotels. Booking ahead is wise in July-August.",
+    "food": "Simple vegetarian meals at Ghangaria; langar at the gurdwara.",
+    "season": "The park opened on 1 June 2026 and was reported to stay open until 31 October 2026. Entry is reported as 7 am to 2 pm with visitors leaving by about 5 pm, and overnight stays in the valley are not allowed. Permits can be bought online or at the forest counter in Ghangaria. Fees are reported inconsistently (Rs 150-200 for Indians, Rs 600-800 for foreigners) and a daily cap of 300 appears in only one source, so confirm with the forest department. Landslides on the route are common in monsoon.",
+    "safety": [
+      "Landslides on the Govindghat trail can block the route.",
+      "Altitude: Ghangaria is about 3,000 m; Hemkund is much higher.",
+      "Do not pick flowers or leave the trail."
+    ],
+    "tips": [
+      "Allow 4-5 days so you can rest at Ghangaria.",
+      "Carry rain gear and warm layers."
+    ],
+    "nearby": [
+      {
+        "name": "Joshimath",
+        "slug": "joshimath"
+      },
+      {
+        "name": "Auli",
+        "slug": "auli"
+      },
+      {
+        "name": "Badrinath",
+        "slug": "badrinath"
+      }
+    ],
+    "faq": [
+      {
+        "q": "When do the flowers bloom?",
+        "a": "Typically from July to September, with the heaviest bloom in July-August. Exact timing varies with the weather."
+      }
+    ],
+    "verification": "Opening dates, timings and permit places come from 2026 news and travel guides; fees conflict between sources and were not confirmed by the forest department. Other details are approximate and from general knowledge and secondary sources."
+  },
+  {
+    "slug": "mana",
+    "name": "Mana Village",
+    "type": "village",
+    "region": "garhwal",
+    "district": "Chamoli",
+    "altitude": "about 3,200 m",
+    "lat": 30.77,
+    "lng": 79.51,
+    "tags": [
+      "village",
+      "border",
+      "culture",
+      "short-trip"
+    ],
+    "tagline": "The last motorable village before the Tibet border area, a short drive from Badrinath",
+    "summary": "Mana is a village about 3 km from Badrinath, home to the Bhotiya community. It is the last settlement on this road. Visitors come for Vyas Gufa, Ganesh Gufa, Bhim Pul and the walk to Vasudhara falls.",
+    "quick": {
+      "bestTime": "May to October, when the road is clear",
+      "duration": "A half day from Badrinath",
+      "rail": "Rishikesh",
+      "air": "Jolly Grant Airport"
+    },
+    "attractions": [
+      {
+        "name": "Vyas Gufa and Ganesh Gufa",
+        "text": "Caves linked to the Mahabharata and Ganesh."
+      },
+      {
+        "name": "Bhim Pul",
+        "text": "Natural rock bridge over the Saraswati river."
+      },
+      {
+        "name": "Vasudhara Falls",
+        "text": "Waterfall reached by a walk beyond Mana; check trail conditions."
+      }
+    ],
+    "reach": {
+      "road": "About 3 km from Badrinath by road.",
+      "rail": "Rishikesh, then road.",
+      "air": "Jolly Grant Airport, then road."
+    },
+    "stay": "No major lodging in Mana; stay in Badrinath or Joshimath.",
+    "food": "Small tea shops serve local snacks.",
+    "season": "Closed by snow in winter when residents move down.",
+    "safety": [
+      "Border area; carry ID and follow instructions from the army and ITBP."
+    ],
+    "tips": [
+      "Visit after your Badrinath darshan on the same day."
+    ],
+    "nearby": [
+      {
+        "name": "Badrinath",
+        "slug": "badrinath"
+      },
+      {
+        "name": "Joshimath",
+        "slug": "joshimath"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do I need a permit for Mana?",
+        "a": "Visitors normally need only ID for the village. Treks beyond may need permits; check locally."
+      }
+    ]
+  },
+  {
+    "slug": "rajaji-national-park",
+    "name": "Rajaji National Park",
+    "type": "park",
+    "region": "garhwal",
+    "district": "Haridwar, Dehradun and Pauri",
+    "altitude": "about 300-1,000 m",
+    "lat": 30.0,
+    "lng": 78.2,
+    "tags": [
+      "wildlife",
+      "national-park",
+      "safari",
+      "elephants"
+    ],
+    "tagline": "Forest reserve near Haridwar and Rishikesh, known for elephants",
+    "summary": "Rajaji is a large protected forest spread across Haridwar, Dehradun and Pauri districts. It is known for its elephant population and offers jeep safaris from a few gateways such as Chilla and Motichur. It is an easy add-on from Haridwar or Rishikesh.",
+    "quick": {
+      "bestTime": "November to June; most ranges close in monsoon",
+      "duration": "Half to one day",
+      "rail": "Haridwar",
+      "air": "Jolly Grant Airport"
+    },
+    "attractions": [
+      {
+        "name": "Jeep safari",
+        "text": "Run through the park's gateways. Sightings are never guaranteed."
+      },
+      {
+        "name": "Chilla range",
+        "text": "Near Haridwar and Rishikesh, a common safari entry."
+      }
+    ],
+    "reach": {
+      "road": "Chilla gate is close to Haridwar (about 10-15 km); Rishikesh is nearby.",
+      "rail": "Haridwar.",
+      "air": "Jolly Grant Airport."
+    },
+    "stay": "Hotels in Haridwar and Rishikesh, plus eco camps near the gates.",
+    "food": "Hotel and camp meals.",
+    "season": "Monsoon closure for most zones; summer is hot.",
+    "safety": [
+      "Stay in the vehicle during safari; follow the guide."
+    ],
+    "tips": [
+      "Book safaris through the official forest department channels; confirm opening dates for the season."
+    ],
+    "nearby": [
+      {
+        "name": "Haridwar",
+        "slug": "haridwar"
+      },
+      {
+        "name": "Rishikesh",
+        "slug": "rishikesh"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Will I see an elephant?",
+        "a": "Possibly, but sightings are never guaranteed. Dawn and dusk give the best chances."
+      }
+    ]
+  }
+]

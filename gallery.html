@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery - Uttarakhand Tourism</title>
+    <meta name="description" content="Photographs of Uttarakhand mountains, treks and culture.">
+    <link rel="canonical" href="https://www.uttarakhandtourismcenter.com/gallery.html">
+    <meta property="og:title" content="Gallery - Uttarakhand Tourism">
+    <meta property="og:description" content="Photographs of Uttarakhand mountains, treks and culture.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.uttarakhandtourismcenter.com/gallery.html">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+
 </head>
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header>
         <nav class="navbar">
             <div class="container">
@@ -24,245 +32,29 @@
                 <ul class="nav-menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="treks/index.html">Treks</a></li>
+                    <li><a href="itineraries/index.html">Itineraries</a></li>
+                    <li><a href="char-dham/index.html">Char Dham</a></li>
+                    <li><a href="best-time/index.html">Best Time</a></li>
+                    <li><a href="plan/index.html">Plan</a></li>
                     <li><a href="gallery.html" class="active">Gallery</a></li>
-                    <li><a href="plan-trip.html">Plan Your Trip</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="explore/index.html" aria-label="Search"><i class="fas fa-search"></i></a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="page-hero gallery-hero" style="background-image: url('images/heroes/gallery-hero.jpg');">
-            <div class="hero-content">
-                <h1>Photo Gallery</h1>
-                <p>Witness the breathtaking beauty of Uttarakhand through our collection of stunning images</p>
-            </div>
-        </section>
-
-        <!-- Gallery Overview -->
+    <main id="main">
+<section class="guide-hero"><div class="container"><h1>Photo Gallery</h1><p>Photographs of Himalayan landscapes, treks and culture</p></div></section>
         <section class="gallery-overview container">
-            <div class="section-header">
-                <h2>Explore Uttarakhand</h2>
-                <div class="divider"></div>
-                <p>From majestic mountain peaks to serene lakes, from ancient temples to vibrant culture - discover the diverse beauty of Uttarakhand through our curated collection of photographs.</p>
-            </div>
-
             <div class="gallery-filter">
                 <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="mountains">Mountains</button>
-                <button class="filter-btn" data-filter="temples">Temples</button>
-                <button class="filter-btn" data-filter="lakes">Lakes</button>
-                <button class="filter-btn" data-filter="wildlife">Wildlife</button>
-                <button class="filter-btn" data-filter="culture">Culture</button>
+                <button class="filter-btn" data-filter="mountains">Mountains</button><button class="filter-btn" data-filter="trekking">Trekking</button><button class="filter-btn" data-filter="landscape">Landscapes</button><button class="filter-btn" data-filter="culture">Culture</button>
             </div>
-
-            <div class="gallery-grid">
-                <!-- Mountain Images -->
-                <div class="gallery-item mountains">
-                    <img src="images/gallery/nanda-devi.jpg" alt="Nanda Devi Peak">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Nanda Devi Peak</h3>
-                            <p>Second highest mountain in India</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item mountains">
-                    <img src="images/gallery/trishul-peak.jpg" alt="Trishul Peak">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Trishul Peak</h3>
-                            <p>A group of three Himalayan peaks resembling a trident</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item mountains">
-                    <img src="images/gallery/auli-mountains.jpg" alt="Auli Mountains">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Auli Mountains</h3>
-                            <p>Snow-capped peaks near the skiing destination</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item mountains">
-                    <img src="images/gallery/panchachuli.jpg" alt="Panchachuli Peaks">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Panchachuli Peaks</h3>
-                            <p>Five snow-capped peaks resembling cooking hearths</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Temple Images -->
-                <div class="gallery-item temples">
-                    <img src="images/gallery/kedarnath-temple.jpg" alt="Kedarnath Temple">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Kedarnath Temple</h3>
-                            <p>Ancient stone temple dedicated to Lord Shiva</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item temples">
-                    <img src="images/gallery/badrinath-temple.jpg" alt="Badrinath Temple">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Badrinath Temple</h3>
-                            <p>Sacred shrine dedicated to Lord Vishnu</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item temples">
-                    <img src="images/gallery/rishikesh-temple.jpg" alt="Temple in Rishikesh">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Rishikesh Temple</h3>
-                            <p>Spiritual sanctuary on the banks of the Ganges</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item temples culture">
-                    <img src="images/gallery/ganga-aarti.jpg" alt="Ganga Aarti in Haridwar">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Ganga Aarti</h3>
-                            <p>Evening ritual at Har Ki Pauri, Haridwar</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Lake Images -->
-                <div class="gallery-item lakes">
-                    <img src="images/gallery/naini-lake.jpg" alt="Naini Lake">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Naini Lake</h3>
-                            <p>The emerald gem of Nainital</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item lakes">
-                    <img src="images/gallery/bhimtal.jpg" alt="Bhimtal Lake">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Bhimtal Lake</h3>
-                            <p>Largest lake in Kumaon region</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item lakes">
-                    <img src="images/gallery/sattal.jpg" alt="Sattal Lakes">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Sattal Lakes</h3>
-                            <p>Interconnected group of seven freshwater lakes</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item lakes">
-                    <img src="images/gallery/khurpatal.jpg" alt="Khurpatal Lake">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Khurpatal Lake</h3>
-                            <p>Serene lake surrounded by terraced farms</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Wildlife Images -->
-                <div class="gallery-item wildlife">
-                    <img src="images/gallery/tiger-corbett.jpg" alt="Tiger at Jim Corbett">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Bengal Tiger</h3>
-                            <p>Magnificent predator at Jim Corbett National Park</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item wildlife">
-                    <img src="images/gallery/elephant-corbett.jpg" alt="Elephant at Jim Corbett">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Wild Elephants</h3>
-                            <p>Gentle giants roaming in Jim Corbett National Park</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item wildlife">
-                    <img src="images/gallery/himalayan-birds.jpg" alt="Himalayan Birds">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Himalayan Birds</h3>
-                            <p>Colorful avian species in the mountains</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item wildlife">
-                    <img src="images/gallery/leopard.jpg" alt="Leopard">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Leopard</h3>
-                            <p>Elusive big cat in the forests of Uttarakhand</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Culture Images -->
-                <div class="gallery-item culture">
-                    <img src="images/gallery/local-festival.jpg" alt="Local Festival">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Traditional Festival</h3>
-                            <p>Vibrant celebration of local culture and traditions</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item culture">
-                    <img src="images/gallery/folk-dance.jpg" alt="Folk Dance">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Folk Dance</h3>
-                            <p>Traditional dance performance by local artists</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item culture">
-                    <img src="images/gallery/local-cuisine.jpg" alt="Local Cuisine">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Pahadi Cuisine</h3>
-                            <p>Authentic mountain delicacies of Uttarakhand</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item culture">
-                    <img src="images/gallery/village-life.jpg" alt="Village Life">
-                    <div class="gallery-overlay">
-                        <div class="overlay-content">
-                            <h3>Village Life</h3>
-                            <p>Glimpse into the traditional lifestyle of mountain people</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Submit Photo Section -->
-        <section class="submit-photo container">
-            <div class="section-header">
-                <h2>Share Your Experience</h2>
-                <div class="divider"></div>
-                <p>Have you visited Uttarakhand? Share your beautiful photographs with us and get featured in our gallery.</p>
-            </div>
-            <div class="submit-photo-cta">
-                <p>Send your high-resolution images along with details (location, date, brief description) to:</p>
-                <p><strong>photos@uttarakhandtourism.com</strong></p>
-                <a href="contact.html" class="btn btn-primary">Contact Us</a>
-            </div>
+            <div class="gallery-grid"><div class="gallery-item mountains"><a href="images/opt/overview-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/overview-640.jpg" srcset="images/opt/overview-640.jpg 640w, images/opt/overview-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="428" alt="Snow-capped Himalayan peak above forested valleys under a blue sky" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Mountains</h3><p>Snow-capped Himalayan peak above forested valleys under a blue sky</p></div></div></div><div class="gallery-item trekking"><a href="images/opt/camp-snow-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/camp-snow-640.jpg" srcset="images/opt/camp-snow-640.jpg 640w, images/opt/camp-snow-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="427" alt="Colourful tents pitched on a snowy Himalayan ridge below a snow peak" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Trekking</h3><p>Colourful tents pitched on a snowy Himalayan ridge below a snow peak</p></div></div></div><div class="gallery-item mountains"><a href="images/opt/pines-peaks-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/pines-peaks-640.jpg" srcset="images/opt/pines-peaks-640.jpg 640w, images/opt/pines-peaks-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="427" alt="Snow-covered peaks seen through pine trees under a blue sky" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Mountains</h3><p>Snow-covered peaks seen through pine trees under a blue sky</p></div></div></div><div class="gallery-item mountains"><a href="images/opt/snow-ridge-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/snow-ridge-640.jpg" srcset="images/opt/snow-ridge-640.jpg 640w, images/opt/snow-ridge-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="427" alt="Snowy ridge in the foreground with a Himalayan range fading into haze" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Mountains</h3><p>Snowy ridge in the foreground with a Himalayan range fading into haze</p></div></div></div><div class="gallery-item landscape"><a href="images/opt/dog-peaks-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/dog-peaks-640.jpg" srcset="images/opt/dog-peaks-640.jpg 640w, images/opt/dog-peaks-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="392" alt="A golden dog resting on a hillside with snow peaks behind" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Landscapes</h3><p>A golden dog resting on a hillside with snow peaks behind</p></div></div></div><div class="gallery-item culture"><a href="images/opt/rishikesh-dance-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/rishikesh-dance-640.jpg" srcset="images/opt/rishikesh-dance-640.jpg 640w, images/opt/rishikesh-dance-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="427" alt="A woman in a turquoise sari dancing on a riverbank in front of a temple complex in Rishikesh" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Culture</h3><p>A woman in a turquoise sari dancing on a riverbank in front of a temple complex in Rishikesh</p></div></div></div><div class="gallery-item culture"><a href="images/opt/rishikesh-yoga-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/rishikesh-yoga-640.jpg" srcset="images/opt/rishikesh-yoga-640.jpg 640w, images/opt/rishikesh-yoga-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="427" alt="Yoga practice on the Ganga bank with the Rishikesh temple complex behind" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Culture</h3><p>Yoga practice on the Ganga bank with the Rishikesh temple complex behind &middot; Photo: Yoga Course India / Pexels</p></div></div></div><div class="gallery-item mountains"><a href="images/opt/ridge-haze-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/ridge-haze-640.jpg" srcset="images/opt/ridge-haze-640.jpg 640w, images/opt/ridge-haze-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="960" alt="Snowy ridgeline and valley in blue haze" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Mountains</h3><p>Snowy ridgeline and valley in blue haze &middot; Photo: K S Aravinda Kashyap / Pexels</p></div></div></div><div class="gallery-item trekking"><a href="images/opt/snow-pines-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/snow-pines-640.jpg" srcset="images/opt/snow-pines-640.jpg 640w, images/opt/snow-pines-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="960" alt="Snow-dusted pine forest slope under a bright sky" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Trekking</h3><p>Snow-dusted pine forest slope under a bright sky &middot; Photo: K S Aravinda Kashyap / Pexels</p></div></div></div><div class="gallery-item mountains"><a href="images/opt/snow-bowl-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/snow-bowl-640.jpg" srcset="images/opt/snow-bowl-640.jpg 640w, images/opt/snow-bowl-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="427" alt="Snow-covered peaks and a wide snow bowl" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Mountains</h3><p>Snow-covered peaks and a wide snow bowl &middot; Photo: K S Aravinda Kashyap / Pexels</p></div></div></div><div class="gallery-item trekking"><a href="images/opt/tents-blue-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/tents-blue-640.jpg" srcset="images/opt/tents-blue-640.jpg 640w, images/opt/tents-blue-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="841" alt="Orange and red tents at a trek campsite under a deep blue sky" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Trekking</h3><p>Orange and red tents at a trek campsite under a deep blue sky &middot; Photo: K S Aravinda Kashyap / Pexels</p></div></div></div><div class="gallery-item mountains"><a href="images/opt/snow-slope-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/snow-slope-640.jpg" srcset="images/opt/snow-slope-640.jpg 640w, images/opt/snow-slope-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="427" alt="A wide, unbroken snow slope on a high Himalayan ridge" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Mountains</h3><p>A wide, unbroken snow slope on a high Himalayan ridge &middot; Photo: K S Aravinda Kashyap / Pexels</p></div></div></div><div class="gallery-item mountains"><a href="images/opt/forest-range-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/forest-range-640.jpg" srcset="images/opt/forest-range-640.jpg 640w, images/opt/forest-range-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="427" alt="Pine forest ridge with a long Himalayan snow range behind" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Mountains</h3><p>Pine forest ridge with a long Himalayan snow range behind &middot; Photo: K S Aravinda Kashyap / Pexels</p></div></div></div><div class="gallery-item culture"><a href="images/opt/yoga-studio-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/yoga-studio-640.jpg" srcset="images/opt/yoga-studio-640.jpg 640w, images/opt/yoga-studio-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="427" alt="A group practising yoga postures in a studio" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Culture</h3><p>A group practising yoga postures in a studio &middot; Photo: Kundalini Yoga Ashram / Pexels</p></div></div></div><div class="gallery-item landscape"><a href="images/opt/green-hills-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/green-hills-640.jpg" srcset="images/opt/green-hills-640.jpg 640w, images/opt/green-hills-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="360" alt="Green forested hills and a hazy valley at sunset" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Landscapes</h3><p>Green forested hills and a hazy valley at sunset &middot; Photo: Shaurya Malik / Pexels</p></div></div></div><div class="gallery-item culture"><a href="images/opt/sadhu-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/sadhu-640.jpg" srcset="images/opt/sadhu-640.jpg 640w, images/opt/sadhu-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="454" alt="A sadhu in an ornate patterned turban" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Culture</h3><p>A sadhu in an ornate patterned turban &middot; Photo: Soubhagya23 / Pexels</p></div></div></div><div class="gallery-item mountains"><a href="images/opt/peaks-clouds-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/peaks-clouds-640.jpg" srcset="images/opt/peaks-clouds-640.jpg 640w, images/opt/peaks-clouds-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="427" alt="Rugged snow peaks under dramatic clouds" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Mountains</h3><p>Rugged snow peaks under dramatic clouds &middot; Photo: Saiteja Varma / Unsplash</p></div></div></div><div class="gallery-item trekking"><a href="images/opt/trekker-ridge-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/trekker-ridge-640.jpg" srcset="images/opt/trekker-ridge-640.jpg 640w, images/opt/trekker-ridge-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="427" alt="A trekker with a blue backpack on a grassy ridge facing a snow range" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Trekking</h3><p>A trekker with a blue backpack on a grassy ridge facing a snow range &middot; Photo: Saiteja Varma / Unsplash</p></div></div></div><div class="gallery-item landscape"><a href="images/opt/village-terraces-1600.jpg" target="_blank" rel="noopener"><img class="" src="images/opt/village-terraces-640.jpg" srcset="images/opt/village-terraces-640.jpg 640w, images/opt/village-terraces-1600.jpg 1600w" sizes="(min-width: 900px) 360px, 100vw" width="640" height="427" alt="Hill village and green terraced fields under low cloud" loading="lazy" decoding="async" onerror="this.onerror=null;this.style.visibility='hidden'"></a><div class="gallery-overlay"><div class="overlay-content"><h3>Landscapes</h3><p>Hill village and green terraced fields under low cloud &middot; Photo: Vivek / Unsplash</p></div></div></div></div>
+            <p class="note">Captions describe what the photo shows and do not claim a specific location unless stated. Credits are taken from the original file names where available; photos without a credit still need their source and licence confirmed.</p>
+            <div class="submit-photo-cta"><h2>Share your photos</h2><p>Send high-resolution photos with location, date and a short description. By sending, you confirm you took the photo and agree to us showing it with credit.</p><a href="contact.html" class="btn btn-primary">Contact Us</a></div>
         </section>
     </main>
 
@@ -278,9 +70,14 @@
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="treks/index.html">Treks</a></li>
+                        <li><a href="itineraries/index.html">Itineraries</a></li>
+                        <li><a href="char-dham/index.html">Char Dham</a></li>
+                        <li><a href="best-time/index.html">Best Time</a></li>
+                        <li><a href="plan/index.html">Plan</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="plan-trip.html">Plan Your Trip</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="saved/index.html">Saved</a></li>
                     </ul>
                 </div>
                 <div class="footer-contact">
@@ -289,24 +86,15 @@
                     <p><i class="fas fa-phone"></i> +91 135 2748041</p>
                     <p><i class="fas fa-envelope"></i> info@uttarakhandtourism.com</p>
                 </div>
-                <div class="footer-social">
-                    <h3>Follow Us</h3>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2023 Uttarakhand Tourism. All Rights Reserved.</p>
+                <p>&copy; 2026 Uttarakhand Tourism. All Rights Reserved. Information is a guide only; confirm current conditions with official sources before you travel.</p>
             </div>
         </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/tools.js" data-root=""></script>
+
 </body>
-</html> 
+</html>

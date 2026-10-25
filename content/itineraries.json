@@ -1,0 +1,301 @@
+[
+  {
+    "slug": "rishikesh-one-day", "title": "Rishikesh in one day", "days": 1, "start": "Rishikesh", "tags": ["spiritual", "sightseeing", "yoga"], "months": [2,3,4,5,9,10,11,12], "pace": "balanced", "comfort": "comfortable", "demanding": false,
+    "stops": ["rishikesh"], "summary": "A compact day of ghats, bridges and the evening aarti.",
+    "plan": [
+      { "day": "Day 1", "title": "Ghats, bridges and aarti", "text": "Morning at Laxman Jhula and Ram Jhula, lunch at a cafe in Tapovan, then the Beatles Ashram if open. Finish with the Ganga aarti at Triveni Ghat.", "drive": "Local; short rides", "stay": "None (day trip)" }
+    ],
+    "seasonAlt": "In monsoon the river is high; skip river activities.", "note": "Comfortable for one day. Add a second day for rafting or yoga."
+  },
+  {
+    "slug": "haridwar-one-day", "title": "Haridwar temples and Ganga Aarti", "days": 1, "start": "Haridwar", "tags": ["spiritual", "pilgrimage", "sightseeing"], "months": [1,2,3,10,11,12], "pace": "balanced", "comfort": "comfortable", "demanding": false,
+    "stops": ["haridwar"], "summary": "Temples in the morning and the Har Ki Pauri evening aarti.",
+    "plan": [
+      { "day": "Day 1", "title": "Mansa Devi, Chandi Devi and Har Ki Pauri", "text": "Take a ropeway up to Mansa Devi in the morning, visit Chandi Devi or Maya Devi, then reach Har Ki Pauri early for the dusk aarti.", "drive": "Local; short rides", "stay": "None (day trip)" }
+    ],
+    "seasonAlt": "In summer visit the ghat later in the evening.", "note": "Comfortable. Expect heavy crowds on festival days."
+  },
+  {
+    "slug": "mussoorie-one-day", "title": "Mussoorie highlights in one day", "days": 1, "start": "Dehradun", "tags": ["sightseeing", "family", "hill-station"], "months": [3,4,5,6,9,10,11,12], "pace": "balanced", "comfort": "balanced", "demanding": false,
+    "stops": ["dehradun", "mussoorie"], "summary": "A day trip from Dehradun covering Mall Road, Gun Hill and Camel's Back Road.",
+    "plan": [
+      { "day": "Day 1", "title": "Dehradun to Mussoorie and back", "text": "Leave Dehradun early. Walk Camel's Back Road, take the Gun Hill ropeway and finish on Mall Road before heading back.", "drive": "About 1.5-2 hours each way (35 km) depending on traffic", "stay": "None (day trip)" }
+    ],
+    "seasonAlt": "Weekends in May-June are crowded; start early or choose a weekday.", "note": "Balanced; the road is the main time cost."
+  },
+  {
+    "slug": "dehradun-one-day", "title": "Dehradun local attractions", "days": 1, "start": "Dehradun", "tags": ["sightseeing", "city", "family"], "months": [1,2,3,4,10,11,12], "pace": "relaxed", "comfort": "comfortable", "demanding": false,
+    "stops": ["dehradun"], "summary": "Robber's Cave, FRI, Mindrolling Monastery and Paltan Bazaar.",
+    "plan": [
+      { "day": "Day 1", "title": "Gorge, campus, monastery and bazaar", "text": "Start with Robber's Cave in the morning, then the Forest Research Institute, lunch, Mindrolling Monastery and evening in Paltan Bazaar.", "drive": "Local; a few short drives", "stay": "None (day trip)" }
+    ],
+    "seasonAlt": "Skip Robber's Cave in heavy monsoon.", "note": "Easy and flexible."
+  },
+  {
+    "slug": "nainital-one-day", "title": "Nainital sightseeing in one day", "days": 1, "start": "Nainital", "tags": ["sightseeing", "family", "lake"], "months": [3,4,5,6,9,10,11], "pace": "balanced", "comfort": "comfortable", "demanding": false,
+    "stops": ["nainital"], "summary": "Boating, a viewpoint and Mall Road.",
+    "plan": [
+      { "day": "Day 1", "title": "Lake, temple and viewpoints", "text": "Boat on Naini Lake in the morning, visit Naina Devi, take the cable car or walk to Snow View Point, and finish on Mall Road.", "drive": "Local; mostly walkable", "stay": "None (day trip)" }
+    ],
+    "seasonAlt": "Rain can close the cable car; have an indoor plan.", "note": "Comfortable if you are already in Nainital."
+  },
+  {
+    "slug": "tehri-lake-one-day", "title": "Tehri Lake day trip from Rishikesh", "days": 1, "start": "Rishikesh", "tags": ["lake", "water-sports", "road-trip"], "months": [3,4,5,9,10,11], "pace": "fast", "comfort": "rushed", "demanding": false,
+    "stops": ["rishikesh", "new-tehri"], "summary": "A long day with a lot of driving; better as an overnight.",
+    "plan": [
+      { "day": "Day 1", "title": "Rishikesh to Tehri and back", "text": "Leave early, reach the lake in the late morning, do one activity, then start back. Keep an hour of buffer for mountain roads.", "drive": "About 2.5-3 hours each way (75-80 km)", "stay": "None (day trip)" }
+    ],
+    "seasonAlt": "Avoid heavy monsoon days because of landslides.", "note": "Rushed; make it two days if you can."
+  },
+  {
+    "slug": "rishikesh-haridwar-two-days", "title": "Rishikesh and Haridwar in two days", "days": 2, "start": "Haridwar", "tags": ["spiritual", "pilgrimage", "yoga"], "months": [2,3,4,9,10,11,12], "pace": "relaxed", "comfort": "comfortable", "demanding": false,
+    "stops": ["haridwar", "rishikesh"], "summary": "Haridwar aarti on day one and Rishikesh yoga and bridges on day two.",
+    "plan": [
+      { "day": "Day 1", "title": "Haridwar", "text": "Arrive, visit Mansa Devi and attend the Har Ki Pauri aarti at dusk.", "drive": "Local", "stay": "Haridwar" },
+      { "day": "Day 2", "title": "Rishikesh", "text": "Drive to Rishikesh in the morning, visit Laxman Jhula and Ram Jhula, attend the evening aarti at Triveni Ghat.", "drive": "About 1 hour (25 km)", "stay": "Rishikesh, or return" }
+    ],
+    "seasonAlt": "In monsoon skip river activities.", "note": "Comfortable and well paced."
+  },
+  {
+    "slug": "mussoorie-dhanaulti-two-days", "title": "Mussoorie and Dhanaulti", "days": 2, "start": "Dehradun", "tags": ["hill-station", "family", "couples"], "months": [3,4,5,6,9,10,11,12], "pace": "balanced", "comfort": "balanced", "demanding": false,
+    "stops": ["dehradun", "mussoorie", "dhanaulti"], "summary": "Mussoorie for the town and Dhanaulti for the forest.",
+    "plan": [
+      { "day": "Day 1", "title": "Dehradun to Mussoorie", "text": "Drive up, visit Gun Hill and Camel's Back Road, evening on Mall Road.", "drive": "About 1.5-2 hours (35 km)", "stay": "Mussoorie" },
+      { "day": "Day 2", "title": "Mussoorie to Dhanaulti and return", "text": "Drive to Dhanaulti, visit Eco Parks and Surkanda Devi if time, then return to Dehradun.", "drive": "About 1-1.5 hours to Dhanaulti and 2-3 hours back to Dehradun", "stay": "Return, or stay at Dhanaulti" }
+    ],
+    "seasonAlt": "In winter Dhanaulti is likelier to have snow; check road conditions.", "note": "Balanced; the second day has more driving."
+  },
+  {
+    "slug": "nainital-lakes-two-days", "title": "Nainital and the nearby lakes", "days": 2, "start": "Kathgodam", "tags": ["lake", "family", "couples"], "months": [3,4,5,6,9,10,11], "pace": "balanced", "comfort": "comfortable", "demanding": false,
+    "stops": ["nainital", "bhimtal", "sattal"], "summary": "Nainital on day one and Bhimtal and Sattal on day two.",
+    "plan": [
+      { "day": "Day 1", "title": "Kathgodam to Nainital", "text": "Drive up, boating on Naini Lake, evening on Mall Road.", "drive": "About 1-1.5 hours (35 km)", "stay": "Nainital" },
+      { "day": "Day 2", "title": "Bhimtal and Sattal", "text": "Visit Bhimtal, then Sattal for a forest walk, and head back to Kathgodam.", "drive": "About 1-1.5 hours between places", "stay": "Return or stay at Sattal" }
+    ],
+    "seasonAlt": "In winter nights are cold; carry layers.", "note": "Comfortable."
+  },
+  {
+    "slug": "kanatal-tehri-two-days", "title": "Kanatal and Tehri Lake", "days": 2, "start": "Dehradun", "tags": ["peaceful", "lake", "couples"], "months": [3,4,5,6,9,10,11], "pace": "balanced", "comfort": "balanced", "demanding": false,
+    "stops": ["dehradun", "kanatal", "new-tehri"], "summary": "A quiet stay in Kanatal with a visit to the Tehri reservoir.",
+    "plan": [
+      { "day": "Day 1", "title": "Dehradun to Kanatal", "text": "Drive via Mussoorie; short walk to Surkanda Devi.", "drive": "About 2.5-3 hours (75-80 km)", "stay": "Kanatal" },
+      { "day": "Day 2", "title": "Kanatal to Tehri Lake and onward", "text": "Drive to Tehri Lake in the morning, then return towards Rishikesh or Dehradun.", "drive": "About 2-2.5 hours to Tehri, then 2.5-3 hours back", "stay": "Return" }
+    ],
+    "seasonAlt": "Snow possible in winter; check roads.", "note": "Balanced; driving takes a fair share of the second day."
+  },
+  {
+    "slug": "chakrata-two-days", "title": "Chakrata and nearby viewpoints", "days": 2, "start": "Dehradun", "tags": ["peaceful", "offbeat", "forest"], "months": [3,4,5,6,9,10,11], "pace": "relaxed", "comfort": "balanced", "demanding": false,
+    "stops": ["dehradun", "chakrata"], "summary": "A quiet cantonment town with waterfalls and forest.",
+    "plan": [
+      { "day": "Day 1", "title": "Dehradun to Chakrata", "text": "Drive via Vikasnagar, check in, visit Chilmiri Neck at sunset.", "drive": "About 3-4 hours (90-100 km)", "stay": "Chakrata" },
+      { "day": "Day 2", "title": "Tiger Falls and Deoban", "text": "Morning at Tiger Falls and Deoban, then return.", "drive": "About 3-4 hours back", "stay": "Return" }
+    ],
+    "seasonAlt": "Tiger Falls is best after the monsoon; roads can be bad in rain.", "note": "Balanced; carry ID."
+  },
+  {
+    "slug": "rishikesh-shivpuri-two-days", "title": "Rishikesh and Shivpuri rafting", "days": 2, "start": "Rishikesh", "tags": ["adventure", "rafting", "camping"], "months": [2,3,4,5,6,9,10,11], "pace": "balanced", "comfort": "comfortable", "demanding": false,
+    "stops": ["rishikesh"], "summary": "A weekend of river rafting and a riverside camp.",
+    "plan": [
+      { "day": "Day 1", "title": "Rishikesh town", "text": "Ghats, bridges and the evening aarti.", "drive": "Local", "stay": "Rishikesh" },
+      { "day": "Day 2", "title": "Shivpuri rafting", "text": "Book a rafting trip from Shivpuri side with a licensed operator, and finish at Rishikesh.", "drive": "About 30-45 minutes by road", "stay": "Return or camp by the river" }
+    ],
+    "seasonAlt": "Rafting is generally suspended in monsoon.", "note": "Comfortable; confirm operator licence and safety gear."
+  },
+  {
+    "slug": "dehradun-mussoorie-dhanaulti-three-days", "title": "Dehradun, Mussoorie and Dhanaulti", "days": 3, "start": "Dehradun", "tags": ["hill-station", "family", "sightseeing"], "months": [3,4,5,6,9,10,11,12], "pace": "relaxed", "comfort": "comfortable", "demanding": false,
+    "stops": ["dehradun", "mussoorie", "dhanaulti"], "summary": "A relaxed family trip starting in Dehradun.",
+    "plan": [
+      { "day": "Day 1", "title": "Dehradun", "text": "Robber's Cave, FRI and Paltan Bazaar.", "drive": "Local", "stay": "Dehradun" },
+      { "day": "Day 2", "title": "Mussoorie", "text": "Drive up; Gun Hill, Camel's Back Road and Mall Road.", "drive": "About 1.5-2 hours", "stay": "Mussoorie" },
+      { "day": "Day 3", "title": "Dhanaulti and return", "text": "Eco Parks and forest walks, then drive down.", "drive": "About 1-1.5 hours to Dhanaulti; 2-3 hours back", "stay": "Return" }
+    ],
+    "seasonAlt": "In winter Dhanaulti may be snowy.", "note": "Comfortable."
+  },
+  {
+    "slug": "rishikesh-devprayag-tehri-three-days", "title": "Rishikesh, Devprayag and Tehri", "days": 3, "start": "Rishikesh", "tags": ["spiritual", "lake", "road-trip"], "months": [3,4,5,9,10,11], "pace": "balanced", "comfort": "balanced", "demanding": false,
+    "stops": ["rishikesh", "devprayag", "new-tehri"], "summary": "A mix of temple, confluence and lake.",
+    "plan": [
+      { "day": "Day 1", "title": "Rishikesh", "text": "Ghats, bridges and the evening aarti.", "drive": "Local", "stay": "Rishikesh" },
+      { "day": "Day 2", "title": "Devprayag and Tehri", "text": "Stop at Devprayag, continue to New Tehri.", "drive": "About 2-2.5 hours to Devprayag; 1.5 hours further to Tehri", "stay": "New Tehri" },
+      { "day": "Day 3", "title": "Tehri Lake and return", "text": "Morning at the lake, then return to Rishikesh.", "drive": "About 2.5-3 hours", "stay": "Return" }
+    ],
+    "seasonAlt": "Monsoon landslides can delay this route.", "note": "Balanced; driving is a big part of day two."
+  },
+  {
+    "slug": "nainital-bhimtal-mukteshwar-four-days", "title": "Nainital, Bhimtal and Mukteshwar", "days": 4, "start": "Kathgodam", "tags": ["lake", "peaceful", "family"], "months": [3,4,5,6,9,10,11], "pace": "relaxed", "comfort": "comfortable", "demanding": false,
+    "stops": ["nainital", "bhimtal", "mukteshwar"], "summary": "Lakes and an orchard ridge in Kumaon.",
+    "plan": [
+      { "day": "Day 1", "title": "Kathgodam to Nainital", "text": "Boating and Mall Road.", "drive": "About 1-1.5 hours", "stay": "Nainital" },
+      { "day": "Day 2", "title": "Nainital sights", "text": "Snow View, Naina Devi and Tiffin Top.", "drive": "Local", "stay": "Nainital" },
+      { "day": "Day 3", "title": "Bhimtal to Mukteshwar", "text": "Visit Bhimtal and drive to Mukteshwar for views.", "drive": "About 2-3 hours total", "stay": "Mukteshwar" },
+      { "day": "Day 4", "title": "Mukteshwar and return", "text": "Chauli Ki Jali, then return.", "drive": "About 2.5-3 hours to Kathgodam", "stay": "Return" }
+    ],
+    "seasonAlt": "Winter nights are very cold at Mukteshwar.", "note": "Comfortable."
+  },
+  {
+    "slug": "almora-binsar-jageshwar-four-days", "title": "Almora, Binsar and Jageshwar", "days": 4, "start": "Kathgodam", "tags": ["culture", "peaceful", "wildlife"], "months": [3,4,5,6,9,10,11], "pace": "relaxed", "comfort": "balanced", "demanding": false,
+    "stops": ["almora", "binsar", "jageshwar"], "summary": "Temples, sweets and forest in Kumaon.",
+    "plan": [
+      { "day": "Day 1", "title": "Kathgodam to Almora", "text": "Drive up; evening in the bazaar for bal mithai.", "drive": "About 3-3.5 hours", "stay": "Almora" },
+      { "day": "Day 2", "title": "Kasar Devi and Almora", "text": "Morning at Kasar Devi and Chitai temple.", "drive": "Local", "stay": "Almora" },
+      { "day": "Day 3", "title": "Binsar", "text": "Zero Point and forest walks.", "drive": "About 1-1.5 hours", "stay": "Binsar" },
+      { "day": "Day 4", "title": "Jageshwar and return", "text": "Visit Jageshwar, then return.", "drive": "About 4-5 hours back to Kathgodam", "stay": "Return" }
+    ],
+    "seasonAlt": "Winters are cold; Binsar can be snowy.", "note": "Balanced; the last day has long driving."
+  },
+  {
+    "slug": "auli-joshimath-four-days", "title": "Auli and Joshimath", "days": 4, "start": "Rishikesh", "tags": ["snow", "views", "mountains"], "months": [1,2,3,4,5,9,10,11], "pace": "balanced", "comfort": "balanced", "demanding": false,
+    "stops": ["rishikesh", "joshimath", "auli"], "summary": "Snow and views near Joshimath. Check subsidence advisories.",
+    "plan": [
+      { "day": "Day 1", "title": "Rishikesh to Joshimath", "text": "A long drive via Devprayag.", "drive": "About 9-10 hours (250 km)", "stay": "Joshimath or Pipalkoti" },
+      { "day": "Day 2", "title": "Auli", "text": "Explore Auli and Gorson Bugyal.", "drive": "About 1 hour", "stay": "Auli" },
+      { "day": "Day 3", "title": "Auli and optional Badrinath day trip", "text": "Optional visit to Badrinath if open.", "drive": "About 2-3 hours each way", "stay": "Auli or Joshimath" },
+      { "day": "Day 4", "title": "Return", "text": "Drive back to Rishikesh.", "drive": "About 9-10 hours", "stay": "Rishikesh" }
+    ],
+    "seasonAlt": "Skiing depends on snowfall; confirm before booking.", "note": "Balanced; two long driving days."
+  },
+  {
+    "slug": "chopta-tungnath-three-days", "title": "Chopta, Tungnath and Chandrashila", "days": 3, "start": "Rishikesh", "tags": ["trek", "peaceful", "snow", "temple"], "months": [3,4,5,6,9,10,11,12], "pace": "balanced", "comfort": "balanced", "demanding": false,
+    "stops": ["rishikesh", "chopta-tungnath"], "summary": "An easy trek and a forest retreat.",
+    "plan": [
+      { "day": "Day 1", "title": "Rishikesh to Chopta", "text": "A long drive via Rudraprayag and Ukhimath.", "drive": "About 8-9 hours (220 km)", "stay": "Chopta" },
+      { "day": "Day 2", "title": "Tungnath and Chandrashila", "text": "Early walk to Tungnath and on to Chandrashila.", "drive": "Walk", "stay": "Chopta" },
+      { "day": "Day 3", "title": "Return", "text": "Drive back.", "drive": "About 8-9 hours", "stay": "Rishikesh" }
+    ],
+    "seasonAlt": "In winter the temple is closed and the trail is snowy.", "note": "Balanced; two long driving days."
+  },
+  {
+    "slug": "garhwal-seven-days", "title": "Garhwal exploration in a week", "days": 7, "start": "Dehradun", "tags": ["sightseeing", "family", "spiritual"], "months": [3,4,5,9,10,11], "pace": "balanced", "comfort": "balanced", "demanding": false,
+    "stops": ["dehradun", "mussoorie", "rishikesh", "haridwar", "new-tehri"], "summary": "A broad loop of Garhwal's hill stations and holy towns.",
+    "plan": [
+      { "day": "Day 1", "title": "Dehradun", "text": "Arrive and rest.", "drive": "Local", "stay": "Dehradun" },
+      { "day": "Day 2", "title": "Mussoorie", "text": "Sights and Mall Road.", "drive": "About 1.5-2 hours", "stay": "Mussoorie" },
+      { "day": "Day 3", "title": "Mussoorie to Kanatal or Dhanaulti", "text": "Quiet forest stay.", "drive": "About 1.5-2 hours", "stay": "Kanatal" },
+      { "day": "Day 4", "title": "Tehri Lake", "text": "Lake and activities.", "drive": "About 2-2.5 hours", "stay": "New Tehri" },
+      { "day": "Day 5", "title": "Rishikesh", "text": "Ghats and aarti.", "drive": "About 2.5-3 hours", "stay": "Rishikesh" },
+      { "day": "Day 6", "title": "Rishikesh to Haridwar", "text": "Temples and Har Ki Pauri.", "drive": "About 1 hour", "stay": "Haridwar" },
+      { "day": "Day 7", "title": "Departure", "text": "Return to Delhi.", "drive": "About 4-5 hours", "stay": "None" }
+    ],
+    "seasonAlt": "Monsoon: skip Tehri and Kanatal side.", "note": "Balanced."
+  },
+  {
+    "slug": "kumaon-seven-days", "title": "Kumaon in a week", "days": 7, "start": "Kathgodam", "tags": ["sightseeing", "lake", "photography"], "months": [3,4,5,6,9,10,11], "pace": "balanced", "comfort": "balanced", "demanding": false,
+    "stops": ["nainital", "bhimtal", "mukteshwar", "almora", "kausani", "ranikhet"], "summary": "Lakes, ridges and Himalayan views across Kumaon.",
+    "plan": [
+      { "day": "Day 1", "title": "Kathgodam to Nainital", "text": "Boating and Mall Road.", "drive": "About 1-1.5 hours", "stay": "Nainital" },
+      { "day": "Day 2", "title": "Bhimtal and Sattal", "text": "Lakes and walks.", "drive": "About 1-1.5 hours", "stay": "Nainital" },
+      { "day": "Day 3", "title": "Mukteshwar", "text": "Orchards and views.", "drive": "About 2 hours", "stay": "Mukteshwar" },
+      { "day": "Day 4", "title": "Almora", "text": "Kasar Devi and bazaar.", "drive": "About 2-2.5 hours", "stay": "Almora" },
+      { "day": "Day 5", "title": "Kausani", "text": "Himalayan views and tea.", "drive": "About 2 hours", "stay": "Kausani" },
+      { "day": "Day 6", "title": "Ranikhet", "text": "Gardens and temples.", "drive": "About 2 hours", "stay": "Ranikhet" },
+      { "day": "Day 7", "title": "Return", "text": "Back to Kathgodam.", "drive": "About 3 hours", "stay": "None" }
+    ],
+    "seasonAlt": "Winter nights are cold at higher stops.", "note": "Balanced; no day is excessive."
+  },
+  {
+    "slug": "char-dham-eleven-days", "title": "Char Dham Yatra in 11 days", "days": 11, "start": "Haridwar", "tags": ["spiritual", "pilgrimage"], "months": [5,6,9,10], "pace": "balanced", "comfort": "balanced", "demanding": true,
+    "stops": ["haridwar", "yamunotri", "gangotri", "kedarnath", "badrinath"], "summary": "The traditional circuit by road with a walk to Yamunotri and Kedarnath. Registration is required.",
+    "plan": [
+      { "day": "Day 1", "title": "Haridwar to Barkot", "text": "Long drive via Dehradun and Mussoorie.", "drive": "About 8-9 hours", "stay": "Barkot" },
+      { "day": "Day 2", "title": "Yamunotri", "text": "Drive to Janki Chatti and walk to the temple; return to Barkot.", "drive": "About 1.5-2 hours each way plus a 5-6 km walk each way", "stay": "Barkot" },
+      { "day": "Day 3", "title": "Barkot to Uttarkashi", "text": "Moderate driving day.", "drive": "About 4-5 hours", "stay": "Uttarkashi" },
+      { "day": "Day 4", "title": "Gangotri", "text": "Visit the temple and return.", "drive": "About 3-4 hours each way", "stay": "Uttarkashi or Harsil" },
+      { "day": "Day 5", "title": "Uttarkashi to Guptkashi", "text": "Long drive via Tehri.", "drive": "About 8-9 hours", "stay": "Guptkashi" },
+      { "day": "Day 6", "title": "Guptkashi to Sonprayag, walk to Kedarnath", "text": "Walk or helicopter option; overnight at Kedarnath.", "drive": "About 1.5 hours to Sonprayag, then 16 km walk", "stay": "Kedarnath" },
+      { "day": "Day 7", "title": "Kedarnath darshan and descend", "text": "Descend after darshan.", "drive": "Walk plus 1.5 hours", "stay": "Guptkashi" },
+      { "day": "Day 8", "title": "Guptkashi to Joshimath", "text": "Long drive via Chamoli.", "drive": "About 6-7 hours", "stay": "Joshimath or Pipalkoti" },
+      { "day": "Day 9", "title": "Badrinath", "text": "Darshan, Mana and return.", "drive": "About 1.5-2 hours each way", "stay": "Joshimath" },
+      { "day": "Day 10", "title": "Joshimath to Rishikesh", "text": "Long drive back.", "drive": "About 9-10 hours", "stay": "Rishikesh" },
+      { "day": "Day 11", "title": "Departure", "text": "Return to Haridwar or onward.", "drive": "About 1 hour", "stay": "None" }
+    ],
+    "seasonAlt": "Open only April/May to October/November; monsoon has landslide risk. Add buffer days.", "note": "Balanced on paper but weather can force extra days. Add 1-2 buffer days."
+  },
+  {
+    "slug": "valley-of-flowers-seven-days", "title": "Valley of Flowers and Hemkund", "days": 7, "start": "Rishikesh", "tags": ["trek", "flowers", "pilgrimage"], "months": [7,8,9], "pace": "balanced", "comfort": "balanced", "demanding": true,
+    "stops": ["rishikesh", "joshimath", "valley-of-flowers"], "summary": "A bloom-season trek for fit beginners.",
+    "plan": [
+      { "day": "Day 1", "title": "Rishikesh to Joshimath", "text": "Long drive.", "drive": "About 9-10 hours", "stay": "Joshimath" },
+      { "day": "Day 2", "title": "Govindghat to Ghangaria", "text": "13 km walk.", "drive": "About 1 hour plus walk", "stay": "Ghangaria" },
+      { "day": "Day 3", "title": "Valley of Flowers", "text": "Walk in and return.", "drive": "Walk", "stay": "Ghangaria" },
+      { "day": "Day 4", "title": "Hemkund Sahib", "text": "Steep climb and return.", "drive": "Walk", "stay": "Ghangaria" },
+      { "day": "Day 5", "title": "Ghangaria to Joshimath", "text": "Walk down and drive.", "drive": "Walk plus 1 hour", "stay": "Joshimath" },
+      { "day": "Day 6", "title": "Joshimath to Rishikesh", "text": "Long drive.", "drive": "About 9-10 hours", "stay": "Rishikesh" },
+      { "day": "Day 7", "title": "Buffer", "text": "Buffer day for landslides or rest.", "drive": "None", "stay": "None" }
+    ],
+    "seasonAlt": "The valley is open only in season.", "note": "Balanced; the buffer day is important."
+  },
+  {
+    "slug": "family-nainital-corbett-seven-days", "title": "Family holiday: Nainital and Corbett", "days": 7, "start": "Delhi", "tags": ["family", "wildlife", "lake"], "months": [3,4,5,6,10,11,12], "pace": "relaxed", "comfort": "comfortable", "demanding": false,
+    "stops": ["jim-corbett", "nainital", "bhimtal", "ranikhet"], "summary": "Wildlife, lakes and a quiet hill station for families.",
+    "plan": [
+      { "day": "Day 1", "title": "Delhi to Corbett", "text": "Drive to Ramnagar.", "drive": "About 5-6 hours", "stay": "Corbett" },
+      { "day": "Day 2", "title": "Safari and rest", "text": "Morning safari; relax by the river.", "drive": "Local", "stay": "Corbett" },
+      { "day": "Day 3", "title": "Corbett to Nainital", "text": "Drive up and boating.", "drive": "About 2.5-3 hours", "stay": "Nainital" },
+      { "day": "Day 4", "title": "Nainital", "text": "Sights and shopping.", "drive": "Local", "stay": "Nainital" },
+      { "day": "Day 5", "title": "Bhimtal", "text": "Lake and aquarium.", "drive": "About 45 minutes", "stay": "Bhimtal" },
+      { "day": "Day 6", "title": "Ranikhet", "text": "Gardens and golf.", "drive": "About 2.5 hours", "stay": "Ranikhet" },
+      { "day": "Day 7", "title": "Return", "text": "Back to Delhi by road or via Kathgodam.", "drive": "About 7-8 hours", "stay": "None" }
+    ],
+    "seasonAlt": "Most Corbett core zones are closed in the monsoon (only Jhirna, Dhela and Garjia stay open all year); check zone dates on corbettgov.org.", "note": "Comfortable; kid-friendly pacing."
+  },
+  {
+    "slug": "spiritual-eight-days", "title": "Spiritual journey: Haridwar to Rudraprayag", "days": 8, "start": "Haridwar", "tags": ["spiritual", "yoga", "pilgrimage"], "months": [2,3,4,9,10,11], "pace": "relaxed", "comfort": "comfortable", "demanding": false,
+    "stops": ["haridwar", "rishikesh", "devprayag", "chopta-tungnath"], "summary": "Ghats, ashrams, confluences and a temple trek.",
+    "plan": [
+      { "day": "Day 1", "title": "Haridwar", "text": "Evening aarti at Har Ki Pauri.", "drive": "Local", "stay": "Haridwar" },
+      { "day": "Day 2", "title": "Haridwar to Rishikesh", "text": "Temples and ashrams.", "drive": "About 1 hour", "stay": "Rishikesh" },
+      { "day": "Day 3", "title": "Rishikesh", "text": "Yoga class and aarti.", "drive": "Local", "stay": "Rishikesh" },
+      { "day": "Day 4", "title": "Devprayag and Rudraprayag", "text": "Confluences.", "drive": "About 4-5 hours", "stay": "Rudraprayag or Ukhimath" },
+      { "day": "Day 5", "title": "Chopta", "text": "Drive and rest.", "drive": "About 3 hours", "stay": "Chopta" },
+      { "day": "Day 6", "title": "Tungnath", "text": "Trek to the temple.", "drive": "Walk", "stay": "Chopta" },
+      { "day": "Day 7", "title": "Return to Rishikesh", "text": "Long drive.", "drive": "About 7-8 hours", "stay": "Rishikesh" },
+      { "day": "Day 8", "title": "Departure", "text": "Haridwar or onward.", "drive": "About 1 hour", "stay": "None" }
+    ],
+    "seasonAlt": "In winter the Tungnath temple is closed.", "note": "Relaxed except for Day 7."
+  },
+  {
+    "slug": "peaceful-retreats-eight-days", "title": "Peaceful mountain retreats", "days": 8, "start": "Dehradun", "tags": ["peaceful", "nature", "offbeat"], "months": [3,4,5,6,9,10,11], "pace": "relaxed", "comfort": "comfortable", "demanding": false,
+    "stops": ["dehradun", "kanatal", "dhanaulti", "chakrata"], "summary": "Quiet villages in Garhwal with long stays and few activities.",
+    "plan": [
+      { "day": "Day 1", "title": "Dehradun to Kanatal", "text": "Drive and settle in.", "drive": "About 2.5-3 hours", "stay": "Kanatal" },
+      { "day": "Day 2", "title": "Kanatal", "text": "Forest walk and Surkanda Devi.", "drive": "Local", "stay": "Kanatal" },
+      { "day": "Day 3", "title": "Kanatal to Dhanaulti", "text": "Short drive.", "drive": "About 1 hour", "stay": "Dhanaulti" },
+      { "day": "Day 4", "title": "Dhanaulti", "text": "Eco Parks and rest.", "drive": "Local", "stay": "Dhanaulti" },
+      { "day": "Day 5", "title": "Dhanaulti to Chakrata", "text": "Drive through forest.", "drive": "About 3-4 hours", "stay": "Chakrata" },
+      { "day": "Day 6", "title": "Chakrata", "text": "Tiger Falls and Deoban.", "drive": "Local", "stay": "Chakrata" },
+      { "day": "Day 7", "title": "Chakrata to Dehradun", "text": "Return drive.", "drive": "About 3-4 hours", "stay": "Dehradun" },
+      { "day": "Day 8", "title": "Departure", "text": "Depart.", "drive": "None", "stay": "None" }
+    ],
+    "seasonAlt": "Monsoon roads can be rough.", "note": "Comfortable; no rushed days."
+  },
+  {
+    "slug": "remote-culture-nine-days", "title": "Remote villages and culture in Kumaon", "days": 9, "start": "Kathgodam", "tags": ["culture", "offbeat", "remote", "views"], "months": [3,4,5,6,9,10,11], "pace": "balanced", "comfort": "balanced", "demanding": false,
+    "stops": ["almora", "pithoragarh", "chaukori", "munsiyari"], "summary": "Long drives to the far east with local culture and views.",
+    "plan": [
+      { "day": "Day 1", "title": "Kathgodam to Almora", "text": "Drive and bazaar.", "drive": "About 3-3.5 hours", "stay": "Almora" },
+      { "day": "Day 2", "title": "Almora and Jageshwar", "text": "Temples.", "drive": "About 1 hour each way", "stay": "Almora" },
+      { "day": "Day 3", "title": "Almora to Pithoragarh", "text": "Long drive.", "drive": "About 5-6 hours", "stay": "Pithoragarh" },
+      { "day": "Day 4", "title": "Pithoragarh to Chaukori", "text": "Quiet stop.", "drive": "About 3-4 hours", "stay": "Chaukori" },
+      { "day": "Day 5", "title": "Chaukori to Munsiyari", "text": "Mountain road.", "drive": "About 5-6 hours", "stay": "Munsiyari" },
+      { "day": "Day 6", "title": "Munsiyari", "text": "Khaliya Top walk.", "drive": "Walk", "stay": "Munsiyari" },
+      { "day": "Day 7", "title": "Munsiyari", "text": "Heritage museum and village walk.", "drive": "Local", "stay": "Munsiyari" },
+      { "day": "Day 8", "title": "Munsiyari to Almora", "text": "Long drive back.", "drive": "About 8-9 hours", "stay": "Almora" },
+      { "day": "Day 9", "title": "Return", "text": "Back to Kathgodam.", "drive": "About 3-3.5 hours", "stay": "None" }
+    ],
+    "seasonAlt": "Monsoon landslides are common on this route.", "note": "Balanced; long drives on days 3, 5 and 8."
+  },
+  {
+    "slug": "adventure-road-trip-ten-days", "title": "Adventure road trip", "days": 10, "start": "Rishikesh", "tags": ["adventure", "trek", "rafting", "snow"], "months": [4,5,6,9,10,11], "pace": "fast", "comfort": "rushed", "demanding": true,
+    "stops": ["rishikesh", "chopta-tungnath", "joshimath", "auli", "valley-of-flowers"], "summary": "Rafting, a meadow trek and the Joshimath area in ten days.",
+    "plan": [
+      { "day": "Day 1-2", "title": "Rishikesh", "text": "Rafting and camping.", "drive": "Local", "stay": "Rishikesh" },
+      { "day": "Day 3", "title": "Rishikesh to Chopta", "text": "Long drive.", "drive": "About 8-9 hours", "stay": "Chopta" },
+      { "day": "Day 4", "title": "Tungnath and Chandrashila", "text": "Trek.", "drive": "Walk", "stay": "Chopta" },
+      { "day": "Day 5", "title": "Chopta to Joshimath", "text": "Mountain drive.", "drive": "About 5-6 hours", "stay": "Joshimath" },
+      { "day": "Day 6", "title": "Auli", "text": "Meadow walk and views.", "drive": "About 1 hour", "stay": "Auli" },
+      { "day": "Day 7-9", "title": "Valley of Flowers trek (seasonal)", "text": "Three-day trek from Govindghat.", "drive": "About 1 hour then walk", "stay": "Ghangaria" },
+      { "day": "Day 10", "title": "Return", "text": "Long drive to Rishikesh.", "drive": "About 9-10 hours", "stay": "None" }
+    ],
+    "seasonAlt": "The Valley of Flowers is open only June-October; replace with Auli extra days outside that.", "note": "Rushed: several long drives; add buffer days."
+  }
+]
