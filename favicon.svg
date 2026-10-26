@@ -1,12 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08202c"/><stop offset="1" stop-color="#1d5f8a"/></linearGradient>
-<linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc857"/><stop offset="1" stop-color="#f2703b"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b2a3d"/><stop offset="1" stop-color="#2a7ba8"/></linearGradient>
+<linearGradient id="sp" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc857"/><stop offset="1" stop-color="#f2703b"/></linearGradient>
+<clipPath id="r"><rect width="64" height="64" rx="15"/></clipPath>
 </defs>
-<rect width="64" height="64" rx="15" fill="url(#bg)"/>
-<circle cx="44" cy="22" r="9" fill="url(#sun)"/>
-<path d="M4 54 25 20l12 18 7-9 16 25z" fill="#14a085"/>
-<path d="M4 54 25 20l11 17.5-6-2.5-5 6-4-5.5-5 4.5z" fill="#0c7a66"/>
-<path d="M25 20l7 10.5-4-2-3.2 3.8-3-3.3z" fill="#fff"/>
-<path d="M4 54h56v4a6 6 0 0 1-6 6H10a6 6 0 0 1-6-6z" fill="#08202c" opacity=".0"/>
+<g clip-path="url(#r)">
+<rect width="64" height="64" fill="url(#bg)"/>
+<circle cx="32" cy="34" r="17" fill="#f59f2b" opacity=".32"/>
+<path d="M-2 50 14 30l8 9 10-15 10 15 8-9 14 20v14H-2z" fill="#f2f8fb"/>
+<path d="M-2 50 14 30l8 9 10-15 10 15 8-9 14 20z" fill="#b9d4e3" opacity=".6"/>
+<path d="M0 54q32-8 64 0v10H0z" fill="#0c7a66"/>
+<rect x="17" y="50" width="30" height="4" rx="1" fill="#f6e7c8"/>
+<rect x="21" y="38" width="22" height="12" fill="#fbf1dc"/>
+<path d="M29 50v-5a3 3 0 0 1 6 0v5z" fill="#7a3f06"/>
+<path d="M19.5 38C19.5 29 27 24 32 13c5 11 12.500 16 12.500 25z" fill="#f59f2b"/>
+<path d="M32 13c-1 9-4 16-8 25M32 13c1 9 4 16 8 25" stroke="#d9822b" stroke-width="1" fill="none"/>
+<ellipse cx="32" cy="13" rx="3.200" ry="1.800" fill="#ffd27a"/>
+<path d="M32 11.500V4" stroke="#fbf1dc" stroke-width="1.200"/>
+<path d="M32 4l7 2.200L32 8.400z" fill="#ef5b3a"/>
+</g>
 </svg>

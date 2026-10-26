@@ -12,7 +12,7 @@
         var hits = all.filter(function (d) {
             return (type === 'all' || d.t === type) && terms.every(function (t) { return d.q.indexOf(t) > -1; });
         });
-        count.textContent = hits.length + ' result' + (hits.length === 1 ? '' : 's');
+        count.innerHTML = '<strong>' + hits.length + '</strong> result' + (hits.length === 1 ? '' : 's');
         out.textContent = '';
         hits.forEach(function (d, n) {
             var a = document.createElement('a'); a.className = 'dham-card pop-in'; a.style.setProperty('--i', Math.min(n, 12)); a.href = href(root, d.url);

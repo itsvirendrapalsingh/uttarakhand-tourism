@@ -318,7 +318,7 @@ const treksIndex = () => {
                 <label>Season <select data-filter="season"><option value="">Any</option>${opt([['winter', 'Winter'], ['spring', 'Spring'], ['summer', 'Summer'], ['monsoon', 'Monsoon'], ['autumn', 'Autumn']])}</select></label>
                 <label>Max altitude <select data-filter="alt"><option value="">Any</option>${opt([['low', 'Under 3,500 m'], ['mid', '3,500-4,000 m'], ['high', 'Above 4,000 m']])}</select></label>
             </form>
-            <p class="note" id="count" aria-live="polite"></p>
+            <p class="results" id="count" aria-live="polite"></p>
             <div class="dham-grid" data-filter-list>${treks.map(t => {
               const diff = t.difficulty.split('-')[0] === 'easy' ? (t.difficulty === 'easy' ? 'easy' : 'easy moderate') : t.difficulty;
               const len = t.days <= 3 ? 'short' : t.days <= 6 ? 'mid' : 'long';
@@ -383,7 +383,7 @@ const itinsIndex = () => {
                 <label>Theme <select data-filter="tags"><option value="">Any</option>${[...new Set(itins.flatMap(i => i.tags))].sort().map(t => `<option value="${t}">${cap(t)}</option>`).join('')}</select></label>
                 <label>Comfort <select data-filter="comfort"><option value="">Any</option><option value="comfortable">Comfortable</option><option value="balanced">Balanced</option><option value="rushed">Rushed</option></select></label>
             </form>
-            <p class="note" id="count" aria-live="polite"></p>
+            <p class="results" id="count" aria-live="polite"></p>
             <div class="dham-grid" data-filter-list>${itins.map(i => card(`${root}itinerary/${i.slug}/`, i.title, i.summary, `${i.days} day${i.days > 1 ? 's' : ''} · from ${i.start} · ${cap(i.comfort)}`, ` data-bucket="${bucket(i.days)}" data-tags="${i.tags.join(' ')}" data-comfort="${i.comfort}"`, { icon: 'route', tag: `${i.days} day${i.days > 1 ? 's' : ''}`, tone: 'tone-' + i.comfort })).join('')}</div>
         </div>`;
   write('itineraries/index.html', page({ root, active: 'itineraries/', title: 'Uttarakhand Itineraries - Uttarakhand Tourism', desc: 'One-day to two-week Uttarakhand itineraries with day-by-day plans and realistic driving times.', canonical: 'itineraries/', body, jsonld: [bc.ld] }));
@@ -479,7 +479,7 @@ const destinationsHub = () => {
                 <label>Type <select data-filter="type"><option value="">Any</option>${types.map(t => `<option value="${t}">${cap(t.replace('-', ' '))}</option>`).join('')}</select></label>
                 <label>Style <select data-filter="tags"><option value="">Any</option>${['peaceful', 'family', 'spiritual', 'adventure', 'lake', 'wildlife', 'trek', 'snow', 'couples'].map(t => `<option value="${t}">${cap(t)}</option>`).join('')}</select></label>
             </form>
-            <p class="note" id="count" aria-live="polite"></p>
+            <p class="results" id="count" aria-live="polite"></p>
             <div class="dham-grid" data-filter-list>${destinations.map(d => card(`destination/${d.slug}/`, d.name, d.tagline, `${REGIONS[d.region].name} · ${d.altitude.split(' (')[0]}`, ` data-region="${d.region}" data-type="${d.type}" data-tags="${(d.tags || []).join(' ')}"`, { icon: TYPE_ICON[d.type] || 'mountain', tag: cap(d.type.replace('-', ' ')), tone: 'tone-' + d.region })).join('')}</div>
             <p class="note">See also: <a href="region/garhwal/">Garhwal</a>, <a href="region/kumaon/">Kumaon</a>, <a href="map/">map</a>, <a href="guide/peaceful-places/">peaceful places</a>, <a href="guide/wildlife-parks/">wildlife and parks</a>. Not listed yet: Rudraprayag, Srinagar (Garhwal), Naukuchiatal as a separate page, Abbott Mount, Champawat, Lohaghat, Dharchula, Peora, Sitla and Sari.</p>
         </div>`;
@@ -597,7 +597,7 @@ const explorePage = () => {
                     <button type="button" class="chip" data-type="guide">Guides</button>
                 </div>
             </form>
-            <p id="count" class="note" aria-live="polite"></p>
+            <p id="count" class="results" aria-live="polite"></p>
             <div id="results" class="dham-grid"><noscript>Enable JavaScript to search, or browse <a href="${root}destinations.html">destinations</a>.</noscript></div>
         </div>`;
   write('explore/index.html', page({ root, active: 'explore/', title: 'Search - Uttarakhand Tourism', desc: 'Search Uttarakhand destinations, treks, itineraries and guides.', canonical: 'explore/', body, jsonld: [bc.ld], script: `    <script src="${root}data/search.js"></script>\n    <script src="${root}js/explore.js" data-root="${root}"></script>` }));

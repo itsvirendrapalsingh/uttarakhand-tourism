@@ -40,7 +40,7 @@
             controls.forEach(function (el) { if (el.tagName === 'SELECT') el.classList.toggle('is-set', !!el.value); });
             if (reset) reset.hidden = !controls.some(function (el) { return el.value; });
             if (count) {
-                count.textContent = shown + ' of ' + cards.length + ' shown';
+                count.innerHTML = 'Showing <strong>' + shown + '</strong> of ' + cards.length;
                 if (!calm && !first) { count.classList.remove('bump'); void count.offsetWidth; count.classList.add('bump'); }
             }
             var none = list.parentNode.querySelector('.no-match');
