@@ -212,7 +212,7 @@ const destPage = d => {
         ${relItins.length ? `<h3>Itineraries that include it</h3><ul class="bullets">${relItins.map(i => `<li><a href="${root}itinerary/${i.slug}/">${esc(i.title)}</a> (${i.days} day${i.days > 1 ? 's' : ''})</li>`).join('')}</ul>` : ''}
         ${relTreks.length ? `<h3>Treks in the same district</h3><ul class="bullets">${relTreks.map(t => `<li><a href="${root}trek/${t.slug}/">${esc(t.name)}</a> (${esc(t.difficulty)}, ${t.days} days)</li>`).join('')}</ul>` : ''}</section>` : '';
   const body = withJump(`${heroBlock(root, d.name, d.tagline, d.image)}
-        ${strip([['Altitude', d.altitude, 'mountain'], ['Best time', q.bestTime.split(/[;(,]/)[0], 'calendar-days'], ['Suggested stay', q.duration.split(/[;,]/)[0], 'moon'], ['Region', REGIONS[d.region].name, 'location-dot']])}
+        ${strip([['Altitude', d.altitude.split(' (')[0], 'mountain'], ['Best time', q.bestTime.split(/[;(,]/)[0], 'calendar-days'], ['Suggested stay', q.duration.split(/[;,]/)[0], 'moon'], ['Region', REGIONS[d.region].name, 'location-dot']])}
         ${bc.html}
         <div class="container guide-layout">
             <article>
@@ -426,7 +426,7 @@ const bestTimePage = () => {
 const dhamPage = () => {
   const root = '../';
   const bc = crumbs(root, [['Home', 'index.html'], ['Char Dham', 'char-dham/']]);
-  const cards = ['yamunotri', 'gangotri', 'kedarnath', 'badrinath'].map(s => bySlug[s]).map(d => card(`${root}destination/${d.slug}/`, d.name, d.tagline, `${d.altitude} · ${d.district}`)).join('');
+  const cards = ['yamunotri', 'gangotri', 'kedarnath', 'badrinath'].map(s => bySlug[s]).map(d => card(`${root}destination/${d.slug}/`, d.name, d.tagline, `${d.altitude.split(" (")[0]} · ${d.district}`)).join('');
   const body = `${heroBlock(root, dham.title, 'Yamunotri, Gangotri, Kedarnath and Badrinath')}
         ${bc.html}
         <div class="container guide-single">
@@ -464,7 +464,7 @@ const regionPage = key => {
   const bc = crumbs(root, [['Home', 'index.html'], ['Destinations', 'destinations.html'], [r.name, `region/${key}/`]]);
   const body = `${heroBlock(root, r.name, r.intro)}
         ${bc.html}
-        <div class="container"><div class="dham-grid">${list.map(d => card(`${root}destination/${d.slug}/`, d.name, d.tagline, `${d.altitude} · ${d.district}`)).join('')}</div></div>`;
+        <div class="container"><div class="dham-grid">${list.map(d => card(`${root}destination/${d.slug}/`, d.name, d.tagline, `${d.altitude.split(" (")[0]} · ${d.district}`)).join('')}</div></div>`;
   write(`region/${key}/index.html`, page({ root, active: 'destinations.html', title: `${r.name} Travel Guide - Uttarakhand Tourism`, desc: r.intro, canonical: `region/${key}/`, body, jsonld: [bc.ld] }));
 };
 
