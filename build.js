@@ -48,7 +48,8 @@ const header = (root, active) => `<header>
             <div class="container">
                 <div class="logo">
                     <a href="${root}index.html">
-                        <h1>Uttarakhand Tourism</h1>
+                        <img class="logo-mark" src="${root}favicon.svg" alt="" width="34" height="34">
+                        <span class="logo-title">Uttarakhand Tourism</span>
                     </a>
                 </div>
                 <div class="menu-toggle">
@@ -104,11 +105,27 @@ const page = ({ root, active, title, desc, canonical, body, jsonld = [], script 
     <title>${esc(title)}</title>
     <meta name="description" content="${esc(desc)}">
     <link rel="canonical" href="${SITE}/${canonical}">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+    <meta name="theme-color" content="#123c5a">
+    <link rel="icon" href="${root}favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="${root}favicon.ico" sizes="48x48">
+    <link rel="apple-touch-icon" href="${root}apple-touch-icon.png">
+    <link rel="manifest" href="${root}manifest.webmanifest">
+    <link rel="alternate" hreflang="en-IN" href="${SITE}/${canonical}">
+    <meta property="og:site_name" content="Uttarakhand Tourism">
+    <meta property="og:locale" content="en_IN">
     <meta property="og:title" content="${esc(title)}">
     <meta property="og:description" content="${esc(desc)}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="${SITE}/${canonical}">
-${ogImage ? `    <meta property="og:image" content="${SITE}/${ogImage}">\n` : ''}    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="${SITE}/${ogImage || 'og-default.png'}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${esc(title)}">
+    <meta name="twitter:description" content="${esc(desc)}">
+    <meta name="twitter:image" content="${SITE}/${ogImage || 'og-default.png'}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="stylesheet" href="${root}css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -161,10 +178,27 @@ const actions = (key, title, url) => `<div class="actions no-print">
     <button type="button" class="btn btn-small" data-share>Share link</button>
     <button type="button" class="btn btn-small" data-print>Print</button></div>`;
 const link = (root, slug) => bySlug[slug] ? `<a href="${root}destination/${slug}/">${esc(bySlug[slug].name)}</a>` : esc(slug);
-const card = (href, title, sub, meta, attrs = '') => `<a class="dham-card" href="${href}"${attrs}><h3>${esc(title)}</h3><p>${esc(sub)}</p><span>${esc(meta)}</span></a>`;
+const card = (href, title, sub, meta, attrs = '', { icon = '', tag = '', tone = '' } = {}) => `<a class="dham-card${icon ? ' has-top' : ''}" href="${href}"${attrs}>${icon ? `<div class="card-top ${tone}"><i class="fas fa-${icon}" aria-hidden="true"></i>${tag ? `<b class="badge">${esc(tag)}</b>` : ''}</div>` : ''}<h3>${esc(title)}</h3><p>${esc(sub)}</p><div class="pills">${String(meta).split(' · ').map(m => `<span>${esc(m)}</span>`).join('')}</div></a>`;
+const TYPE_ICON = { dham: 'om', temple: 'om', city: 'city', 'hill-station': 'mountain-sun', town: 'house-chimney', lake: 'water', village: 'tree', meadow: 'seedling', confluence: 'water', park: 'paw', wildlife: 'paw' };
+// jump-nav: give each guide section an id and prepend a sticky chip bar
+const withJump = html => {
+  const items = [];
+  const out = html.replace(/<section class="guide-section( no-print)?"><h2>(.*?)<\/h2>/g, (m, np, h) => {
+    const id = 's-' + h.toLowerCase().replace(/<[^>]+>/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    items.push([id, h.replace(/<[^>]+>/g, '').replace(/^How to reach .*/, 'How to reach').replace(/^Plan around .*/, 'Plan around')]);
+    return `<section class="guide-section${np || ''}" id="${id}"><h2>${h}</h2>`;
+  });
+  const nav = `<nav class="jump no-print" aria-label="On this page">${items.map(([id, t]) => `<a href="#${id}">${t}</a>`).join('')}</nav>`;
+  return out.replace('<article>', '<article>' + nav);
+};
+const strip = rows => `<div class="stat-strip container"><div class="stat-grid">${rows.filter(r => r[1]).map(([k, v, ic]) => `<div><i class="fas fa-${ic}" aria-hidden="true"></i><span>${esc(k)}</span><strong>${esc(v)}</strong></div>`).join('')}</div></div>`;
 const bucket = d => d <= 1 ? '1' : d === 2 ? '2' : d <= 5 ? '3-5' : '7+';
 const seasonOf = m => m <= 2 || m === 12 ? 'winter' : m <= 5 ? 'spring-summer' : m <= 9 ? 'monsoon' : 'autumn';
 const mapScripts = `    <script src="__ROOT__data/map.js"></script>\n    <script src="__ROOT__js/map.js" data-root="__ROOT__"></script>`;
+
+const ORG = { '@type': 'Organization', name: 'Uttarakhand Tourism', url: SITE + '/', logo: SITE + '/icon-512.png' };
+const place = (d, path) => ({ '@context': 'https://schema.org', '@type': 'TouristDestination', name: d.name, description: d.summary, url: `${SITE}/${path}`, touristType: (d.tags || []).join(', ') || undefined, containedInPlace: { '@type': 'AdministrativeArea', name: 'Uttarakhand, India' }, ...(d.lat ? { geo: { '@type': 'GeoCoordinates', latitude: d.lat, longitude: d.lng } } : {}) });
+const article = (headline, desc, path) => ({ '@context': 'https://schema.org', '@type': 'Article', headline, description: desc, dateModified: REVIEWED, mainEntityOfPage: `${SITE}/${path}`, author: ORG, publisher: ORG });
 
 // ---------- destination page ----------
 const destPage = d => {
@@ -177,7 +211,8 @@ const destPage = d => {
   const related = (relItins.length || relTreks.length) ? `<section class="guide-section"><h2>Plan around ${esc(d.name)}</h2>
         ${relItins.length ? `<h3>Itineraries that include it</h3><ul class="bullets">${relItins.map(i => `<li><a href="${root}itinerary/${i.slug}/">${esc(i.title)}</a> (${i.days} day${i.days > 1 ? 's' : ''})</li>`).join('')}</ul>` : ''}
         ${relTreks.length ? `<h3>Treks in the same district</h3><ul class="bullets">${relTreks.map(t => `<li><a href="${root}trek/${t.slug}/">${esc(t.name)}</a> (${esc(t.difficulty)}, ${t.days} days)</li>`).join('')}</ul>` : ''}</section>` : '';
-  const body = `${heroBlock(root, d.name, d.tagline, d.image)}
+  const body = withJump(`${heroBlock(root, d.name, d.tagline, d.image)}
+        ${strip([['Altitude', d.altitude, 'mountain'], ['Best time', q.bestTime.split(/[;(,]/)[0], 'calendar-days'], ['Suggested stay', q.duration.split(/[;,]/)[0], 'moon'], ['Region', REGIONS[d.region].name, 'location-dot']])}
         ${bc.html}
         <div class="container guide-layout">
             <article>
@@ -216,10 +251,10 @@ const destPage = d => {
                 </dl>
                 ${d.type === 'dham' ? `<a class="btn btn-primary" href="${root}char-dham/">Char Dham overview</a>` : ''}
             </aside>
-        </div>`;
+        </div>`);
   write(`destination/${d.slug}/index.html`, withRoot(page({
     root, active: 'destinations.html', title: `${d.name} Travel Guide - Uttarakhand Tourism`, desc: `${d.tagline}. ${d.summary.slice(0, 110)}`,
-    canonical: `destination/${d.slug}/`, body, jsonld: [bc.ld, ...faqLd(d.faq)], script: d.lat ? mapScripts : '',
+    canonical: `destination/${d.slug}/`, body, jsonld: [bc.ld, place(d, `destination/${d.slug}/`), ...faqLd(d.faq)], script: d.lat ? mapScripts : '',
     ogImage: d.image && images[d.image] ? images[d.image].v[1].path : ''
   }), root));
 };
@@ -228,7 +263,8 @@ const destPage = d => {
 const trekPage = t => {
   const root = '../../';
   const bc = crumbs(root, [['Home', 'index.html'], ['Treks', 'treks/'], [t.name, `trek/${t.slug}/`]]);
-  const body = `${heroBlock(root, t.name, t.summary)}
+  const body = withJump(`${heroBlock(root, t.name, t.summary)}
+        ${strip([['Difficulty', cap(t.difficulty), 'gauge-high'], ['Duration', t.days + ' days', 'clock'], ['Distance', t.distance, 'route'], ['Altitude', t.altitudeNote, 'mountain'], ['Season', t.season.split(';')[0], 'sun']])}
         ${bc.html}
         <div class="container guide-layout">
             <article>
@@ -261,10 +297,10 @@ const trekPage = t => {
                     <dt>Start</dt><dd>${esc(t.base)}, ${esc(REGIONS[t.region].name)}</dd>
                 </dl>
             </aside>
-        </div>`;
+        </div>`);
   write(`trek/${t.slug}/index.html`, withRoot(page({
     root, active: 'treks/', title: `${t.name} Trek Guide - Uttarakhand Tourism`, desc: `${t.name}: ${t.difficulty} trek, ${t.days} days, ${t.season}. ${t.summary.slice(0, 100)}`,
-    canonical: `trek/${t.slug}/`, body, jsonld: [bc.ld, ...faqLd(t.faq)], script: t.lat ? mapScripts : ''
+    canonical: `trek/${t.slug}/`, body, jsonld: [bc.ld, article(`${t.name} trek guide`, t.summary, `trek/${t.slug}/`), ...faqLd(t.faq)], script: t.lat ? mapScripts : ''
   }), root));
 };
 
@@ -288,7 +324,8 @@ const treksIndex = () => {
               const len = t.days <= 3 ? 'short' : t.days <= 6 ? 'mid' : 'long';
               const alt = t.maxAltitude < 3500 ? 'low' : t.maxAltitude <= 4000 ? 'mid' : 'high';
               return card(`${root}trek/${t.slug}/`, t.name, t.summary, `${cap(t.difficulty)} · ${t.days} days · ${t.altitudeNote}`,
-                ` data-diff="${diff}" data-level="${t.level}" data-len="${len}" data-season="${t.seasons.join(' ')}" data-alt="${alt}"`);
+                ` data-diff="${diff}" data-level="${t.level}" data-len="${len}" data-season="${t.seasons.join(' ')}" data-alt="${alt}"`,
+                { icon: 'person-hiking', tag: cap(t.difficulty), tone: 'tone-' + t.difficulty.split('-')[t.difficulty.includes('-') ? 1 : 0] });
             }).join('')}</div>
             <p class="note">Difficulty and season are general guidance. Always check current conditions and permits with a registered operator.</p>
         </div>`;
@@ -301,7 +338,8 @@ const itinPage = i => {
   const bc = crumbs(root, [['Home', 'index.html'], ['Itineraries', 'itineraries/'], [i.title, `itinerary/${i.slug}/`]]);
   const stops = i.stops.filter(s => bySlug[s] && bySlug[s].lat).map(s => ({ name: bySlug[s].name, lat: bySlug[s].lat, lng: bySlug[s].lng, slug: s }));
   const monthNames = i.months.map(m => months.months[m - 1].name.slice(0, 3)).join(', ');
-  const body = `${heroBlock(root, i.title, i.summary)}
+  const body = withJump(`${heroBlock(root, i.title, i.summary)}
+        ${strip([['Length', i.days + ' day' + (i.days > 1 ? 's' : ''), 'calendar-days'], ['Starts from', i.start, 'location-dot'], ['Pace', cap(i.pace), 'gauge-high'], ['Months', monthNames, 'sun']])}
         ${bc.html}
         <div class="container guide-layout">
             <article>
@@ -327,10 +365,10 @@ const itinPage = i => {
                 </dl>
                 <a class="btn btn-primary" href="${root}plan/">Open the trip planner</a>
             </aside>
-        </div>`;
+        </div>`);
   write(`itinerary/${i.slug}/index.html`, withRoot(page({
     root, active: 'itineraries/', title: `${i.title} - Itinerary - Uttarakhand Tourism`, desc: `${i.title}: ${i.days}-day itinerary starting from ${i.start}. ${i.summary}`,
-    canonical: `itinerary/${i.slug}/`, body, jsonld: [bc.ld], script: stops.length ? mapScripts : ''
+    canonical: `itinerary/${i.slug}/`, body, jsonld: [bc.ld, { '@context': 'https://schema.org', '@type': 'TouristTrip', name: i.title, description: i.summary, touristType: i.tags.join(', '), itinerary: { '@type': 'ItemList', itemListElement: i.plan.map((p, n) => ({ '@type': 'ListItem', position: n + 1, name: `${p.day}: ${p.title}`, description: p.text })) } }], script: stops.length ? mapScripts : ''
   }), root));
 };
 
@@ -346,7 +384,7 @@ const itinsIndex = () => {
                 <label>Comfort <select data-filter="comfort"><option value="">Any</option><option value="comfortable">Comfortable</option><option value="balanced">Balanced</option><option value="rushed">Rushed</option></select></label>
             </form>
             <p class="note" id="count" aria-live="polite"></p>
-            <div class="dham-grid" data-filter-list>${itins.map(i => card(`${root}itinerary/${i.slug}/`, i.title, i.summary, `${i.days} day${i.days > 1 ? 's' : ''} · from ${i.start} · ${cap(i.comfort)}`, ` data-bucket="${bucket(i.days)}" data-tags="${i.tags.join(' ')}" data-comfort="${i.comfort}"`)).join('')}</div>
+            <div class="dham-grid" data-filter-list>${itins.map(i => card(`${root}itinerary/${i.slug}/`, i.title, i.summary, `${i.days} day${i.days > 1 ? 's' : ''} · from ${i.start} · ${cap(i.comfort)}`, ` data-bucket="${bucket(i.days)}" data-tags="${i.tags.join(' ')}" data-comfort="${i.comfort}"`, { icon: 'route', tag: `${i.days} day${i.days > 1 ? 's' : ''}`, tone: 'tone-' + i.comfort })).join('')}</div>
         </div>`;
   write('itineraries/index.html', page({ root, active: 'itineraries/', title: 'Uttarakhand Itineraries - Uttarakhand Tourism', desc: 'One-day to two-week Uttarakhand itineraries with day-by-day plans and realistic driving times.', canonical: 'itineraries/', body, jsonld: [bc.ld] }));
 };
@@ -442,7 +480,7 @@ const destinationsHub = () => {
                 <label>Style <select data-filter="tags"><option value="">Any</option>${['peaceful', 'family', 'spiritual', 'adventure', 'lake', 'wildlife', 'trek', 'snow', 'couples'].map(t => `<option value="${t}">${cap(t)}</option>`).join('')}</select></label>
             </form>
             <p class="note" id="count" aria-live="polite"></p>
-            <div class="dham-grid" data-filter-list>${destinations.map(d => card(`destination/${d.slug}/`, d.name, d.tagline, `${REGIONS[d.region].name} · ${d.altitude}`, ` data-region="${d.region}" data-type="${d.type}" data-tags="${(d.tags || []).join(' ')}"`)).join('')}</div>
+            <div class="dham-grid" data-filter-list>${destinations.map(d => card(`destination/${d.slug}/`, d.name, d.tagline, `${REGIONS[d.region].name} · ${d.altitude.split(' (')[0]}`, ` data-region="${d.region}" data-type="${d.type}" data-tags="${(d.tags || []).join(' ')}"`, { icon: TYPE_ICON[d.type] || 'mountain', tag: cap(d.type.replace('-', ' ')), tone: 'tone-' + d.region })).join('')}</div>
             <p class="note">See also: <a href="region/garhwal/">Garhwal</a>, <a href="region/kumaon/">Kumaon</a>, <a href="map/">map</a>, <a href="guide/peaceful-places/">peaceful places</a>, <a href="guide/wildlife-parks/">wildlife and parks</a>. Not listed yet: Rudraprayag, Srinagar (Garhwal), Naukuchiatal as a separate page, Abbott Mount, Champawat, Lohaghat, Dharchula, Peora, Sitla and Sari.</p>
         </div>`;
   write('destinations.html', page({ root, active: 'destinations.html', title: 'Top Destinations - Uttarakhand Tourism', desc: 'Browse Uttarakhand destination guides by region, type and travel style.', canonical: 'destinations.html', body }));
@@ -618,7 +656,7 @@ const homePage = () => {
             <div class="destination-grid">${featured.map(f => `<div class="destination-card">${pic(f.img)}<div class="destination-info"><h3>${f.t}</h3><p>${f.s}</p><a href="${f.href}" class="btn btn-small">Learn More</a></div></div>`).join('')}</div>
             <div class="center-button"><a href="destinations.html" class="btn btn-primary">View All Destinations</a></div>
         </section>`, root);
-  write('index.html', page({ root, active: 'index.html', title: 'Uttarakhand Tourism - Discover the Land of Gods', desc: 'Guides to Uttarakhand destinations, treks, itineraries, the Char Dham yatra, best time to visit and a trip planner.', canonical: '', body, ogImage: images.overview.v[1].path }));
+  write('index.html', page({ root, active: 'index.html', title: 'Uttarakhand Tourism - Discover the Land of Gods', desc: 'Guides to Uttarakhand destinations, treks, itineraries, the Char Dham yatra, best time to visit and a trip planner.', canonical: '', body, ogImage: images.overview.v[1].path, jsonld: [{ '@context': 'https://schema.org', '@graph': [{ ...ORG, '@id': SITE + '/#org' }, { '@type': 'WebSite', url: SITE + '/', name: 'Uttarakhand Tourism', inLanguage: 'en-IN', publisher: { '@id': SITE + '/#org' } }] }] }));
 };
 
 const galleryPage = () => {
@@ -639,9 +677,25 @@ const galleryPage = () => {
 };
 
 // ---------- contact (hand-written, chrome only) ----------
+const headMeta = (title, desc, canonical) => `<meta name="description" content="${esc(desc)}">
+    <link rel="canonical" href="${SITE}/${canonical}">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+    <meta name="theme-color" content="#123c5a">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon.ico" sizes="48x48">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta property="og:site_name" content="Uttarakhand Tourism">
+    <meta property="og:title" content="${esc(title)}">
+    <meta property="og:description" content="${esc(desc)}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="${SITE}/${canonical}">
+    <meta property="og:image" content="${SITE}/og-default.png">
+    <meta name="twitter:card" content="summary_large_image">`;
 const refreshChrome = () => {
   for (const f of ['contact.html']) {
     let s = fs.readFileSync(R(f), 'utf8');
+    s = s.replace(/<meta name="description"[\s\S]*?(?=<link rel="stylesheet" href="css\/style.css">)/, '').replace('<link rel="stylesheet" href="css/style.css">', () => headMeta('Contact Uttarakhand Tourism', 'Questions about Uttarakhand trips? Find the information centre, contact details and answers to common questions.', 'contact.html') + '\n    <link rel="stylesheet" href="css/style.css">');
     s = explicit(s.replace(/<header>[\s\S]*?<\/header>/, () => header('', f)).replace(/<footer>[\s\S]*?<\/footer>/, () => footer('')));
     fs.writeFileSync(R(f), s);
   }
@@ -651,7 +705,8 @@ const refreshChrome = () => {
 const sitemap = () => {
   const urls = ['index.html', 'destinations.html', 'gallery.html', 'plan-trip.html', 'contact.html', 'explore/', 'char-dham/', 'best-time/', 'plan/', 'map/', 'treks/', 'itineraries/', 'region/garhwal/', 'region/kumaon/',
     ...destinations.map(d => `destination/${d.slug}/`), ...treks.map(t => `trek/${t.slug}/`), ...itins.map(i => `itinerary/${i.slug}/`), ...guides.map(g => `guide/${g.slug}/`)];
-  write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${SITE}/${u === 'index.html' ? '' : u}</loc></url>`).join('\n')}\n</urlset>\n`);
+  write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${SITE}/${u === 'index.html' ? '' : u}</loc><lastmod>${REVIEWED}</lastmod></url>`).join('\n')}\n</urlset>\n`);
+  write('manifest.webmanifest', JSON.stringify({ name: 'Uttarakhand Tourism', short_name: 'Uttarakhand', start_url: '/', display: 'standalone', background_color: '#fcfbf8', theme_color: '#123c5a', icons: [{ src: '/icon-192.png', sizes: '192x192', type: 'image/png' }, { src: '/icon-512.png', sizes: '512x512', type: 'image/png' }, { src: '/favicon.svg', sizes: 'any', type: 'image/svg+xml' }] }));
   write('robots.txt', `User-agent: *\nAllow: /\nSitemap: ${SITE}/sitemap.xml\n`);
 };
 

@@ -14,8 +14,8 @@
         });
         count.textContent = hits.length + ' result' + (hits.length === 1 ? '' : 's');
         out.textContent = '';
-        hits.forEach(function (d) {
-            var a = document.createElement('a'); a.className = 'dham-card'; a.href = href(root, d.url);
+        hits.forEach(function (d, n) {
+            var a = document.createElement('a'); a.className = 'dham-card pop-in'; a.style.setProperty('--i', Math.min(n, 12)); a.href = href(root, d.url);
             var h = document.createElement('h3'); h.textContent = d.name;
             var p = document.createElement('p'); p.textContent = d.sub;
             var s = document.createElement('span'); s.textContent = label[d.t];
