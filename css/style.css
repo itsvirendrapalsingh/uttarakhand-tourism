@@ -2040,3 +2040,13 @@ html, body { overflow-x: clip; }
     .timeline li { padding: 12px 12px 12px 2.7rem; margin-left: .9rem; }
     #q, .explore-controls input[type="search"] { font-size: 16px; }
 }
+
+/* long unbreakable strings (emails, URLs) must wrap inside their container */
+body { overflow-wrap: break-word; }
+.office-card p, .footer-contact p, .info-item p, .info-panel dd { overflow-wrap: anywhere; min-width: 0; }
+.office-card p i, .footer-contact p i { flex: none; }
+.office-card, .info-item, .dham-card, .info-panel, .stat-grid > div { min-width: 0; }
+.tourism-offices { box-shadow: 0 0 0 100vmax #f3f7f8; clip-path: inset(0 -100vmax); }
+.office-card p { align-items: flex-start; }
+.office-card p i { margin-top: .32rem; width: 1em; text-align: center; }
+.office-card p { font-size: .88rem; }

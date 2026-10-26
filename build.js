@@ -38,7 +38,8 @@ const bySlug = Object.fromEntries(destinations.map(d => [d.slug, d]));
 // Directory links stay clean (plan/, not plan/index.html); Firebase serves the index file. Not meant for file:// browsing.
 const TOP = 'home|destinations|gallery|plan-trip|contact';
 const clean = p => p.replace(new RegExp('(^|/)(' + TOP + ')\\.html$'), '$1$2');
-const explicit = html => html.replace(/href="([^"#]*\/)index\.html/g, 'href="$1').replace(new RegExp('href="([^"#:]*?)(' + TOP + ')\\.html', 'g'), 'href="$1$2');
+const breakEmails = html => html.replace(/(?<![\w:"'=\/.-])([A-Za-z0-9._-]+)@(?=[A-Za-z0-9-]+\.)/g, '$1@<wbr>');
+const explicit = html => breakEmails(html).replace(/href="([^"#]*\/)index\.html/g, 'href="$1').replace(new RegExp('href="([^"#:]*?)(' + TOP + ')\\.html', 'g'), 'href="$1$2');
 
 // ---------- shared pieces ----------
 const NAV = [
