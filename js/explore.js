@@ -1,7 +1,7 @@
 // Client-side search over data/search.json (destinations, treks, itineraries, guides)
 (function () {
     var root = document.currentScript.dataset.root;
-    function href(root, u) { return root + (u.slice(-1) === '/' ? u + 'index.html' : u); }
+    function href(root, u) { return root + u; }
 
     var box = document.getElementById('q'), out = document.getElementById('results'), count = document.getElementById('count');
     var chips = document.querySelectorAll('.chip'), type = 'all', all = [];

@@ -77,7 +77,7 @@
     var box = document.getElementById('saved-list');
     if (box) {
         box.innerHTML = saved.map(function (s) {
-            var a = document.createElement('a'); a.className = 'dham-card'; a.href = root + (s.u.slice(-1) === '/' ? s.u + 'index.html' : s.u);
+            var a = document.createElement('a'); a.className = 'dham-card'; a.href = root + (s.u);
             var h = document.createElement('h3'); h.textContent = s.t;
             var p = document.createElement('span'); p.textContent = s.k.split(':')[0];
             a.appendChild(h); a.appendChild(p); return a.outerHTML;

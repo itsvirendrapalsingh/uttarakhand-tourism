@@ -95,7 +95,7 @@
         matches.textContent = '';
         if (!ranked.length) { matches.textContent = 'No itinerary is short enough. Try more days or browse all itineraries.'; return; }
         ranked.forEach(function (x) {
-            var a = document.createElement('a'); a.className = 'dham-card'; a.href = root + 'itinerary/' + x.i.slug + '/index.html';
+            var a = document.createElement('a'); a.className = 'dham-card'; a.href = root + 'itinerary/' + x.i.slug + '/';
             var h = document.createElement('h3'); h.textContent = x.i.title;
             var p = document.createElement('p'); p.textContent = x.r.why.join('; ') + '.';
             a.appendChild(h); a.appendChild(p);

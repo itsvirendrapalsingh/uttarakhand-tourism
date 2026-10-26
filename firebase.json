@@ -8,7 +8,8 @@
     ],
     "redirects": [
       { "source": "/", "destination": "/home.html", "type": 302 },
-      { "source": "/index.html", "destination": "/home.html", "type": 301 }
+      { "source": "/index.html", "destination": "/home.html", "type": 301 },
+      { "regex": "^/(.+)/index\\.html$", "destination": "/:1/", "type": 301 }
     ],
     "headers": [
       { "source": "images/opt/**", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },

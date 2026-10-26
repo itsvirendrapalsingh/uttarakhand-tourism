@@ -1,7 +1,7 @@
 // Leaflet maps (OpenStreetMap tiles): mini maps on pages and the full map page.
 (function () {
     var root = document.currentScript.dataset.root || '';
-    function href(root, u) { return root + (u.slice(-1) === '/' ? u + 'index.html' : u); }
+    function href(root, u) { return root + u; }
 
     var els = document.querySelectorAll('.mini-map, #big-map');
     if (!els.length) return;

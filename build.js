@@ -35,8 +35,8 @@ const budget = read('budget.json');
 const dham = read('chardham.json');
 const bySlug = Object.fromEntries(destinations.map(d => [d.slug, d]));
 
-// Directory links need index.html so pages also work when opened from disk (file://).
-const explicit = html => html.replace(/href="((?!https?:|\/\/|mailto:|#)[^"#]*\/|)(#[^"]*)?"/g, (m, p, h) => p ? `href="${p}index.html${h || ''}"` : m);
+// Directory links stay clean (plan/, not plan/index.html); Firebase serves the index file. Not meant for file:// browsing.
+const explicit = html => html.replace(/href="([^"#]*\/)index\.html/g, 'href="$1');
 
 // ---------- shared pieces ----------
 const NAV = [
