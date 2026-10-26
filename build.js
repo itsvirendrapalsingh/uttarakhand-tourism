@@ -40,14 +40,14 @@ const explicit = html => html.replace(/href="((?!https?:|\/\/|mailto:|#)[^"#]*\/
 
 // ---------- shared pieces ----------
 const NAV = [
-  ['index.html', 'Home'], ['destinations.html', 'Destinations'], ['treks/', 'Treks'], ['itineraries/', 'Itineraries'],
+  ['home.html', 'Home'], ['destinations.html', 'Destinations'], ['treks/', 'Treks'], ['itineraries/', 'Itineraries'],
   ['char-dham/', 'Char Dham'], ['best-time/', 'Best Time'], ['plan/', 'Plan'], ['gallery.html', 'Gallery'], ['contact.html', 'Contact']
 ];
 const header = (root, active) => `<header>
         <nav class="navbar">
             <div class="container">
                 <div class="logo">
-                    <a href="${root}index.html">
+                    <a href="${root}home.html">
                         <img class="logo-mark" src="${root}favicon.svg" alt="" width="34" height="34">
                         <span class="logo-title">Uttarakhand Tourism</span>
                     </a>
@@ -203,7 +203,7 @@ const article = (headline, desc, path) => ({ '@context': 'https://schema.org', '
 // ---------- destination page ----------
 const destPage = d => {
   const root = '../../';
-  const bc = crumbs(root, [['Home', 'index.html'], ['Destinations', 'destinations.html'], [REGIONS[d.region].name, `region/${d.region}/`], [d.name, `destination/${d.slug}/`]]);
+  const bc = crumbs(root, [['Home', 'home.html'], ['Destinations', 'destinations.html'], [REGIONS[d.region].name, `region/${d.region}/`], [d.name, `destination/${d.slug}/`]]);
   const q = d.quick;
   const nearby = (d.nearby || []).map(n => n.slug && bySlug[n.slug] ? `<a href="${root}destination/${n.slug}/">${esc(n.name)}</a>` : esc(n.name)).join(', ');
   const relItins = itins.filter(i => i.stops.includes(d.slug));
@@ -262,7 +262,7 @@ const destPage = d => {
 // ---------- trek page ----------
 const trekPage = t => {
   const root = '../../';
-  const bc = crumbs(root, [['Home', 'index.html'], ['Treks', 'treks/'], [t.name, `trek/${t.slug}/`]]);
+  const bc = crumbs(root, [['Home', 'home.html'], ['Treks', 'treks/'], [t.name, `trek/${t.slug}/`]]);
   const body = withJump(`${heroBlock(root, t.name, t.summary)}
         ${strip([['Difficulty', cap(t.difficulty), 'gauge-high'], ['Duration', t.days + ' days', 'clock'], ['Distance', t.distance, 'route'], ['Altitude', t.altitudeNote, 'mountain'], ['Season', t.season.split(';')[0], 'sun']])}
         ${bc.html}
@@ -306,7 +306,7 @@ const trekPage = t => {
 
 const treksIndex = () => {
   const root = '../';
-  const bc = crumbs(root, [['Home', 'index.html'], ['Treks', 'treks/']]);
+  const bc = crumbs(root, [['Home', 'home.html'], ['Treks', 'treks/']]);
   const opt = a => a.map(([v, l]) => `<option value="${v}">${l}</option>`).join('');
   const body = `${heroBlock(root, 'Trek finder', 'Filter Uttarakhand treks by difficulty, length, season and altitude')}
         ${bc.html}
@@ -335,7 +335,7 @@ const treksIndex = () => {
 // ---------- itinerary pages ----------
 const itinPage = i => {
   const root = '../../';
-  const bc = crumbs(root, [['Home', 'index.html'], ['Itineraries', 'itineraries/'], [i.title, `itinerary/${i.slug}/`]]);
+  const bc = crumbs(root, [['Home', 'home.html'], ['Itineraries', 'itineraries/'], [i.title, `itinerary/${i.slug}/`]]);
   const stops = i.stops.filter(s => bySlug[s] && bySlug[s].lat).map(s => ({ name: bySlug[s].name, lat: bySlug[s].lat, lng: bySlug[s].lng, slug: s }));
   const monthNames = i.months.map(m => months.months[m - 1].name.slice(0, 3)).join(', ');
   const body = withJump(`${heroBlock(root, i.title, i.summary)}
@@ -374,7 +374,7 @@ const itinPage = i => {
 
 const itinsIndex = () => {
   const root = '../';
-  const bc = crumbs(root, [['Home', 'index.html'], ['Itineraries', 'itineraries/']]);
+  const bc = crumbs(root, [['Home', 'home.html'], ['Itineraries', 'itineraries/']]);
   const body = `${heroBlock(root, 'Itineraries', 'From a single day to two weeks, with realistic driving times')}
         ${bc.html}
         <div class="container">
@@ -392,7 +392,7 @@ const itinsIndex = () => {
 // ---------- guides ----------
 const guidePage = g => {
   const root = '../../';
-  const bc = crumbs(root, [['Home', 'index.html'], ['Plan', 'plan-trip.html'], [g.title, `guide/${g.slug}/`]]);
+  const bc = crumbs(root, [['Home', 'home.html'], ['Plan', 'plan-trip.html'], [g.title, `guide/${g.slug}/`]]);
   const body = `${heroBlock(root, g.title, g.sub)}
         ${bc.html}
         <div class="container guide-single">
@@ -407,7 +407,7 @@ const guidePage = g => {
 
 const bestTimePage = () => {
   const root = '../';
-  const bc = crumbs(root, [['Home', 'index.html'], ['Best time to visit', 'best-time/']]);
+  const bc = crumbs(root, [['Home', 'home.html'], ['Best time to visit', 'best-time/']]);
   const body = `${heroBlock(root, 'Best time to visit Uttarakhand', 'Month by month: weather, snow, roads, treks and Char Dham status')}
         ${bc.html}
         <div class="container guide-single">
@@ -425,7 +425,7 @@ const bestTimePage = () => {
 // ---------- char dham ----------
 const dhamPage = () => {
   const root = '../';
-  const bc = crumbs(root, [['Home', 'index.html'], ['Char Dham', 'char-dham/']]);
+  const bc = crumbs(root, [['Home', 'home.html'], ['Char Dham', 'char-dham/']]);
   const cards = ['yamunotri', 'gangotri', 'kedarnath', 'badrinath'].map(s => bySlug[s]).map(d => card(`${root}destination/${d.slug}/`, d.name, d.tagline, `${d.altitude.split(" (")[0]} · ${d.district}`)).join('');
   const body = `${heroBlock(root, dham.title, 'Yamunotri, Gangotri, Kedarnath and Badrinath')}
         ${bc.html}
@@ -461,7 +461,7 @@ const regionPage = key => {
   const root = '../../';
   const r = REGIONS[key];
   const list = destinations.filter(d => d.region === key);
-  const bc = crumbs(root, [['Home', 'index.html'], ['Destinations', 'destinations.html'], [r.name, `region/${key}/`]]);
+  const bc = crumbs(root, [['Home', 'home.html'], ['Destinations', 'destinations.html'], [r.name, `region/${key}/`]]);
   const body = `${heroBlock(root, r.name, r.intro)}
         ${bc.html}
         <div class="container"><div class="dham-grid">${list.map(d => card(`${root}destination/${d.slug}/`, d.name, d.tagline, `${d.altitude.split(" (")[0]} · ${d.district}`)).join('')}</div></div>`;
@@ -509,7 +509,7 @@ const planTripHub = () => {
 // ---------- planner, map, saved, explore ----------
 const planPage = () => {
   const root = '../';
-  const bc = crumbs(root, [['Home', 'index.html'], ['Plan', 'plan/']]);
+  const bc = crumbs(root, [['Home', 'home.html'], ['Plan', 'plan/']]);
   const interests = ['spiritual', 'trek', 'lake', 'hill-station', 'wildlife', 'peaceful', 'adventure', 'snow', 'family', 'culture'];
   const rate = (id, label, r) => `<label>${label}<span class="range"><input type="number" id="${id}-lo" value="${r[0]}" min="0" aria-label="${label} low"> to <input type="number" id="${id}-hi" value="${r[1]}" min="0" aria-label="${label} high"></span></label>`;
   const body = `${heroBlock(root, 'Trip planner', 'Get matching itineraries and a cost range. Runs in your browser; nothing is sent anywhere.')}
@@ -560,7 +560,7 @@ const planPage = () => {
 
 const mapPage = () => {
   const root = '../';
-  const bc = crumbs(root, [['Home', 'index.html'], ['Map', 'map/']]);
+  const bc = crumbs(root, [['Home', 'home.html'], ['Map', 'map/']]);
   const body = `${heroBlock(root, 'Map', 'Destinations and trek areas. Locations are approximate, at town or area level.')}
         ${bc.html}
         <div class="container"><div class="chips no-print" id="map-filter" role="group" aria-label="Filter map"><button class="chip active" data-kind="all">All</button><button class="chip" data-kind="dest">Destinations</button><button class="chip" data-kind="trek">Treks</button></div>
@@ -582,7 +582,7 @@ const savedPage = () => {
 
 const explorePage = () => {
   const root = '../';
-  const bc = crumbs(root, [['Home', 'index.html'], ['Search', 'explore/']]);
+  const bc = crumbs(root, [['Home', 'home.html'], ['Search', 'explore/']]);
   const body = `${heroBlock(root, 'Search Uttarakhand', 'Destinations, treks, itineraries and guides')}
         ${bc.html}
         <div class="container">
@@ -656,7 +656,7 @@ const homePage = () => {
             <div class="destination-grid">${featured.map(f => `<div class="destination-card">${pic(f.img)}<div class="destination-info"><h3>${f.t}</h3><p>${f.s}</p><a href="${f.href}" class="btn btn-small">Learn More</a></div></div>`).join('')}</div>
             <div class="center-button"><a href="destinations.html" class="btn btn-primary">View All Destinations</a></div>
         </section>`, root);
-  write('index.html', page({ root, active: 'index.html', title: 'Uttarakhand Tourism - Discover the Land of Gods', desc: 'Guides to Uttarakhand destinations, treks, itineraries, the Char Dham yatra, best time to visit and a trip planner.', canonical: '', body, ogImage: images.overview.v[1].path, jsonld: [{ '@context': 'https://schema.org', '@graph': [{ ...ORG, '@id': SITE + '/#org' }, { '@type': 'WebSite', url: SITE + '/', name: 'Uttarakhand Tourism', inLanguage: 'en-IN', publisher: { '@id': SITE + '/#org' } }] }] }));
+  write('home.html', page({ root, active: 'home.html', title: 'Uttarakhand Tourism - Discover the Land of Gods', desc: 'Guides to Uttarakhand destinations, treks, itineraries, the Char Dham yatra, best time to visit and a trip planner.', canonical: 'home.html', body, ogImage: images.overview.v[1].path, jsonld: [{ '@context': 'https://schema.org', '@graph': [{ ...ORG, '@id': SITE + '/#org' }, { '@type': 'WebSite', url: SITE + '/', name: 'Uttarakhand Tourism', inLanguage: 'en-IN', publisher: { '@id': SITE + '/#org' } }] }] }));
 };
 
 const galleryPage = () => {
@@ -703,10 +703,10 @@ const refreshChrome = () => {
 
 // ---------- sitemap ----------
 const sitemap = () => {
-  const urls = ['index.html', 'destinations.html', 'gallery.html', 'plan-trip.html', 'contact.html', 'explore/', 'char-dham/', 'best-time/', 'plan/', 'map/', 'treks/', 'itineraries/', 'region/garhwal/', 'region/kumaon/',
+  const urls = ['home.html', 'destinations.html', 'gallery.html', 'plan-trip.html', 'contact.html', 'explore/', 'char-dham/', 'best-time/', 'plan/', 'map/', 'treks/', 'itineraries/', 'region/garhwal/', 'region/kumaon/',
     ...destinations.map(d => `destination/${d.slug}/`), ...treks.map(t => `trek/${t.slug}/`), ...itins.map(i => `itinerary/${i.slug}/`), ...guides.map(g => `guide/${g.slug}/`)];
-  write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${SITE}/${u === 'index.html' ? '' : u}</loc><lastmod>${REVIEWED}</lastmod></url>`).join('\n')}\n</urlset>\n`);
-  write('manifest.webmanifest', JSON.stringify({ name: 'Uttarakhand Tourism', short_name: 'Uttarakhand', start_url: '/', display: 'standalone', background_color: '#fcfbf8', theme_color: '#123c5a', icons: [{ src: '/icon-192.png', sizes: '192x192', type: 'image/png' }, { src: '/icon-512.png', sizes: '512x512', type: 'image/png' }, { src: '/favicon.svg', sizes: 'any', type: 'image/svg+xml' }] }));
+  write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${SITE}/${u}</loc><lastmod>${REVIEWED}</lastmod></url>`).join('\n')}\n</urlset>\n`);
+  write('manifest.webmanifest', JSON.stringify({ name: 'Uttarakhand Tourism', short_name: 'Uttarakhand', start_url: '/home.html', display: 'standalone', background_color: '#fcfbf8', theme_color: '#123c5a', icons: [{ src: '/icon-192.png', sizes: '192x192', type: 'image/png' }, { src: '/icon-512.png', sizes: '512x512', type: 'image/png' }, { src: '/favicon.svg', sizes: 'any', type: 'image/svg+xml' }] }));
   write('robots.txt', `User-agent: *\nAllow: /\nSitemap: ${SITE}/sitemap.xml\n`);
 };
 
@@ -717,5 +717,22 @@ guides.forEach(guidePage);
 Object.keys(REGIONS).forEach(regionPage);
 treksIndex(); itinsIndex(); bestTimePage(); dhamPage(); planPage(); mapPage(); savedPage(); explorePage();
 homePage(); galleryPage(); destinationsHub(); planTripHub();
+write('index.html', `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uttarakhand Tourism - Discover the Land of Gods</title>
+    <meta name="description" content="Guides to Uttarakhand destinations, treks, itineraries, the Char Dham yatra, best time to visit and a trip planner.">
+    <link rel="canonical" href="${SITE}/home.html">
+    <meta http-equiv="refresh" content="0; url=home.html">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <script>location.replace('home.html' + location.search + location.hash);</script>
+</head>
+<body>
+    <p>Redirecting to the <a href="home.html">Uttarakhand Tourism home page</a>.</p>
+</body>
+</html>
+`);
 refreshChrome(); sitemap();
 console.log(`built: ${destinations.length} destinations, ${treks.length} treks, ${itins.length} itineraries, ${guides.length} guides`);
