@@ -2001,7 +2001,7 @@ footer { background: var(--night); }
 .stat-grid > div { align-content: start; align-items: start; padding: 18px 18px 16px; }
 .stat-grid i { align-self: start; }
 .stat-grid span { line-height: 1.2; padding-top: 2px; }
-.stat-grid strong { word-break: break-word; }
+.stat-grid strong { overflow-wrap: break-word; hyphens: auto; }
 
 /* sections that are also .container lost their side padding to `padding: 5rem 0` */
 section.container { padding-left: 15px; padding-right: 15px; }
@@ -2030,3 +2030,13 @@ section.container { padding-left: 15px; padding-right: 15px; }
 @media (max-width: 768px) { .contact-container { grid-template-columns: minmax(0, 1fr); } }
 html, body { overflow-x: clip; }
 .contact-hero, .page-hero { height: 60vh; min-height: 320px; max-height: 520px; }
+
+/* mobile polish: quick-facts cells and timeline were cramped (words split mid-way) */
+@media (max-width: 480px) {
+    .stat-grid > div { padding: 14px 12px; column-gap: 10px; }
+    .stat-grid i { width: 30px; height: 30px; font-size: .85rem; }
+    .stat-grid strong { font-size: .88rem; }
+    .stat-grid span { font-size: .62rem; letter-spacing: .05em; }
+    .timeline li { padding: 12px 12px 12px 2.7rem; margin-left: .9rem; }
+    #q, .explore-controls input[type="search"] { font-size: 16px; }
+}
