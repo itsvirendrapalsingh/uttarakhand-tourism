@@ -36,7 +36,9 @@ const dham = read('chardham.json');
 const bySlug = Object.fromEntries(destinations.map(d => [d.slug, d]));
 
 // Directory links stay clean (plan/, not plan/index.html); Firebase serves the index file. Not meant for file:// browsing.
-const explicit = html => html.replace(/href="([^"#]*\/)index\.html/g, 'href="$1');
+const TOP = 'home|destinations|gallery|plan-trip|contact';
+const clean = p => p.replace(new RegExp('(^|/)(' + TOP + ')\\.html$'), '$1$2');
+const explicit = html => html.replace(/href="([^"#]*\/)index\.html/g, 'href="$1').replace(new RegExp('href="([^"#:]*?)(' + TOP + ')\\.html', 'g'), 'href="$1$2');
 
 // ---------- shared pieces ----------
 const NAV = [
@@ -104,20 +106,20 @@ const page = ({ root, active, title, desc, canonical, body, jsonld = [], script 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${esc(title)}</title>
     <meta name="description" content="${esc(desc)}">
-    <link rel="canonical" href="${SITE}/${canonical}">
+    <link rel="canonical" href="${SITE}/${clean(canonical)}">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
     <meta name="theme-color" content="#123c5a">
     <link rel="icon" href="${root}favicon.svg" type="image/svg+xml">
     <link rel="icon" href="${root}favicon.ico" sizes="48x48">
     <link rel="apple-touch-icon" href="${root}apple-touch-icon.png">
     <link rel="manifest" href="${root}manifest.webmanifest">
-    <link rel="alternate" hreflang="en-IN" href="${SITE}/${canonical}">
+    <link rel="alternate" hreflang="en-IN" href="${SITE}/${clean(canonical)}">
     <meta property="og:site_name" content="Uttarakhand Tourism">
     <meta property="og:locale" content="en_IN">
     <meta property="og:title" content="${esc(title)}">
     <meta property="og:description" content="${esc(desc)}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="${SITE}/${canonical}">
+    <meta property="og:url" content="${SITE}/${clean(canonical)}">
     <meta property="og:image" content="${SITE}/${ogImage || 'og-default.png'}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${esc(title)}">
@@ -164,7 +166,7 @@ const heroBlock = (root, title, sub, imgId) => {
 
 const crumbs = (root, items) => {
   const html = items.map(([t, h], i) => i === items.length - 1 ? `<span aria-current="page">${esc(t)}</span>` : `<a href="${root}${h}">${esc(t)}</a>`).join(' / ');
-  const ld = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([t, h], i) => ({ '@type': 'ListItem', position: i + 1, name: t, item: `${SITE}/${h}` })) };
+  const ld = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([t, h], i) => ({ '@type': 'ListItem', position: i + 1, name: t, item: `${SITE}/${clean(h)}` })) };
   return { html: `<nav class="breadcrumbs container" aria-label="Breadcrumb">${html}</nav>`, ld };
 };
 
@@ -678,7 +680,7 @@ const galleryPage = () => {
 
 // ---------- contact (hand-written, chrome only) ----------
 const headMeta = (title, desc, canonical) => `<meta name="description" content="${esc(desc)}">
-    <link rel="canonical" href="${SITE}/${canonical}">
+    <link rel="canonical" href="${SITE}/${clean(canonical)}">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
     <meta name="theme-color" content="#123c5a">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -689,7 +691,7 @@ const headMeta = (title, desc, canonical) => `<meta name="description" content="
     <meta property="og:title" content="${esc(title)}">
     <meta property="og:description" content="${esc(desc)}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="${SITE}/${canonical}">
+    <meta property="og:url" content="${SITE}/${clean(canonical)}">
     <meta property="og:image" content="${SITE}/og-default.png">
     <meta name="twitter:card" content="summary_large_image">`;
 const refreshChrome = () => {
@@ -705,8 +707,8 @@ const refreshChrome = () => {
 const sitemap = () => {
   const urls = ['home.html', 'destinations.html', 'gallery.html', 'plan-trip.html', 'contact.html', 'explore/', 'char-dham/', 'best-time/', 'plan/', 'map/', 'treks/', 'itineraries/', 'region/garhwal/', 'region/kumaon/',
     ...destinations.map(d => `destination/${d.slug}/`), ...treks.map(t => `trek/${t.slug}/`), ...itins.map(i => `itinerary/${i.slug}/`), ...guides.map(g => `guide/${g.slug}/`)];
-  write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${SITE}/${u}</loc><lastmod>${REVIEWED}</lastmod></url>`).join('\n')}\n</urlset>\n`);
-  write('manifest.webmanifest', JSON.stringify({ name: 'Uttarakhand Tourism', short_name: 'Uttarakhand', start_url: '/home.html', display: 'standalone', background_color: '#fcfbf8', theme_color: '#123c5a', icons: [{ src: '/icon-192.png', sizes: '192x192', type: 'image/png' }, { src: '/icon-512.png', sizes: '512x512', type: 'image/png' }, { src: '/favicon.svg', sizes: 'any', type: 'image/svg+xml' }] }));
+  write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${SITE}/${clean(u)}</loc><lastmod>${REVIEWED}</lastmod></url>`).join('\n')}\n</urlset>\n`);
+  write('manifest.webmanifest', JSON.stringify({ name: 'Uttarakhand Tourism', short_name: 'Uttarakhand', start_url: '/home', display: 'standalone', background_color: '#fcfbf8', theme_color: '#123c5a', icons: [{ src: '/icon-192.png', sizes: '192x192', type: 'image/png' }, { src: '/icon-512.png', sizes: '512x512', type: 'image/png' }, { src: '/favicon.svg', sizes: 'any', type: 'image/svg+xml' }] }));
   write('robots.txt', `User-agent: *\nAllow: /\nSitemap: ${SITE}/sitemap.xml\n`);
 };
 
@@ -724,13 +726,13 @@ write('index.html', `<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uttarakhand Tourism - Discover the Land of Gods</title>
     <meta name="description" content="Guides to Uttarakhand destinations, treks, itineraries, the Char Dham yatra, best time to visit and a trip planner.">
-    <link rel="canonical" href="${SITE}/home.html">
-    <meta http-equiv="refresh" content="0; url=home.html">
+    <link rel="canonical" href="${SITE}/home">
+    <meta http-equiv="refresh" content="0; url=home">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <script>location.replace('home.html' + location.search + location.hash);</script>
+    <script>location.replace('home' + location.search + location.hash);</script>
 </head>
 <body>
-    <p>Redirecting to the <a href="home.html">Uttarakhand Tourism home page</a>.</p>
+    <p>Redirecting to the <a href="home">Uttarakhand Tourism home page</a>.</p>
 </body>
 </html>
 `);

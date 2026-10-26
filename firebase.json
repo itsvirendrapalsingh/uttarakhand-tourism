@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "cleanUrls": true,
     "public": ".",
     "ignore": [
       "firebase.json", "**/.*", "**/node_modules/**", "android_app/**", "content/**", "tools/**", "build.js",
@@ -7,8 +8,8 @@
       "images_backup*/**", "images/destinations/**", "images/gallery/**", "images/heroes/**", "images/*.jpg"
     ],
     "redirects": [
-      { "source": "/", "destination": "/home.html", "type": 302 },
-      { "source": "/index.html", "destination": "/home.html", "type": 301 },
+      { "source": "/", "destination": "/home", "type": 302 },
+      { "source": "/index.html", "destination": "/home", "type": 301 },
       { "regex": "^/(.+)/index\\.html$", "destination": "/:1/", "type": 301 }
     ],
     "headers": [
