@@ -2068,3 +2068,16 @@ body { overflow-wrap: break-word; }
 /* Footer legal links */
 .footer-legal { margin-top: .5rem; }
 .footer-legal a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+
+/* Two-line brand so "Uttarakhand Tourism Center" fits beside the menu */
+.logo-title { display: inline-flex; flex-direction: column; font-size: 1.02rem; line-height: 1.12; white-space: nowrap; }
+.logo-title > span { display: block; }
+.logo-title > span + span { font-size: .86em; letter-spacing: .02em; }
+
+/* Tablets and small laptops: the 9-item menu does not fit beside the logo, so use the same slide-out menu as phones */
+@media (min-width: 769px) and (max-width: 1100px) {
+    .menu-toggle { display: block; }
+    .nav-menu { position: fixed; top: 80px; left: -100%; width: min(380px, 80%); height: calc(100vh - 80px); background-color: #fff; flex-direction: column; align-items: center; padding: 2rem 0; transition: .3s; z-index: 999; box-shadow: var(--shadow); border-radius: 0 0 var(--radius) var(--radius); overflow-y: auto; }
+    .nav-menu.active { left: 0; }
+    .nav-menu li { margin: .9rem 0; }
+}
