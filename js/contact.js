@@ -1,7 +1,7 @@
 // The site has no backend, so the contact form opens the visitor's email app with the message filled in.
 // Change CONTACT_EMAIL to the address that should receive enquiries.
 (function () {
-    var CONTACT_EMAIL = 'info@uttarakhandtourism.com';
+    var CONTACT_EMAIL = 'madhvi.gusain@uttarakhandtourismcenter.com';
     var form = document.getElementById('contactForm');
     if (!form) return;
     form.addEventListener('submit', function (e) {

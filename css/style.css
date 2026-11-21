@@ -2064,3 +2064,7 @@ body { overflow-wrap: break-word; }
 .guide-links { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
 .guide-links a { display: block; padding: .75rem 1rem; border: 1px solid rgba(18, 60, 90, .15); border-radius: 8px; text-decoration: none; }
 .guide-links a:hover, .guide-links a:focus-visible { border-color: var(--primary-color); }
+
+/* Footer legal links */
+.footer-legal { margin-top: .5rem; }
+.footer-legal a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }

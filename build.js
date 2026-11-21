@@ -9,6 +9,8 @@ const REVIEWED = '2026-10-25';
 const GA_ID = 'G-DZ3F3WB9PC'; // Google Analytics 4 measurement ID
 const gaTag = `<script async src="https://www.googletagmanager.com/gtag/js?id=${GA_ID}"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');</script>`;
+const CONTACT_EMAIL = 'madhvi.gusain@uttarakhandtourismcenter.com';
+const BRAND = 'Uttarakhand Tourism Center';
 const SOCIAL = {}; // e.g. { facebook: 'https://...', instagram: '...' }; icons render only for set keys
 const UTDB = { label: 'Uttarakhand Tourism Development Board (official)', url: 'https://uttarakhandtourism.gov.in/' };
 const DEFAULT_VERIFICATION = 'Compiled from general knowledge and secondary sources. Distances and times are approximate and were not checked against an official page. Confirm road, permit and opening status before you travel.';
@@ -93,10 +95,9 @@ ${NAV.map(([h, t]) => `                        <li><a href="${root}${h}">${t}</a
                     </ul>
                 </div>
                 <div class="footer-contact">
-                    <h3>Contact Information</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> Tourist Information Center, Dehradun, Uttarakhand</p>
-                    <p><i class="fas fa-phone"></i> <a class="contact-link" href="tel:+911352748041">+91 135 2748041</a></p>
-                    <p><i class="fas fa-envelope"></i> <a class="contact-link" href="mailto:info@uttarakhandtourism.com">info@uttarakhandtourism.com</a></p>
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> <a class="contact-link" href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></p>
+                    <p><i class="fas fa-info-circle"></i> An independent travel guide, not affiliated with the Government of Uttarakhand or UTDB.</p>
                 </div>
 ${Object.keys(SOCIAL).length ? `                <div class="footer-social">
                     <h3>Follow Us</h3>
@@ -106,7 +107,8 @@ ${Object.entries(SOCIAL).map(([k, u]) => `                        <a href="${esc
                 </div>
 ` : ''}            </div>
             <div class="footer-bottom">
-                <p>&copy; ${new Date().getFullYear()} Uttarakhand Tourism. All Rights Reserved. Information is a guide only; confirm current conditions with official sources before you travel.</p>
+                <p>&copy; ${new Date().getFullYear()} ${BRAND}. All Rights Reserved. Information is a guide only; confirm current conditions with official sources before you travel.</p>
+                <p class="footer-legal"><a href="${root}privacy/">Privacy Policy</a> · <a href="${root}terms/">Terms and Conditions</a> · <a href="${root}contact.html">Contact</a></p>
             </div>
         </div>
     </footer>`;
@@ -596,6 +598,23 @@ const savedPage = () => {
   write('saved/index.html', page({ root, active: '', title: 'Saved - Uttarakhand Tourism', desc: 'Pages you saved on this device.', canonical: 'saved/', body }));
 };
 
+// ---------- legal pages (content/legal.json; HTML in that file is trusted, written by us) ----------
+const legal = read('legal.json');
+const legalPage = L => {
+  const root = '../';
+  const bc = crumbs(root, [['Home', 'home.html'], [L.title, `${L.slug}/`]]);
+  const updated = new Date(legal.updated + 'T00:00:00Z').toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+  const body = `${heroBlock(root, L.title, L.sub)}
+        ${bc.html}
+        <div class="container guide-single legal">
+            <p class="note">Last updated: ${updated}</p>
+            <p class="lead">${esc(L.intro)}</p>
+            ${L.sections.map(x => `<section class="guide-section"><h2>${esc(x.h)}</h2>${x.p ? `<p>${x.p}</p>` : ''}${x.list ? `<ul class="bullets">${x.list.map(i => `<li>${i}</li>`).join('')}</ul>` : ''}</section>`).join('')}
+            <section class="guide-section"><h2>Contact</h2><p>Questions about this page: <a class="contact-link" href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></p></section>
+        </div>`;
+  write(`${L.slug}/index.html`, page({ root, active: '', title: `${L.title} - ${BRAND}`, desc: L.desc, canonical: `${L.slug}/`, body, jsonld: [bc.ld, webPage('WebPage', L.title, L.desc, `${L.slug}/`, { dateModified: legal.updated })] }));
+};
+
 // Firebase serves this for any missing URL (HTTP 404). Root-relative links because it can appear at any depth.
 const notFoundPage = () => {
   const root = '/';
@@ -756,7 +775,7 @@ const refreshChrome = () => {
 
 // ---------- sitemap ----------
 const sitemap = () => {
-  const urls = ['home.html', 'destinations.html', 'gallery.html', 'plan-trip.html', 'contact.html', 'explore/', 'char-dham/', 'best-time/', 'plan/', 'map/', 'treks/', 'itineraries/', 'region/garhwal/', 'region/kumaon/',
+  const urls = ['home.html', 'destinations.html', 'gallery.html', 'plan-trip.html', 'contact.html', 'explore/', 'char-dham/', 'best-time/', 'plan/', 'map/', 'treks/', 'itineraries/', 'region/garhwal/', 'region/kumaon/', 'privacy/', 'terms/',
     ...destinations.map(d => `destination/${d.slug}/`), ...treks.map(t => `trek/${t.slug}/`), ...itins.map(i => `itinerary/${i.slug}/`), ...guides.map(g => `guide/${g.slug}/`)];
   write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${SITE}/${clean(u)}</loc><lastmod>${REVIEWED}</lastmod></url>`).join('\n')}\n</urlset>\n`);
   write('manifest.webmanifest', JSON.stringify({ name: 'Uttarakhand Tourism', short_name: 'Uttarakhand', start_url: '/home', display: 'standalone', background_color: '#fcfbf8', theme_color: '#123c5a', icons: [{ src: '/icon-192.png', sizes: '192x192', type: 'image/png' }, { src: '/icon-512.png', sizes: '512x512', type: 'image/png' }, { src: '/favicon.svg', sizes: 'any', type: 'image/svg+xml' }] }));
@@ -768,7 +787,7 @@ treks.forEach(trekPage);
 itins.forEach(itinPage);
 guides.forEach(guidePage);
 Object.keys(REGIONS).forEach(regionPage);
-treksIndex(); itinsIndex(); bestTimePage(); dhamPage(); planPage(); mapPage(); savedPage(); explorePage(); notFoundPage();
+treksIndex(); itinsIndex(); bestTimePage(); dhamPage(); planPage(); mapPage(); savedPage(); explorePage(); notFoundPage(); legal.pages.forEach(legalPage);
 homePage(); galleryPage(); destinationsHub(); planTripHub();
 write('index.html', `<!DOCTYPE html>
 <html lang="en">
