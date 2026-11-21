@@ -2050,3 +2050,7 @@ body { overflow-wrap: break-word; }
 .office-card p { align-items: flex-start; }
 .office-card p i { margin-top: .32rem; width: 1em; text-align: center; }
 .office-card p { font-size: .88rem; }
+
+/* Tap-to-call / tap-to-email links in contact details */
+.contact-link { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; overflow-wrap: anywhere; }
+.contact-link:hover, .contact-link:focus-visible { color: var(--primary-color, #123c5a); }

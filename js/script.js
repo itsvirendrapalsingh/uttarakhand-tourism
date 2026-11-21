@@ -130,3 +130,16 @@ document.addEventListener('DOMContentLoaded', function() {
         setInterval(showNextTestimonial, 5000);
     }
 }); 
+// Google Analytics: record taps on phone, email and WhatsApp links (works for links added later too).
+// Events: phone_click, email_click, whatsapp_click — with contact_value and link_location.
+document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a || typeof gtag !== 'function') return;
+    var href = a.getAttribute('href') || '', type = null, value = '';
+    if (/^tel:/i.test(href)) { type = 'phone_click'; value = href.slice(4); }
+    else if (/^mailto:/i.test(href)) { type = 'email_click'; value = href.slice(7).split('?')[0].split('@')[0]; } // mailbox name only; GA redacts full addresses
+    else if (/^https?:\/\/(wa\.me|api\.whatsapp\.com|wa\.link)\//i.test(href)) { type = 'whatsapp_click'; value = href; }
+    if (!type) return;
+    var where = a.closest('footer') ? 'footer' : a.closest('.office-card') ? 'office_card' : a.closest('header') ? 'header' : 'page';
+    gtag('event', type, { contact_value: value, link_location: where, transport_type: 'beacon' });
+});

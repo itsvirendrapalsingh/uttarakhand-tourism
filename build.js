@@ -87,8 +87,8 @@ ${NAV.map(([h, t]) => `                        <li><a href="${root}${h}">${t}</a
                 <div class="footer-contact">
                     <h3>Contact Information</h3>
                     <p><i class="fas fa-map-marker-alt"></i> Tourist Information Center, Dehradun, Uttarakhand</p>
-                    <p><i class="fas fa-phone"></i> +91 135 2748041</p>
-                    <p><i class="fas fa-envelope"></i> info@uttarakhandtourism.com</p>
+                    <p><i class="fas fa-phone"></i> <a class="contact-link" href="tel:+911352748041">+91 135 2748041</a></p>
+                    <p><i class="fas fa-envelope"></i> <a class="contact-link" href="mailto:info@uttarakhandtourism.com">info@uttarakhandtourism.com</a></p>
                 </div>
 ${Object.keys(SOCIAL).length ? `                <div class="footer-social">
                     <h3>Follow Us</h3>
