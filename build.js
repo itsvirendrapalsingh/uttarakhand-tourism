@@ -6,6 +6,9 @@ const path = require('path');
 
 const SITE = 'https://www.uttarakhandtourismcenter.com';
 const REVIEWED = '2026-10-25';
+const GA_ID = 'G-DZ3F3WB9PC'; // Google Analytics 4 measurement ID
+const gaTag = `<script async src="https://www.googletagmanager.com/gtag/js?id=${GA_ID}"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');</script>`;
 const SOCIAL = {}; // e.g. { facebook: 'https://...', instagram: '...' }; icons render only for set keys
 const UTDB = { label: 'Uttarakhand Tourism Development Board (official)', url: 'https://uttarakhandtourism.gov.in/' };
 const DEFAULT_VERIFICATION = 'Compiled from general knowledge and secondary sources. Distances and times are approximate and were not checked against an official page. Confirm road, permit and opening status before you travel.';
@@ -105,6 +108,7 @@ const page = ({ root, active, title, desc, canonical, body, jsonld = [], script 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    ${gaTag}
     <title>${esc(title)}</title>
     <meta name="description" content="${esc(desc)}">
     <link rel="canonical" href="${SITE}/${clean(canonical)}">
@@ -694,7 +698,8 @@ const headMeta = (title, desc, canonical) => `<meta name="description" content="
     <meta property="og:type" content="website">
     <meta property="og:url" content="${SITE}/${clean(canonical)}">
     <meta property="og:image" content="${SITE}/og-default.png">
-    <meta name="twitter:card" content="summary_large_image">`;
+    <meta name="twitter:card" content="summary_large_image">
+    ${gaTag}`;
 const refreshChrome = () => {
   for (const f of ['contact.html']) {
     let s = fs.readFileSync(R(f), 'utf8');
