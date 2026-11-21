@@ -2054,3 +2054,13 @@ body { overflow-wrap: break-word; }
 /* Tap-to-call / tap-to-email links in contact details */
 .contact-link { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; overflow-wrap: anywhere; }
 .contact-link:hover, .contact-link:focus-visible { color: var(--primary-color, #123c5a); }
+
+/* Home page sections */
+.home-section { padding-top: 2.5rem; padding-bottom: 1rem; }
+.home-sub { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 1rem; margin: 1.5rem 0 1rem; font-size: 1.2rem; color: var(--primary-color); }
+.home-sub a { font-size: .9rem; font-weight: 500; }
+.season-list, .guide-links { list-style: none; padding: 0; margin: 0 0 1rem; display: grid; gap: .75rem; }
+.season-list li { line-height: 1.6; }
+.guide-links { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+.guide-links a { display: block; padding: .75rem 1rem; border: 1px solid rgba(18, 60, 90, .15); border-radius: 8px; text-decoration: none; }
+.guide-links a:hover, .guide-links a:focus-visible { border-color: var(--primary-color); }
