@@ -587,6 +587,14 @@ const savedPage = () => {
   write('saved/index.html', page({ root, active: '', title: 'Saved - Uttarakhand Tourism', desc: 'Pages you saved on this device.', canonical: 'saved/', body }));
 };
 
+// Firebase serves this for any missing URL (HTTP 404). Root-relative links because it can appear at any depth.
+const notFoundPage = () => {
+  const root = '/';
+  const body = `${heroBlock(root, 'Page not found', 'The page you were looking for has moved or does not exist.')}
+        <div class="container guide-single"><p>Try the <a href="${root}home.html">home page</a>, <a href="${root}destinations.html">destinations</a>, <a href="${root}treks/">treks</a> or <a href="${root}explore/">search</a>.</p></div>`;
+  write('404.html', page({ root, active: '', title: 'Page not found - Uttarakhand Tourism', desc: 'This page could not be found.', canonical: '404.html', body }));
+};
+
 const explorePage = () => {
   const root = '../';
   const bc = crumbs(root, [['Home', 'home.html'], ['Search', 'explore/']]);
@@ -723,7 +731,7 @@ treks.forEach(trekPage);
 itins.forEach(itinPage);
 guides.forEach(guidePage);
 Object.keys(REGIONS).forEach(regionPage);
-treksIndex(); itinsIndex(); bestTimePage(); dhamPage(); planPage(); mapPage(); savedPage(); explorePage();
+treksIndex(); itinsIndex(); bestTimePage(); dhamPage(); planPage(); mapPage(); savedPage(); explorePage(); notFoundPage();
 homePage(); galleryPage(); destinationsHub(); planTripHub();
 write('index.html', `<!DOCTYPE html>
 <html lang="en">
