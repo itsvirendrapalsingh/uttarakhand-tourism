@@ -9,6 +9,23 @@ const REVIEWED = '2026-10-25';
 const GA_ID = 'G-DZ3F3WB9PC'; // Google Analytics 4 measurement ID
 const gaTag = `<script async src="https://www.googletagmanager.com/gtag/js?id=${GA_ID}"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');</script>`;
+// Google AdSense. The loader goes in <head> on every page; display units go only on content pages (see page()).
+const ADSENSE_CLIENT = 'ca-pub-2988062770087605';
+const AD_SLOT = '5147966928'; // responsive "banner" unit
+const adsHead = `<meta name="google-adsense-account" content="${ADSENSE_CLIENT}">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}" crossorigin="anonymous"></script>`;
+const adUnit = () => `<div class="ad-slot no-print" aria-label="Advertisement"><span class="ad-label">Advertisement</span>
+            <ins class="adsbygoogle" style="display:block" data-ad-client="${ADSENSE_CLIENT}" data-ad-slot="${AD_SLOT}" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>`;
+// One unit inside the content (before the 3rd guide section, only on pages long enough to have 5+) and one after it.
+// Never next to the header/nav or inside tools, to avoid accidental clicks.
+const withAds = body => {
+  let n = 0;
+  const total = (body.match(/<section class="guide-section/g) || []).length;
+  if (total >= 5) body = body.replace(/<section class="guide-section/g, m => ++n === 3 ? `${adUnit()}\n                ${m}` : m);
+  body = body.replace('<!--AD-->', () => `<div class="container">${adUnit()}</div>`);
+  return `${body}\n        <div class="container">${adUnit()}</div>`;
+};
 const CONTACT_EMAIL = 'madhvi.gusain@uttarakhandtourismcenter.com';
 const BRAND = 'Uttarakhand Tourism Center';
 const SOCIAL = {}; // e.g. { facebook: 'https://...', instagram: '...' }; icons render only for set keys
@@ -113,12 +130,13 @@ ${Object.entries(SOCIAL).map(([k, u]) => `                        <a href="${esc
         </div>
     </footer>`;
 
-const page = ({ root, active, title, desc: rawDesc, canonical, body, jsonld = [], script = '', ogImage = '' }) => { const desc = fit(rawDesc); return explicit(`<!DOCTYPE html>
+const page = ({ root, active, title, desc: rawDesc, canonical, body, jsonld = [], script = '', ogImage = '', ads = true }) => { const desc = fit(rawDesc); return explicit(`<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     ${gaTag}
+    ${adsHead}
     <title>${esc(title)}</title>
     <meta name="description" content="${esc(desc)}">
     <link rel="canonical" href="${SITE}/${clean(canonical)}">
@@ -153,7 +171,7 @@ ${jsonld.map(j => `    <script type="application/ld+json">${JSON.stringify(j)}</
     ${header(root, active)}
 
     <main id="main">
-${body}
+${ads ? withAds(body) : body}
     </main>
 
     ${footer(root)}
@@ -595,7 +613,7 @@ const savedPage = () => {
   const root = '../';
   const body = `${heroBlock(root, 'Saved', 'Pages you saved in this browser. Nothing is uploaded.')}
         <div class="container guide-single"><div id="saved-list" class="dham-grid"></div><p id="saved-empty" class="note">Nothing saved yet. Use the Save button on a destination, trek or itinerary.</p></div>`;
-  write('saved/index.html', page({ root, active: '', title: 'Saved - Uttarakhand Tourism Center', desc: 'Pages you saved on this device.', canonical: 'saved/', body }));
+  write('saved/index.html', page({ root, active: '', title: 'Saved - Uttarakhand Tourism Center', desc: 'Pages you saved on this device.', canonical: 'saved/', body, ads: false }));
 };
 
 // ---------- legal pages (content/legal.json; HTML in that file is trusted, written by us) ----------
@@ -612,7 +630,7 @@ const legalPage = L => {
             ${L.sections.map(x => `<section class="guide-section"><h2>${esc(x.h)}</h2>${x.p ? `<p>${x.p}</p>` : ''}${x.list ? `<ul class="bullets">${x.list.map(i => `<li>${i}</li>`).join('')}</ul>` : ''}</section>`).join('')}
             <section class="guide-section"><h2>Contact</h2><p>Questions about this page: <a class="contact-link" href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></p></section>
         </div>`;
-  write(`${L.slug}/index.html`, page({ root, active: '', title: `${L.title} - ${BRAND}`, desc: L.desc, canonical: `${L.slug}/`, body, jsonld: [bc.ld, webPage('WebPage', L.title, L.desc, `${L.slug}/`, { dateModified: legal.updated })] }));
+  write(`${L.slug}/index.html`, page({ root, active: '', title: `${L.title} - ${BRAND}`, desc: L.desc, canonical: `${L.slug}/`, body, ads: false, jsonld: [bc.ld, webPage('WebPage', L.title, L.desc, `${L.slug}/`, { dateModified: legal.updated })] }));
 };
 
 // Firebase serves this for any missing URL (HTTP 404). Root-relative links because it can appear at any depth.
@@ -620,7 +638,7 @@ const notFoundPage = () => {
   const root = '/';
   const body = `${heroBlock(root, 'Page not found', 'The page you were looking for has moved or does not exist.')}
         <div class="container guide-single"><p>Try the <a href="${root}home.html">home page</a>, <a href="${root}destinations.html">destinations</a>, <a href="${root}treks/">treks</a> or <a href="${root}explore/">search</a>.</p></div>`;
-  write('404.html', page({ root, active: '', title: 'Page not found - Uttarakhand Tourism Center', desc: 'This page could not be found.', canonical: '404.html', body }));
+  write('404.html', page({ root, active: '', title: 'Page not found - Uttarakhand Tourism Center', desc: 'This page could not be found.', canonical: '404.html', body, ads: false }));
 };
 
 const explorePage = () => {
@@ -643,7 +661,7 @@ const explorePage = () => {
             <p id="count" class="results" aria-live="polite"></p>
             <div id="results" class="dham-grid"><noscript>Enable JavaScript to search, or browse <a href="${root}destinations.html">destinations</a>.</noscript></div>
         </div>`;
-  write('explore/index.html', page({ root, active: 'explore/', title: 'Search - Uttarakhand Tourism Center', desc: 'Search Uttarakhand destinations, treks, itineraries and guides.', canonical: 'explore/', body, jsonld: [bc.ld], script: `    <script src="${root}data/search.js"></script>\n    <script src="${root}js/explore.js" data-root="${root}"></script>` }));
+  write('explore/index.html', page({ root, active: 'explore/', title: 'Search - Uttarakhand Tourism Center', desc: 'Search Uttarakhand destinations, treks, itineraries and guides.', canonical: 'explore/', body, ads: false, jsonld: [bc.ld], script: `    <script src="${root}data/search.js"></script>\n    <script src="${root}js/explore.js" data-root="${root}"></script>` }));
   const gl = guides.map(g => ({ t: 'guide', name: g.title, url: `guide/${g.slug}/`, sub: g.sub, q: [g.title, g.sub, g.intro].join(' ').toLowerCase() }));
   dataJs('search', ([
     ...destinations.map(d => ({ t: 'dest', name: d.name, url: `destination/${d.slug}/`, sub: d.tagline, q: [d.name, d.type, REGIONS[d.region].name, d.district, d.tagline, d.quick.bestTime, d.quick.duration, ...(d.tags || []), ...d.attractions.map(a => a.name)].join(' ').toLowerCase() })),
@@ -697,6 +715,8 @@ const homePage = () => {
                 <div class="highlight-card"><div class="card-icon"><i class="fas fa-calendar-alt"></i></div><h3>Best Time</h3><p>Month-by-month weather, roads and seasons.</p><a href="best-time/">See the calendar</a></div>
             </div>
         </div></section>
+
+        <!--AD-->
 
         <section class="container home-section">
             <div class="section-header"><h2>Popular Destinations</h2><div class="divider"></div></div>
@@ -763,7 +783,8 @@ const headMeta = (title, desc, canonical, jsonld = []) => `<meta name="descripti
     <meta property="og:image" content="${SITE}/og-default.png">
     <meta name="twitter:card" content="summary_large_image">
 ${jsonld.map(j => `    <script type="application/ld+json">${JSON.stringify(j)}</script>`).join('\n')}
-    ${gaTag}`;
+    ${gaTag}
+    ${adsHead}`;
 const refreshChrome = () => {
   for (const f of ['contact.html']) {
     let s = fs.readFileSync(R(f), 'utf8');

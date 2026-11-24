@@ -2081,3 +2081,10 @@ body { overflow-wrap: break-word; }
     .nav-menu.active { left: 0; }
     .nav-menu li { margin: .9rem 0; }
 }
+
+/* Google AdSense units */
+.ad-slot { margin: 2rem auto; min-height: 120px; text-align: center; clear: both; }
+.ad-slot .ad-label { display: block; font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: #8a8f98; margin-bottom: .35rem; }
+.ad-slot ins.adsbygoogle[data-ad-status="unfilled"] { display: none !important; }
+.ad-slot:has(ins.adsbygoogle[data-ad-status="unfilled"]) { display: none; }
+@media print { .ad-slot { display: none !important; } }
