@@ -10,8 +10,8 @@ const GA_ID = 'G-DZ3F3WB9PC'; // Google Analytics 4 measurement ID
 const gaTag = `<script async src="https://www.googletagmanager.com/gtag/js?id=${GA_ID}"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');</script>`;
 // Google AdSense. The loader goes in <head> on every page; display units go only on content pages (see page()).
-const ADSENSE_CLIENT = 'ca-pub-2988062770087605';
-const AD_SLOT = '5147966928'; // responsive "banner" unit
+const ADSENSE_CLIENT = 'ca-pub-5179188224148645';
+const AD_SLOT = '8112648406'; // responsive "banner" unit
 const adsHead = `<meta name="google-adsense-account" content="${ADSENSE_CLIENT}">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}" crossorigin="anonymous"></script>`;
 const adUnit = () => `<div class="ad-slot no-print" aria-label="Advertisement"><span class="ad-label">Advertisement</span>
@@ -820,6 +820,7 @@ write('index.html', `<!DOCTYPE html>
     <link rel="canonical" href="${SITE}/home">
     <meta http-equiv="refresh" content="0; url=home">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    ${adsHead}
     <script>location.replace('home' + location.search + location.hash);</script>
 </head>
 <body>
